@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0f172a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="OdontoAI">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="static/icon-192.png">
+<title>OdontoAI — Assistente Odontológico</title>
+<style>
+:root {
+  --bg: #0f172a;
+  --bg2: #1e293b;
+  --bg3: #334155;
+  --primary: #0ea5e9;
+  --primary-glow: rgba(14,165,233,0.3);
+  --text: #e2e8f0;
+  --text2: #94a3b8;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --radius: 16px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  background: var(--bg2);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--bg3);
+  flex-shrink: 0;
+}
+.header .logo {
+  width: 36px; height: 36px;
+  background: linear-gradient(135deg, var(--primary), #6366f1);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+}
+.header h1 { font-size: 16px; font-weight: 700; }
+.header .status {
+  margin-left: auto;
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: var(--bg3);
+  color: var(--text2);
+}
+.header .status.online { background: rgba(34,197,94,0.15); color: var(--success); }
+
+/* Chat area */
+.chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scroll-behavior: smooth;
+}
+
+.msg {
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  line-height: 1.5;
+  animation: fadeIn 0.3s ease;
+  word-wrap: break-word;
+}
+@keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+
+.msg.user {
+  align-self: flex-end;
+  background: var(--primary);
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+.msg.bot {
+  align-self: flex-start;
+  background: var(--bg2);
+  border-bottom-left-radius: 4px;
+}
+.msg.bot .sources {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--bg3);
+  font-size: 11px;
+  color: var(--text2);
+}
+.msg .meta {
+  font-size: 10px;
+  opacity: 0.6;
+  margin-top: 4px;
+}
+
+/* Typing indicator */
+.typing {
+  align-self: flex-start;
+  background: var(--bg2);
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  display: flex;
+  gap: 4px;
+}
+.typing span {
+  width: 8px; height: 8px;
+  background: var(--text2);
+  border-radius: 50%;
+  animation: bounce 1.4s infinite;
+}
+.typing span:nth-child(2) { animation-delay: 0.2s; }
+.typing span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes bounce {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+/* Waveform */
+.waveform-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 0 16px;
+}
+.waveform-container .bar {
+  width: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+  transition: height 0.1s ease;
+  min-height: 4px;
+}
+
+/* Input area */
+.input-area {
+  background: var(--bg2);
+  padding: 12px 16px;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+  border-top: 1px solid var(--bg3);
+  flex-shrink: 0;
+}
+
+.quick-actions {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.quick-actions::-webkit-scrollbar { display: none; }
+.quick-action {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  background: var(--bg3);
+  border: none;
+  border-radius: 20px;
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.quick-action:active { background: var(--primary); }
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-input {
+  flex: 1;
+  background: var(--bg3);
+  border: 2px solid transparent;
+  border-radius: 24px;
+  padding: 12px 16px;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.text-input:focus { border-color: var(--primary); }
+.text-input::placeholder { color: var(--text2); }
+
+.btn {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+.btn:active { transform: scale(0.92); }
+
+.btn-voice {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 4px 15px var(--primary-glow);
+}
+.btn-voice.recording {
+  background: var(--danger);
+  box-shadow: 0 4px 15px rgba(239,68,68,0.4);
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(239,68,68,0); }
+}
+
+.btn-send {
+  background: var(--bg3);
+  color: var(--text);
+}
+
+/* Settings modal */
+.modal-overlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--bg2);
+  border-radius: var(--radius);
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.modal h2 { font-size: 18px; margin-bottom: 16px; }
+.modal label {
+  display: block;
+  font-size: 13px;
+  color: var(--text2);
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+.modal input, .modal select {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--bg3);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+}
+.modal input:focus { border-color: var(--primary); }
+.modal .btn-save {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Install banner */
+.install-banner {
+  display: none;
+  background: linear-gradient(135deg, var(--primary), #6366f1);
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.install-banner.show { display: block; }
+
+/* Scrollbar */
+.chat::-webkit-scrollbar { width: 4px; }
+.chat::-webkit-scrollbar-track { background: transparent; }
+.chat::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<!-- Install Banner -->
+<div class="install-banner" id="installBanner" onclick="installPWA()">
+  📱 Toque para instalar o app no seu celular
+</div>
+
+<!-- Header -->
+<div class="header">
+  <div class="logo">🦷</div>
+  <div>
+    <h1>OdontoAI</h1>
+  </div>
+  <div class="status" id="status">Conectando...</div>
+  <button class="btn" style="width:36px;height:36px;background:var(--bg3);font-size:16px;" onclick="openSettings()">⚙️</button>
+</div>
+
+<!-- Chat -->
+<div class="chat" id="chat">
+  <div class="msg bot">
+    👋 Olá, Doutor! Sou o <strong>OdontoAI</strong>, seu assistente odontológico.<br><br>
+    Posso ajudar com:<br>
+    • 📋 <strong>Prontuário</strong> — preencher por voz<br>
+    • 🔍 <strong>Diagnóstico</strong> — sugestões e diferenciais<br>
+    • 📚 <strong>Conhecimento</strong> — dúvidas clínicas<br>
+    • 👥 <strong>Pacientes</strong> — gestão e acompanhamento<br><br>
+    Pressione o 🎤 e fale comigo!
+  </div>
+</div>
+
+<!-- Waveform (shown during recording) -->
+<div class="waveform-container" id="waveform" style="display:none;"></div>
+
+<!-- Input -->
+<div class="input-area">
+  <div class="quick-actions" id="quickActions">
+    <button class="quick-action" onclick="quickMsg('Abrir prontuário')">📋 Prontuário</button>
+    <button class="quick-action" onclick="quickMsg('Diagnóstico diferencial para lesão periapical')">🔍 Diagnóstico</button>
+    <button class="quick-action" onclick="quickMsg('Pacientes com retorno atrasado')">👥 Retornos</button>
+    <button class="quick-action" onclick="quickMsg('O que é classe III de Angle?')">📚 Dúvida</button>
+    <button class="quick-action" onclick="quickMsg('Agendar paciente')">📅 Agendar</button>
+  </div>
+  <div class="input-row">
+    <button class="btn btn-voice" id="btnVoice" onclick="toggleRecording()">🎤</button>
+    <input type="text" class="text-input" id="textInput" placeholder="Digite ou fale..." onkeydown="handleKey(event)">
+    <button class="btn btn-send" onclick="sendText()">➤</button>
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<div class="modal-overlay" id="settingsModal">
+  <div class="modal">
+    <h2>⚙️ Configurações</h2>
+    
+    <label>API URL do Backend</label>
+    <input type="text" id="apiUrl" placeholder="https://seu-servidor.com">
+    
+    <label>OpenRouter API Key (opcional)</label>
+    <input type="password" id="apiKey" placeholder="sk-or-v1-...">
+    
+    <label>Voz do TTS</label>
+    <select id="ttsVoice">
+      <option value="pt-BR-FranciscaNeural">Francisca (Feminina)</option>
+      <option value="pt-BR-AntonioNeural">Antonio (Masculino)</option>
+      <option value="pt-BR-BrendaNeural">Brenda (Feminina)</option>
+      <option value="pt-BR-DonatoNeural">Donato (Masculino)</option>
+    </select>
+    
+    <label>Modo STT</label>
+    <select id="sttMode">
+      <option value="browser">Navegr (gratuito)</option>
+      <option value="server">Servidor (Whisper)</option>
+    </select>
+    
+    <button class="btn-save" onclick="saveSettings()">Salvar Configurações</button>
+    <button class="btn-save" style="background:var(--bg3);margin-top:8px;" onclick="closeSettings()">Cancelar</button>
+  </div>
+</div>
+
+<script>
+// ========== CONFIG ==========
+const DEFAULT_API = window.location.origin;
+let config = {
+  apiUrl: localStorage.getItem('odonto_api') || DEFAULT_API,
+  apiKey: localStorage.getItem('odonto_key') || '',
+  ttsVoice: localStorage.getItem('odonto_voice') || 'pt-BR-FranciscaNeural',
+  sttMode: localStorage.getItem('odonto_stt') || 'browser'
+};
+
+// ========== STATE ==========
+let isRecording = false;
+let mediaRecorder = null;
+let audioChunks = [];
+let audioContext = null;
+let analyser = null;
+let micStream = null;
+let ttsAudio = null;
+let deferredPrompt = null;
+
+// ========== WEB SPEECH API (STT no navegador) ==========
+let speechRecognition = null;
+let browserSttResult = '';
+
+function initSpeechRecognition() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) return null;
+  
+  const recognition = new SpeechRecognition();
+  recognition.lang = 'pt-BR';
+  recognition.continuous = false;
+  recognition.interimResults = true;
+  recognition.maxAlternatives = 1;
+  
+  recognition.onresult = (event) => {
+    let interim = '';
+    let final = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      const transcript = event.results[i][0].transcript;
+      if (event.results[i].isFinal) {
+        final += transcript;
+      } else {
+        interim += transcript;
+      }
+    }
+    browserSttResult = final || interim;
+    // Mostrar transcrição em tempo real no input
+    if (interim) {
+      document.getElementById('textInput').value = interim;
+      document.getElementById('textInput').placeholder = 'Ouvindo: ' + interim;
+    }
+  };
+  
+  recognition.onerror = (event) => {
+    console.error('STT Error:', event.error);
+    if (event.error === 'not-allowed') {
+      addMsg('❌ Permissão do microfone negada. Permita o acesso nas configurações do navegador.', 'bot');
+    } else if (event.error === 'no-speech') {
+      // Ignorar — só não detectou fala
+    } else {
+      addMsg('❌ Erro no reconhecimento de voz: ' + event.error, 'bot');
+    }
+    stopRecordingUI();
+  };
+  
+  recognition.onend = () => {
+    if (isRecording) {
+      // Se ainda está gravando, reiniciar (para gravação contínua)
+      try { recognition.start(); } catch(e) {}
+    } else {
+      // Enviar resultado final
+      if (browserSttResult.trim()) {
+        document.getElementById('textInput').value = browserSttResult;
+        sendText();
+      }
+      stopRecordingUI();
+    }
+  };
+  
+  return recognition;
+}
+
+// ========== PWA ==========
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  document.getElementById('installBanner').classList.add('show');
+});
+
+function installPWA() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(() => {
+      document.getElementById('installBanner').classList.remove('show');
+      deferredPrompt = null;
+    });
+  }
+}
+
+// ========== UI ==========
+function openSettings() {
+  document.getElementById('apiUrl').value = config.apiUrl;
+  document.getElementById('apiKey').value = config.apiKey;
+  document.getElementById('ttsVoice').value = config.ttsVoice;
+  document.getElementById('sttMode').value = config.sttMode;
+  document.getElementById('settingsModal').classList.add('active');
+}
+function closeSettings() {
+  document.getElementById('settingsModal').classList.remove('active');
+}
+function saveSettings() {
+  config.apiUrl = document.getElementById('apiUrl').value.trim() || DEFAULT_API;
+  config.apiKey = document.getElementById('apiKey').value.trim();
+  config.ttsVoice = document.getElementById('ttsVoice').value;
+  config.sttMode = document.getElementById('sttMode').value;
+  localStorage.setItem('odonto_api', config.apiUrl);
+  localStorage.setItem('odonto_key', config.apiKey);
+  localStorage.setItem('odonto_voice', config.ttsVoice);
+  localStorage.setItem('odonto_stt', config.sttMode);
+  closeSettings();
+  checkStatus();
+}
+
+// ========== CHAT ==========
+function addMsg(text, sender, meta) {
+  const chat = document.getElementById('chat');
+  const div = document.createElement('div');
+  div.className = `msg ${sender}`;
+  div.innerHTML = text;
+  if (meta) {
+    div.innerHTML += `<div class="meta">${meta}</div>`;
+  }
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function showTyping() {
+  const chat = document.getElementById('chat');
+  const div = document.createElement('div');
+  div.className = 'typing';
+  div.id = 'typing';
+  div.innerHTML = '<span></span><span></span><span></span>';
+  chat.appendChild(div);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function hideTyping() {
+  const t = document.getElementById('typing');
+  if (t) t.remove();
+}
+
+function quickMsg(text) {
+  document.getElementById('textInput').value = text;
+  sendText();
+}
+
+function handleKey(e) {
+  if (e.key === 'Enter') sendText();
+}
+
+// ========== TEXT CHAT ==========
+async function sendText() {
+  const input = document.getElementById('textInput');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  addMsg(text, 'user');
+  showTyping();
+  try {
+    const res = await fetch(`${config.apiUrl}/api/chat`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: text,
+        api_key: config.apiKey,
+        tts_voice: config.ttsVoice
+      })
+    });
+    const data = await res.json();
+    hideTyping();
+    addMsg(data.response, 'bot', data.audio_url ? '🔊 Áudio disponível' : '');
+    if (data.audio_url) playAudio(config.apiUrl + data.audio_url);
+  } catch (err) {
+    hideTyping();
+    addMsg('❌ Erro de conexão. Verifique as configurações.', 'bot');
+  }
+}
+
+// ========== VOICE RECORDING ==========
+async function toggleRecording() {
+  if (isRecording) {
+    stopRecording();
+  } else {
+    startRecording();
+  }
+}
+
+function startRecording() {
+  // Tentar Web Speech API primeiro (funciona no Chrome/Edge)
+  if (config.sttMode === 'browser' || config.sttMode === undefined) {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+      startBrowserSTT();
+      return;
+    }
+  }
+  // Fallback: gravar áudio e enviar para o servidor
+  startAudioRecording();
+}
+
+function startBrowserSTT() {
+  speechRecognition = initSpeechRecognition();
+  if (!speechRecognition) {
+    addMsg('❌ Seu navegador não suporta reconhecimento de voz. Use Chrome ou Edge.', 'bot');
+    return;
+  }
+  
+  browserSttResult = '';
+  isRecording = true;
+  
+  const btn = document.getElementById('btnVoice');
+  btn.classList.add('recording');
+  btn.innerHTML = '⏹';
+  
+  // Mostrar waveform visual
+  showListeningWaveform();
+  
+  document.getElementById('textInput').placeholder = '🎤 Ouvindo... Fale agora!';
+  document.getElementById('textInput').value = '';
+  
+  try {
+    speechRecognition.start();
+  } catch (e) {
+    console.error('STT start error:', e);
+    stopRecordingUI();
+  }
+}
+
+function stopRecording() {
+  isRecording = false;
+  if (speechRecognition) {
+    try { speechRecognition.stop(); } catch(e) {}
+    speechRecognition = null;
+  }
+  if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+    mediaRecorder.stop();
+  }
+  stopRecordingUI();
+}
+
+function stopRecordingUI() {
+  isRecording = false;
+  const btn = document.getElementById('btnVoice');
+  btn.classList.remove('recording');
+  btn.innerHTML = '🎤';
+  document.getElementById('waveform').style.display = 'none';
+  document.getElementById('textInput').placeholder = 'Digite ou fale...';
+  if (audioContext) {
+    audioContext.close();
+    audioContext = null;
+  }
+}
+
+function showListeningWaveform() {
+  const container = document.getElementById('waveform');
+  container.style.display = 'flex';
+  container.innerHTML = '';
+  const barCount = 32;
+  for (let i = 0; i < barCount; i++) {
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.height = '4px';
+    container.appendChild(bar);
+  }
+  
+  // Animação simulada (sem acesso ao mic via Web Speech API)
+  const bars = container.querySelectorAll('.bar');
+  let frame = 0;
+  function animate() {
+    if (!isRecording) return;
+    frame++;
+    for (let i = 0; i < barCount; i++) {
+      const h = 4 + Math.abs(Math.sin((frame + i * 3) * 0.15)) * 30 + Math.random() * 8;
+      bars[i].style.height = h + 'px';
+    }
+    requestAnimationFrame(animate);
+  }
+  animate();
+}
+
+async function startAudioRecording() {
+  try {
+    micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    mediaRecorder = new MediaRecorder(micStream);
+    audioChunks = [];
+    
+    mediaRecorder.ondataavailable = e => {
+      if (e.data.size > 0) audioChunks.push(e.data);
+    };
+    
+    mediaRecorder.onstop = async () => {
+      const blob = new Blob(audioChunks, { type: 'audio/webm' });
+      await sendAudio(blob);
+      micStream.getTracks().forEach(t => t.stop());
+    };
+    
+    mediaRecorder.start();
+    isRecording = true;
+    
+    const btn = document.getElementById('btnVoice');
+    btn.classList.add('recording');
+    btn.innerHTML = '⏹';
+    
+    setupWaveform(micStream);
+    
+  } catch (err) {
+    addMsg('❌ Sem acesso ao microfone. Permita o uso nas configurações do navegador.', 'bot');
+  }
+}
+
+function setupWaveform(stream) {
+  audioContext = new AudioContext();
+  analyser = audioContext.createAnalyser();
+  analyser.fftSize = 64;
+  const source = audioContext.createMediaStreamSource(stream);
+  source.connect(analyser);
+  
+  const container = document.getElementById('waveform');
+  container.style.display = 'flex';
+  container.innerHTML = '';
+  const barCount = 32;
+  for (let i = 0; i < barCount; i++) {
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.height = '4px';
+    container.appendChild(bar);
+  }
+  
+  const bars = container.querySelectorAll('.bar');
+  const dataArray = new Uint8Array(analyser.frequencyBinCount);
+  
+  function animate() {
+    if (!isRecording) return;
+    analyser.getByteFrequencyData(dataArray);
+    for (let i = 0; i < barCount; i++) {
+      const val = dataArray[i] || 0;
+      bars[i].style.height = Math.max(4, val / 4) + 'px';
+    }
+    requestAnimationFrame(animate);
+  }
+  animate();
+}
+
+async function sendAudio(blob) {
+  addMsg('🎤 Enviando áudio...', 'user');
+  showTyping();
+  
+  const formData = new FormData();
+  formData.append('audio', blob, 'recording.webm');
+  formData.append('api_key', config.apiKey);
+  formData.append('tts_voice', config.ttsVoice);
+  formData.append('stt_mode', config.sttMode);
+  
+  try {
+    const res = await fetch(`${config.apiUrl}/api/voice`, {
+      method: 'POST',
+      body: formData
+    });
+    const data = await res.json();
+    hideTyping();
+    
+    if (data.transcription) {
+      addMsg('🎤 ' + data.transcription, 'user', 'Transcrito');
+    }
+    addMsg(data.response, 'bot', data.audio_url ? '🔊' : '');
+    if (data.audio_url) playAudio(config.apiUrl + data.audio_url);
+    
+  } catch (err) {
+    hideTyping();
+    addMsg('❌ Erro ao processar áudio.', 'bot');
+  }
+}
+
+// ========== TTS PLAYBACK ==========
+function playAudio(url) {
+  if (ttsAudio) {
+    ttsAudio.pause();
+    ttsAudio = null;
+  }
+  ttsAudio = new Audio(url);
+  ttsAudio.play();
+}
+
+// ========== STATUS ==========
+async function checkStatus() {
+  try {
+    const res = await fetch(`${config.apiUrl}/api/health`);
+    const data = await res.json();
+    const el = document.getElementById('status');
+    el.textContent = 'Online';
+    el.className = 'status online';
+  } catch {
+    const el = document.getElementById('status');
+    el.textContent = 'Offline';
+    el.className = 'status';
+  }
+}
+
+// Init
+checkStatus();
+setInterval(checkStatus, 30000);
+</script>
+</body>
+</html>
