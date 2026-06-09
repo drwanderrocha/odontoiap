@@ -385,7 +385,11 @@ body {
 
 <script>
 // ========== CONFIG ==========
-const DEFAULT_API = window.location.origin;
+// API_URL pode ser:
+// 1. Variável global ONTO_API_URL (injetada no deploy)
+// 2. localStorage 'odonto_api' (configurada pelo usuário)
+// 3. window.location.origin (padrão - mesmo servidor)
+const DEFAULT_API = typeof ONTO_API_URL !== 'undefined' ? ONTO_API_URL : window.location.origin;
 let config = {
   apiUrl: localStorage.getItem('odonto_api') || DEFAULT_API,
   apiKey: localStorage.getItem('odonto_key') || '',
