@@ -1,0 +1,930 @@
+# PROTOCOLOS DE TRATAMENTO DE SEGUNDA FASE
+
+O tratamento de segunda fase engloba os procedimentos realizados a partir da dentição permanente.
+
+Acredita-se que essa abordagem muda de acordo com a idade e a condição geral do paciente. De forma sucinta, considera-se que nos pacientes jovens busca-se, se possível, atingir os objetivos ideais de tratamento e, nos pacientes adultos, dá-se muita ênfase à queixa principal, sem deixar de lhes mostrar, o ideal.
+
+Divide-se os pacientes de segunda fase em grupos:
+
+- Adolescentes (pacientes em fase crescimento): normalmente buscam-se os objetivos ideais.
+- Adultos jovens (pacientes sem crescimento): normalmente buscam-se os objetivos ideais, sem deixar de considerar a queixa principal.
+- Adultos: deve-se levar muito em consideração a queixa principal, sem deixar de expor os objetivos ideais.
+- Pacientes comprometidos periodontalmente: apresentam limitações quanto ao movimento ortodôntico.
+- Pacientes mutilados (muitas perdas dentárias): podem apresentar alterações difíceis de serem corrigidas, requerem planejamento e tratamento interdisciplinar.
+
+Será discutido o plano de tratamento de pacientes adolescentes e adultos jovens, pois os adultos, muitas vezes, requerem tratamento de acordo com suas queixas e os pacientes periodontais e mutilados, tratamentos muito específicos para cada situação.
+
+Quando um paciente com dentição permanente chega ao consultório, deve-se:
+
+- examinar a mordida do paciente e observar a relação de largura, altura e profundidade (ântero-posterior).
+- determinar através da cefalometria e análise facial se o problema é ósseo ou dentário.
+
+Não se deve esquecer de manipular a mandíbula e avaliar se há diferença entre a posição de máxima intercuspidação habitual (MIH) e relação cêntrica(RC).
+
+Definir muito bem a queixa principal e, a partir de um bom diagnóstico, explicar todos os detalhes, para se evitar a mudança da queixa principal, tão comum nos tratamentos.
+
+## Ósseo:
+- Pacientes em fase crescimento: tentar modificações se for possível.
+- Pacientes sem crescimento: mostrar as limitações e decidir pelo tratamento cirúrgico ou compensatório.
+
+## Dentário:
+Traçar os objetivos e o plano de tratamento.
+---
+Um item importante é que existem centenas de aparelhos e técnicas que podem ser utilizados num tratamento. Muitos deles se parecem ou têm função parecida. Cada profissional tem suas preferências, e normalmente o melhor aparelho é aquele que você domina.
+
+Deve-se ter em mente quais os objetivos e se o aparelho selecionado atenderá para atingir essas metas. Então, nesses esquemas, que será sugerido qualquer aparelho, pode ser substituído por outro que traga os mesmos resultados, ou seja, que apresente o mesmo sistema de forças. É bom lembrar que o tratamento de segunda fase, normalmente, é uma continuidade do tratamento de primeira fase. Sendo assim, os tipos de aparelhos não mudam muito. A diferença é que serão usados mais recursos fixos e menos removíveis, devido à colaboração.
+
+Quanto aos recursos a serem utilizados, não existem restrições técnicas ou filosóficas.
+
+Para cada tipo de problema e de paciente, existem as melhores opções e as opções alternativas.
+
+Os esquemas serão divididos em alterações transversais, verticais e ântero-posteriores.
+
+Em casos de atresia dentoalveolar, avalia-se a situação geral. Se for encontrada uma arcada superior onde além da atresia têm-se outros aspectos como, por exemplo, molares girados, dá-se preferência ao uso de quadri-hélice, pois além da expansão, dá mais mobilidade como, rotacionar molares, trabalhar o torque, permitir a montagem do aparelho fixo, etc. Caso contrário, pode-se optar pelo uso de expansão rápida da maxila (ERM). Em casos mais leves, com menos atresia, até os fios ortodônticos poderão ajudar na expansão, se for eleita uma forma de fio mais larga do que a arcada dentária.
+
+Nos casos de atresias esqueléticas, a opção é por ERM. Em pacientes adultos, avaliam-se a quantidade de osso presente, assim como a inclinação dos molares, como foi abordado no capítulo 6 para definir a possibilidade de se tentar a ERM. Normalmente, as chances diminuem muito a partir dos 20 anos de idade. Se realmente for necessária, deverá ser realizada cirurgicamente.
+
+As ativações desses aparelhos foram explicadas no capítulo 10.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES TRANSVERSAIS NA MAXILA]
+    B[Atresia Dentoalveolar]
+    C[Atresia Esquelética]
+    D[Adolescentes/Adultos]
+    E[Adolescentes]
+    F[Adultos]
+    G[Expansão Lenta da Maxila]
+    H[Expansão Rápida da Maxila]
+    I[Expansão Rápida Cirúrgica da Maxila]
+    J[Aparelhos Fixos]
+    K[Haas/Hirax]
+    L[Quadri-hélice]
+
+    A --> B
+    A --> C
+    B --> D
+    C --> E
+    C --> F
+    D --> G
+    E --> H
+    F --> I
+    G --> J
+    H --> K
+    I --> K
+    J --> L
+```
+---
+      Na maioria das vezes, as atresias dentoalveolares inferiores ocorrem em função da alresia da arcada superior En-
+tão, uma vez resolvida essa questão, será hem mais lácil expandir a arcada inferior; Pode ser feita através da montagem
+do aparelhn fixo e 0 1S0 de fiosexpandidos vu, se necessário , cOII 0 auxílio de um bi-hélice.
+
+      As atresias esqueléticas da mandíbula sao raras e a opção de tratamento é a expansão cirúrgica.
+
+                                                 ALTERAÇNES TRANSVERSAIS
+                                                        MANDÍBULA
+
+                                  Atresia Dentoalvolar                  Atresio Esquelética
+                                  (maioria dus vezes)                     (rarus vezes)
+
+                                 Adolescentes / Adultos                Adolescentes / Aduhos
+
+                                 Expunsão Lenta
+                                  da Mondíbula                          Exponsão Rápida
+                                                                          do Mandíbula
+                                 Aparelhos
+                                   Fixos
+                                                                      Distração Osteogênico
+                                                                            (cirurgiu)
+                             Bi-hélice / Fios
+                             Ortodânticos
+                             Expondidos
+
+      Nas mordidas abertas dentárias, os recursos mais utilizados são afastar a lingua , através de grades ou esporões
+e utilizar acolagem compensatória (abordado noCap. 14). Pode-se tambem lançar mão de barra transpalatina alastada
+do palato. 0 trabalho da Fonoaudiologiaᵖᵒᵈᵉauxiliar nus resuhtados e na eslabilidade do caso
+
+       Nos casus de mordidas abertas esqueléticas, os procedimentos em adolescentes e adultos são praticamente iquais, po-
+rém os resultados podem ser diferentes,  no caso dos primeiros ainda tem-se 0 crescimenro para centar interferirmos. 0 uso
+                                    pois
+de miniimplantes vem crescendo muito € torna-sc uma ótima opção de tratamento,poisincomoda mcnos os pacicntes, além
+de não depender da colaboração.
+---
+0 16
+
+          Caso csteja diante de um caso mais severo, provavelmente a opção cirúrgica será a mclhor. Nesses casos
+   esqueléticos , 0 trabalho da Fonoaudiologia fica bastante prejudicado , uma vez que dificilmentc havcra bom
+   selamento labial , fator importantíssimo na estabilidade do caso.
+
+                                          ALTERAÇÕES VERTICAIS
+                                            Mordida AberTa
+
+                             Dentúria                             Esquelética
+                                                          (se for svero, provável cirurgia
+                                                                  ortognático)
+                        Adolescentes / Adultos
+                                                     Adolescentes                Adulos
+                           Apurelhos
+                             Fixos                  BTP ofustudo /            BIP ofustodo/
+                                                      Bite Block /              Bite Block /
+                                                  Thurow com grude /         Miniimplantes au
+                      Grode Lingual                Miniimplantes ou         Miniplucas / Colugem
+                        Fixa / BTP                Miniplucas / Colugem       (ompensotório /
+                        Afostoda /                 (ompensalórin /        Mecânico Compensotório
+                        Cologem                 Mecânica Compensatória
+                      (ompensotório
+
+          No caso de mordidas protundas dentárias, basicamente trabalharemos com extrusão posterior em pa
+    cienles braqui e mesofaciais, e com intrusão anterior no caso de dolicofaciais. Em pacientes mais jovens, ainda
+    utilizamos aparelhos ortopédicos funcionais, € no adulto preferimos recursos fixos.
+
+          Em situaçoes de mordida profunda esquelética, 0 principal fator € realizar a extrusão dentoalveolar dos
+   dcntes posteriores. A diferença com 05 casus de problema dentário é 2 velocidadc da rcsposta e estabilidade
+    pós tratamcnto, sendo freqüentes as recidivas.
+---
+```mermaid
+graph TD
+    A[ALTERAÇÕES VERTICAIS MORDIDA PROFUNDA] --> B[Dentária]
+    B --> C[Braquifacial Leve ou Mesofacial<br/>(extrusão posterior)]
+    B --> D[Dolicofacial<br/>(intrusão anterior)]
+    
+    C --> E[Adolescentes]
+    C --> F[Adolescentes/Adultos]
+    
+    E --> G[Aparelhos Removíveis]
+    F --> H[Aparelhos Fixos]
+    
+    G --> I[Ortopedia Funcional]
+    H --> J[Platô Anterior ou<br/>Bite Turbo +<br/>Curva Reversa<br/>Inferior]
+    
+    I --> K[Twiplan/<br/>Bionator]
+    
+    D --> L[Adolescentes/Adultos]
+    L --> M[Aparelhos Fixos]
+    M --> N[Arco-utilidade<br/>de Ricketts<br/>(levante<br/>posterior)]
+    
+    A --> O[Esquelética Braquifacial<br/>Correção da Curva de Spee<br/>(extrusão posterior)]
+    
+    O --> P[Adolescentes]
+    O --> Q[Adolescentes/Adultos<br/>(se for severa em<br/>adulto, provável<br/>cirurgia ortognática)]
+    
+    P --> R[Aparelhos Removíveis]
+    Q --> S[Aparelhos Fixos]
+    
+    R --> T[Ortopedia Funcional]
+    S --> U[Platô Anterior ou<br/>Bite Turbo +<br/>Curva Reversa<br/>Inferior]
+    
+    T --> V[Equiplan/<br/>Bionator]
+```
+---
+Nos casos de Classe II, na maioria das vezes, há deficiência da mandíbula na face. A maxila geralmente está bem posicionada ou até retruída, muitas vezes, com protrusão dentoalveolar.
+
+Em pacientes adolescentes, braqui ou mesofaciais, podem-se utilizar aparelhos ortopédicos funcionais para tentar melhorar essa situação. Já em pacientes com um pouco mais de idade (mais de 14 anos de idade), usaremos mais recursos fixos, como, por exemplo, propulsores mandibulares, distalizadores. As extrações também podem ajudar a resolver, porém deve-se avaliar se a face permite e no caso de 4 extrações se a discrepância total da arcada inferior requer essas extrações (tentar evitar em braquifaciais). O arco extrabucal será muito bem vindo quando o problema estiver mais na maxila.
+
+Em pacientes dolicofaciais em fase de crescimento, o Splinter (combinação da ortopedia funcional com o arco extrabucal) é uma ótima alternativa, porém depende da colaboração do paciente. Não deve ser feito o desgaste do acrílico na região posterior, pois não queremos extrusão dentoalveolar. Se houver mordida profunda associada, depois ela será tratada com intrusão dos dentes anteriores.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES ÂNTERO-POSTERIORES CLASSE II Adolescentes]
+    B[Potencial e Direção de Crescimento Colaboração do Paciente]
+    C[Qualidade Idade]
+    D[Dentário]
+    E[Braquifacial/Mesofacial]
+    F[Dolicofacial]
+    G[Aparelhos Removíveis]
+    H[Aparelhos Fixos]
+    I[Aparelhos Removíveis]
+    J[Aparelhos Fixos]
+    K[Ortopedia Funcional]
+    L[Ortopedia Mecânica]
+    M[Distalização/Propulsores Mandibulares/Extrações]
+    N[Splinter AEB conjugado]
+    O[Pequenas Distalizações/Extrações]
+    P[Bionator/Bimler A]
+    Q[Arco Extrabucal AEB]
+    R[Extrações mesofacial 2 ou 4 pré-molares e braquifacial 2 pré-molares superiores]
+
+    A --> B
+    A --> C
+    A --> D
+    D --> E
+    D --> F
+    E --> G
+    E --> H
+    F --> I
+    F --> J
+    G --> K
+    G --> L
+    H --> M
+    I --> N
+    J --> O
+    K --> P
+    L --> Q
+    M --> R
+```
+---
+Em pacientes adultos, os recursos são os mesmos, excetuando-se o uso de aparelhos ortopédicos funcionais, pois não há mais crescimento.
+
+Quando ainda estamos numa idade com crescimento, devem-se avaliar quatro fatores muito importantes para determinar o prognóstico:
+
+- quantidade da Classe II (se for grande, fica mais difícil);
+- potencial de crescimento (medidas lineares da análise de Jarabak);
+- direção de crescimento (ângulos goníacos superior e inferior na análise de Jarabak);
+- posição da fossa articular (localização do pório na análise de Ricketts e ângulo sela-Jarabak).
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES ÂNTERO-POSTERIORES CLASSE II Adultos]
+    A --> B[Dentária]
+    B --> C[Braquifacial/Mesofacial]
+    B --> D[Dolicofacial]
+    C --> E[Aparelhos Fixos]
+    D --> F[Aparelhos Fixos]
+    E --> G[Distalização/Propulsores Mandibulares/Extrações mesofacial 2 ou 4 pré-molares e braquifacial 2 pré-molares superiores]
+    F --> H[Pequenas Distalizações/Extrações]
+```
+---
+Nos casos esqueléticos, a idéia de tratamento é a mesma, porém os resultados podem deixar a desejar e, quanto mais severa for a situação, mais cirúrgico vai se tornando o caso.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES ÂNTERO-POSTERIORES CLASSE II<br>Adolescentes/Adultos] --> B[Esquelética]
+    A --> C[Qualidade<br>Idade]
+    D[Potencial e Direção de Crescimento<br>Colaboração do Paciente] --> A
+    B --> E[se for severo, cirurgia ortognática no futuro<br>Avaliar o Potencial e a Direção de Crescimento, e a<br>Posição da Fossa Articular no caso de adolescentes]
+    E --> F[Braquifacial/Mesofacial]
+    E --> G[Dolicofacial]
+    F --> H[Tratar com os mesmos<br>recursos das Classes II<br>dentárias e nos dolicofaciais<br>associar recursos do<br>tratamento vertical, porém a<br>diferença é que no caso serão<br>tentativas/Extrações serão<br>mais prováveis, ainda mais<br>nos dolicofaciais compensatório]
+    G --> H
+```
+---
+Nos casos de Classe III dentária e/ou funcional, em adolescentes podemos utilizar aparelhos ortopédicos funcionais, no caso nossa preferência é pelo Bimler C, porém dependeremos da colaboração do paciente. Outra possibilidade é o uso de aparelho ortodôntico fixo com prescrição favorável, como por exemplo o MBT (técnica preconizada pelos profs. McLaughlin, Bennett e Trevisi) e o uso de elásticos de Classe III.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES ÂNTERO-POSTERIORES CLASSE III] --> B[Dentária<br/>(funcional)]
+    B --> C[Braquifacial/Mesofacial/Dolicofacial]
+    C --> D[Adolescentes/Adultos]
+    D --> E[Aparelhos Removíveis]
+    D --> F[Aparelhos Fixos]
+    E --> G[Ortopedia Funcional]
+    G --> H[Bimler C]
+    F --> I[Ortodontia Fixa]
+    I --> J[Prescrição MBT/uso<br/>de Arco Lingual<br/>Inferior e Elásticos de<br/>Classe III (cuidado<br/>com os dolicofaciais)]
+    A --> |Potencial e Direção de Crescimento<br/>Colaboração do Paciente| K((Esquerda))
+    A --> |Qualidade<br/>Idade| L((Direita))
+```
+---
+Nos casos esqueléticos, nos adolescentes tentaremos o uso de máscara facial, embora os resultados já não sejam tão bons. Se o problema estiver na maxila e não for muito intenso, o prognóstico é um pouco melhor, desde que o paciente use muito bem o aparelho. Se o problema for mais mandibular, o prognóstico é bem mais complicado, pois impedir o crescimento é quase impossível. Nos pacientes adultos, a situação é bem mais limitada. Se a Classe III esquelética é leve pode ser realizado o tratamento compensatório. Se for severa, o tratamento provavelmente será o cirúrgico. Neste caso, o aparelho é montado para descompensar os dentes, levando-os para uma posição mais adequada no osso.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES ÂNTERO-POSTERIORES CLASSE III Adolescentes]
+    B[Potencial e Direção de Crescimento Colaboração do Paciente]
+    C[Qualidade Idade]
+    D[Esquelética]
+    E[Braquifacial/Mesofacial/Dolicofacial]
+    F[Máscara Facial tentativa]
+    G[Se a causa da Classe III estiver na mandíbula, pior o prognóstico]
+    H[Se a causa da Classe III estiver na maxila, melhor o prognóstico desde que não muito intenso]
+
+    A --> B
+    A --> C
+    A --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+
+    D -->|se for severa, cirurgia ortognática no futuro Avaliar o potencial e a direção de crescimento, e a posição da fossa articular| E
+    F -->|14-16 horas/dia, por 8 a 10 meses 500 gramas de cada lado| G
+    F -->|14-16 horas/dia, por 8 a 10 meses 500 gramas de cada lado| H
+```
+---
+           Potenciol eDireção de Crescimenio                ALTERAÇÕES ÀNTERO-                   Quolidade
+               Colaboração do Puciente                     POSTERIORES (LASSE II/                  Idade
+                                                                  Adultos
+
+                                         Esquelética Severa                      Esquelética não Severu
+
+                                 Braquifacial / Mesofacial / Dollcofaciul  Braquifacial / Mesofucial / Dolicofaciol
+
+                                        (irurgia Orlognútica                    Trotamento (ompensatório
+
+                                                                                   Prescrição MBT /uso
+                                                                                     de Arco Linguul
+                                                                                  Inferior e Elásticos de
+                                                                                    Closse IIl (cuidudo
+                                                                                  con Dsdolicofaciais) /
+                                                                                        Cologem
+                                                                                   compensatária nos
+                                                                                        cuninos
+
+        A sequir; discutircmos alguns protocolos de extrações que podem ser utilizados para pacientes em final ou scm
+ crescimento.
+
+ NOSSOS PROTOCOLOS QUANTO À DECISÃO DAS EXTRAÇÕES
+       É importante lembrar que antcs de se realizar determinada extração será observada a saúde dos dentes próxi-
+mos & tambémn 0 osso da região da extração. Temns que tomar cuidado de não extrair um dente saudável sendo que ao
+seu lado existe um outro quc está comprometido.
+
+       A tábua óssca, principalmenle vestibular; também dcve ser avaliada na regiãu do dente que será extraido,pois
+com pouco oss0 ticará dificil muvimentar 05 outros dentcs.
+---
+Finalmente, avaliaremos a posição dos dentes para decidir qual extrair. Por exemplo, se estamos pensando em extrair o primeiro pré-molar e o segundo encontra-se muito girado, avaliaremos a possibilidade de escolhê-lo como dente a ser extraído.
+
+Algo muito importante a ser dito é que quando falamos em protocolo para extrações, na verdade estamos tentando dar parâmetros para que o ortodontista possa raciocinar se a escolha feita poderá levar a uma boa finalização de tratamento. Não é necessário que os números citados adiante sejam exatos. Porém, os dados encontrados no paciente devem normalmente estar próximo desses propostos.
+
+## EXTRAÇÃO DE UM INCISIVO INFERIOR
+
+- Ponto mais importante: discrepância de Bolton/excesso inferior
+- Arcadas inferior e superior atrésicas/forma triangular
+- Classe II dentária leve ou Classe I
+- Apinhamento inferior/discrepância total entre 5 e 7 mm
+- Dentes posteriores inferiores equilibrados no plano frontal
+- Região ântero-superior com diastemas ou sem apinhamento
+
+### Observações
+
+- A extração de um incisivo inferior normalmente torna ou mantém a distância intercaninos pequena, o que prejudica a guia por criar um overjet.
+- Fazer sempre o set-up para visualizar o resultado final.
+
+Qual incisivo extrair? Devemos levar em consideração alguns critérios para definir qual dente será extraído.
+
+## CRITÉRIOS DE ESCOLHA POR ORDEM DE IMPORTÂNCIA
+
+- Periodontal: se houver um incisivo comprometido periodontalmente ou apresentando recessão gengival considerável, este será escolhido em detrimento aos demais critérios. É comum o incisivo mais vestibularizado apresentar recessão devida à falta de osso na superfície vestibular.
+- Distância mesiodistal (largura): em condições periodontais normais, procura-se extrair o incisivo mais estreito, em geral um incisivo central, cujo diâmetro mesiodistal é menor em relação a um incisivo lateral.
+- Mecânica: considerar o incisivo candidato à extração aquele que estiver do mesmo lado do canino que necessita de mesialização, favorecendo a mecânica do caso.
+---
+
+| | | |
+|:---:|:---:|:---:|
+| Left side view of teeth | Front view of teeth | Right side view of teeth|
+| Left side view of dental cast | Front view of dental cast | Right side view of dental cast|
+| Occlusal view of upper dental arch | Occlusal view of lower dental arch |
+| Left side view after treatment | Front view after treatment | Right side view after treatment|
+| Occlusal view of upper dental arch after treatment | Occlusal view of lower dental arch after treatment |
+
+Caso de extraçao de um incisivo inferior.
+
+---
+A exceção a esse protocolo são os casos que apresentam as características para extração de incisivo inferior; porém com Classe II grande de um dos lados com o outro lado em Classe I ou Classe II leve, com assimetria dos dentes posteriores inferiores, desde que haja apinhamento posterior do lado da Classe II grande. Nestes casos, recomenda-se a extração do incisivo lateral ou central do lado do maior problema. Ao se realizar a mecânica de abertura de espaço para a correção do apinhamento estará se mesializando o canino que estava em Classe II.
+
+[The text is followed by a series of dental images showing orthodontic treatment stages]
+
+1. Three images of teeth with braces, showing different angles (left side, front, and right side views).
+2. Two images showing the upper and lower dental arches with braces.
+3. Three images of dental casts showing the occlusion from different angles (left side, front, and right side views).
+4. Two images of dental casts showing the upper and lower arches from an occlusal view.
+
+These images illustrate the orthodontic treatment process and the dental alignment at various stages, corresponding to the text description above about managing Class II malocclusions with asymmetry and the potential need for incisor extraction in certain cases.
+---
+# EXTRAÇÃO DE DOIS PRÉ-MOLARES SUPERIORES E UM INCISIVO INFERIOR
+
+Essa opção pode ser utilizada para casos que apresentem a arcada inferior com as mesmas características do protocolo para a extração de incisivo inferior somada à presença de Classe II dentária grande (igual ou maior que 5 mm), onde se torna arriscada a extração de dois pré-molares inferiores, pois poderia terminar o caso em Classe II dentária de caninos. Deve haver protrusão alveolar superior ou apinhamento que requeira extração superior.
+
+A não correção da arcada inferior pode impedir a correta retração superior.
+
+* Fig. 8.22 F-I - Caso com assimetria inferior posterior em relação ao plano frontal, tratado com extração de um incisivo inferior.
+
+* Fig. 8.23 A-E - Caso de Classe II grande com incisivos inferiores vestibularizados, onde foi necessária a realização de set up simulando a extração de um incisivo inferior para correção do problema e assim permitir a retração superior.
+---
+Normalmente, os casos selecionados para essa opção de tratamento são cirúrgicos, e essa se torna a alternativa compensatória. O raciocínio é o seguinte: se temos discrepância total inferior que requer extração, temos que entender que os dentes posteriores estão mesializados, ocupando o espaço dos dentes anteriores, e mesmo assim temos uma Classe II grande. Então, se extrairmos pré-molares inferiores, a Classe II dentária ficará maior ainda, tornando-se muito difícil a sua correção. E, se for possível, com alteração importante no perfil facial.
+
+Se estamos diante de um caso cirúrgico que não se encaixa no protocolo do incisivo inferior e o paciente não aceita a cirurgia, pode-se até optar por esse tratamento alternativo, avisando das limitações, principalmente as funcionais.
+
+[A imagem mostra uma fotografia intraoral da arcada dentária superior]
+
+Pode até haver desvio da linha média inferior, mas a causa está na região anterior. Há simetria posterior em relação ao plano frontal.
+
+## EXTRAÇÃO DE DOIS PRÉ-MOLARES SUPERIORES
+
+Presença de Classe II dentária bilateral grande (igual ou maior que 4 mm), com protrusão alveolar superior ou apinhamento que requeiram extração superior, e arcada inferior com discrepância igual ou menor que 4 mm, que possa ser resolvida com stripping e expansão (com borda Wala suficiente).
+
+[A imagem mostra cinco fotografias de modelos dentários em diferentes ângulos, incluindo vistas laterais e oclusais da arcada superior e inferior]
+---
+# EXTRAÇÃO DE DOIS PRÉ-MOLARES SUPERIORES E UM PRÉ-MOLAR INFERIOR
+
+Presença de Classe II dentária grande (igual ou maior que 4 mm) de um lado e Classe II leve ou Classe I do outro lado, com discrepância total inferior entre 5 e 8 mm, com linha média inferior desviada para o lado da Classe II, e principalmente assimetria significativa dos dentes posteriores inferiores em relação ao plano frontal.
+
+A extração inferior é no lado da Classe I.
+
+> Fig. 15.5 a-j - Caso de extração de dois pré-molares superiores.
+
+> Fig. 16.6 - Assimetria dos dentes inferiores posteriores em relação ao plano frontal. Se a linha média inferior não for muito desviada para o lado da Classe II grande, deve ser feito stripping inferior nesse lado (lado oposto ao da extração inferior).
+---
+ulo 16
+
+Dental images
+
+▲ Fig. 16.7 a-j - Caso de extração de dois pré-molares superiores e um inferior.
+
+# EXTRAÇÃO DE UM PRÉ-MOLAR SUPERIOR
+
+Presença de Classe II dentária grande (igual ou maior que 4 mm) de um lado e Classe I ou Classe II leve (até 2,5 mm) do outro lado, com a linha média superior desviada para o lado da Classe I ou Classe II leve, e principalmente assimetria significativa dos dentes posteriores superiores em relação ao plano frontal. Arcada inferior com DT menor que 4 mm.
+
+No caso de Classe II leve do outro lado, deve ser resolvida com distalização ou stripping.
+
+Dental images with braces
+---
+Fig. 16.8 a-j - Caso de extração de um pré-molar inferior
+
+# EXTRAÇÃO DE UM SEGUNDO MOLAR SUPERIOR
+
+Presença de Classe II dentária grande (igual ou maior que 4 mm) de um lado e Classe I ou Classe II leve (até 2,5 mm) do outro lado, com linha média superior desviada para o lado da Classe I ou Classe II leve, e principalmente assimetria significativa dos dentes posteriores superiores em relação ao plano frontal. A Classe II é corrigida com distalização bilateral.
+
+Essa opção é utilizada em casos que poderiam ser tratados com a extração de um pré-molar superior.
+
+As principais vantagens são:
+
+* terminar com a arcada superior esteticamente mais simétrica, mantendo-se os pré-molares;
+* evitar a abertura de espaços da extração em região estética.
+
+Idade: entre 14 e 16 anos.
+Terceiro molar do lado da extração - é necessário ver:
+
+* a formação - 1/3 à metade da raiz formada;
+* o tamanho - compatível com segundo molar;
+* a posição - bem direcionada.
+
+Fig. 18.9 a-b
+a - Situação desfavorável para a extração do segundo molar superior devido ao terceiro molar superior pequeno.
+b - Anatomia, tamanho e posição favoráveis do terceiro molar superior.
+---
+# EXTRAÇÃO DE DOIS SEGUNDOS MOLARES SUPERIORES
+
+Presença de Classe II dentária bilateral grande (igual ou maior que 4 mm), com protrusão alveolar superior ou apinhamento que requeiram extração superior, e arcada inferior com discrepância igual ou menor que 4 mm, que possa ser resolvida com stripping e expansão (com borda Wala suficiente).
+
+A Classe II é corrigida com distalização bilateral.
+
+Essa opção é utilizada em casos que poderiam ser tratados com a extração de dois pré-molares superiores.
+
+As principais vantagens são:
+
+- terminar com a arcada superior esteticamente mais adequada, mantendo-se os pré-molares;
+- evitar a abertura de espaços da extração em região estética.
+
+Idade: entre 14 e 16 anos.
+
+Terceiro molar do lado da extração - é necessário ver:
+
+- a formação - 1/3 à metade da raiz formada;
+- o tamanho - compatível com segundo molar;
+- a posição - bem direcionada.
+
+Evitar em dolicofaciais severos devido à necessidade de distalização.
+
+[A imagem mostra uma série de fotografias intraorais demonstrando um caso de extração de dois segundos molares superiores. As fotografias estão organizadas em duas fileiras de quatro imagens cada, mostrando vistas laterais, frontais e oclusais dos dentes antes e depois do tratamento ortodôntico. As imagens mostram a progressão do tratamento, com aparelhos ortodônticos visíveis e a mudança na posição dos dentes.]
+
+Fig. 16.10 a-h - Caso de extração de dois segundos molares superiores.
+---
+# EXTRAÇÃO DE UM PRÉ-MOLAR INFERIOR
+
+Presença de Classe III dentária média a grande (entre 2,5 e 4 mm) de um lado e Classe II leve ou Classe I do outro lado, com a linha média inferior desviada para o lado da Classe II leve ou Classe I, e principalmente assimetria significativa dos dentes posteriores inferiores em relação ao plano frontal.
+
+# EXTRAÇÃO DE DOIS PRÉ-MOLARES INFERIORES
+
+Presença de Classe III dentária bilateral média a grande (entre 2,5 e 4 mm), arcada inferior com discrepância igual ou maior que 5 mm que requeiram extração inferior.
+
+# EXTRAÇÃO DE DOIS PRÉ-MOLARES INFERIORES E UM PRÉ-MOLAR SUPERIOR
+
+Presença de Classe III dentária de um lado e Classe I do outro, com linha média superior desviada para o lado da Classe III, assimetria dos dentes posteriores superiores em relação ao plano frontal, arcada inferior com discrepância igual ou maior que 5 mm que requeiram extração inferior.
+
+[Six dental photographs labeled a through f, showing various angles of teeth and bite alignments]
+
+▲ Fig. 16 11 a-f - Caso de extração de dois pré-molares inferiores e um pré-molar superior
+---
+# EXTRAÇÃO DE DOIS PRIMEIROS PRÉ-MOLARES SUPERIORES E DOIS PRIMEIROS PRÉ-MOLARES INFERIORES
+
+Presença de Classe I ou Classe II leve (até 2,5 mm), arcada inferior com discrepância que requer extração.
+
+[Series of dental photographs showing before and after treatment]
+
+[Five photographs showing dental condition before treatment]
+
+[Five photographs showing dental condition after treatment]
+
+Caso de extração de dois primeiros pré-molares superiores e dois primeiros pré-molares inferiores.
+---
+# EXTRAÇÃO DE DOIS PRIMEIROS PRÉ-MOLARES SUPERIORES E DOIS SEGUNDOS PRÉ-MOLARES INFERIORES
+
+Presença de Classe II de 2,5 a 4 mm, arcada inferior com discrepância que requer extração.
+
+[10 dental photographs arranged in two rows showing before and after dental extraction from different angles]
+
+Fig. 10.13 - Caso de extração de dois primeiros pré-molares superiores e dois segundos pré-molares inferiores.
+---
+# EXTRAÇÃO DE DOIS SEGUNDOS PRÉ-MOLARES SUPERIORES E DOIS PRIMEIROS PRÉ-MOLARES INFERIORES
+
+Presença de Classe I com tendência a Classe III, arcada inferior com discrepância que requer extração.
+
+## PROTOCOLO PARA DISTALIZAÇÃO
+
+- Relação molar de Classe II de 1/4 à meia cúspide, com boa relação entre as bases apicais.
+- Altura facial normal ou diminuída (paciente meso ou braquifacial).
+- Ausência de sinais e sintomas de DTM.
+- Observar se os incisivos inferiores não estão vestibularizados (IMPA ruim - maior que 100°), pois após a correção dos molares, pré-molares e caninos, não haverá overjet suficiente para a retração dos incisivos superiores e ficará um diastema entre os incisivos laterais e os caninos.
+- Observar a presença de terceiros molares, o que dificultará a distalização.
+- Observar os segundos molares ainda não erupcionados devido à possibilidade de impactação.
+
+a b c
+d e f
+g h i
+
+Fig. 16.14 a-i - Caso de Classe II dentária bilateral, com presença de mordida profunda, tratado com aparelho distalizador bimétrico.
+---
+
+[Top row: 3 images showing side and front views of misaligned teeth]
+
+[Middle rows: 4 images showing upper and lower dental arches, including 2 with orthodontic appliances]
+
+[Bottom rows: 5 images showing improved alignment of teeth from side and front views, and upper and lower dental arches after treatment]
+
+Caso de Classe II dentária bilateral, com presença de mordida profunda, tratado com aparelho distal jet
+
+---
+# 17.
+## Cirurgia ortognática
+
+Fernando Cesar Davanzo
+---
+# CIRURGIA ORTOGNÁTICA
+
+Romper paradigmas é um nobre objetivo que os formadores de profissionais da Ortodontia, como no caso deste livro, devem ter como premissa básica, para preparar e inserir no mercado, ortodontistas munidos desta ferramenta de tratamento que é a correção das deformidades dentofaciais. Inserir no mercado? Sim, inserir no mercado, pois este é o grande objetivo dos profissionais, nossos colegas, que às vezes chamamos de alunos, investir seu tempo e dinheiro, até a ausência de seu convívio familiar, no aprimoramento de sua formação ortodôntica. Portanto, com a atual incidência de casos cirúrgicos, grande expectativa nos tratamentos que envolvem o sorriso e a face, não se pode ignorar este importante nicho de mercado, que pode aumentar sensivelmente os resultados financeiros na clínica ortodôntica diária e ser um fator de diferenciação profissional no mercado.
+
+Não é possível, nos dias de hoje, com a evolução da Odontologia e, principalmente com o alto grau de exigência dos nossos pacientes, principalmente com relação à estética facial, deixar de diagnosticar e tratar as desarmonias da face e da oclusão com o tratamento ortodôntico-cirúrgico. Não importa a filosofia ou técnica utilizada, o fato é que o paciente não está interessado na distância sela-násio, na chave de canino ou relação de molares, e sim em resultados efetivos que melhorem todas as funções que envolvem o tratamento associado de Ortodontia e Cirurgia ortognática.
+
+Cabe ao ortodontista esclarecer e diagnosticar com precisão os casos que necessitam, ou terão melhor resultado com o tratamento conjugado de cirurgia e ortodontia, avaliando não só a oclusão, mas também esclarecendo ao paciente os benefícios estéticos, oclusais, respiratórios, fonoaudiológicos e um bom funcionamento das articulações temporomandibulares (ATM), sendo que com esta conduta estaremos possibilitando ao paciente, que de fato é um cliente que deseja ser claramente orientado, a opção de escolha de tratamento, principalmente nos casos que possuam condições técnicas de finalização com oclusão estável, porém sem nenhum grau de melhora visível na face, ou até piorando esta, como no caso de compensação dentária sem se preocupar com a resposta dos tecidos moles da face, muito comum em pacientes Classes II submetidos à extração de pré-molares superiores, resultando em aumento do ângulo nasolabial, maior exposição gengival, aumento do sulco nasolabial – que na idade madura apresentará o popular "bigode chinês"– alteração da ponta nasal no sentido inferior; pergunte ao seu paciente se é isso que ele gostaria!
+
+Não menos desastroso para a face é o tratamento compensatório dos pacientes Classes III, que com as extrações dos pré-molares inferiores perderão o suporte labial e ao sorrirem terão a sensação que a ponta do queixo vai saltar da face, e terão os tecidos moles da região mentoniana com mais projeção que antes das extrações, será que é isto que o paciente espera do tratamento? Ainda mais tendo este procurado ajuda da Ortodontia para melhorar esteticamente, o que vamos dizer ao final? Que é assim mesmo, que o problema já existia antes do tratamento ortodôntico! Poderemos neste momento oferecer ao nosso cliente um pequeno espelho e mostrar como ficou bonita a oclusão, ou ainda mostrar a sua cefalometria e informá-lo que agora sim ele está dentro dos padrões cefalométricos normais! Acabamos de decepcionar um cliente, que não faz ideia que poderia ter outra abordagem no seu tratamento, lembrando que o paciente é leigo e não faz ideia do que seja cirurgia ortognática.
+---
+Acredita-se que, nestas situações, ambos saem perdendo, o paciente que ficou à margem de um tratamento com melhor resultado, e o profissional que certamente não será referenciado por ele, lembrando que estamos discorrendo sobre situações que permitam a finalização do caso com estabilidade, porém para os casos que não permitam oclusão estável, onde as diferenças acentuadas de tamanho das bases ósseas não permitam a compensação dentária, e um tratamento ortodôntico foi instalado sem sucesso, trata-se de erro de diagnóstico e de tratamento, onde o paciente tem o direito de queixa e reparação, inclusive com medidas judiciais respaldadas pela lei.
+
+Segundo Andrews, "tratar um caso cirúrgico sem cirurgia pode levar a anos de tratamento ortodôntico e ortopédico heróico, o que normalmente cansa a todos. O tempo de tratamento ultrapassa o previsto e o paciente tem uma vida inteira para passar com um resultado de tratamento comprometido."
+
+## OBJETIVOS DO TRATAMENTO CONJUGADO DE ORTODONTIA E CIRURGIA ORTOGNÁTICA
+
+### SATISFAÇÃO DO PACIENTE
+
+Ouvir a queixa principal do paciente. Se achar conveniente, o uso de um pequeno questionário, preconizado por Arnett em seu livro "Planejamento Facial e Dentário para Ortodontistas e Cirurgiões Bucomaxilofaciais", pode facilitar este a indicar e apontar em seus dentes e também na face o que não o deixa satisfeito e o levou a uma avaliação com o cirurgião dentista especialista em cirurgia e traumatologia bucomaxilofaciais, que realiza a cirurgia ortognática.
+
+Consideramos de grande utilidade (e utilizamos) para obter do paciente a verbalização e o apontamento direto da sua insatisfação, mostrar casos com o mesmo tipo de alteração facial e oclusal, com imagens anteriores e posteriores ao tratamento conjugado de Ortodontia e Cirurgia ortognática, deste modo o paciente poderá se identificar com algum dos casos tratados e manifestar o seu grau de expectativa com o tratamento proposto.
+
+Qual a queixa principal desta paciente? (Fig. 17.1)
+
+[A imagem mostra duas fotografias de perfil do rosto de uma pessoa, antes e depois de um procedimento cirúrgico. A primeira foto é rotulada como "Fig. 17.1 - Foto pré-cirúrgica" e a segunda como "Fig. 17.2 - Foto pós-cirúrgica". As imagens ilustram mudanças no perfil facial, particularmente na região da mandíbula e do queixo.]
+---
+Mandíbula grande ou maxila com deficiência ântero-posterior? Teremos que ajudá-la a identificar, e com isso estaremos respeitando a sua queixa principal, que é a melhor maneira de satisfazê-la, e por conseqüência estaremos diminuindo as chances de insatisfação com o tratamento cirúrgico.
+
+## CORREÇÃO DE TODOS OS FATORES QUE COMPÕEM A DEFORMIDADE DENTOFACIAL
+
+### RESPIRAÇÃO
+
+Na ordem das prioridades do tratamento, na visão do paciente, o que este busca inicialmente é, com certeza, o resultado estético, porém a respiração deve ser o nosso primeiro foco no momento do planejamento ortodôntico-cirúrgico, pois já é consenso interdisciplinar e interprofissional (Medicina/Odontologia) que os problemas respiratórios severos como apnéia obstrutiva do sono (caracterizadas por pequenos intervalos sem respirar durante o sono, acompanhados ou não de ronco) por redução no espaço da orofaringe e hipoplasia do segmento maxilar possuem indicação de reposicionamento cirúrgico com movimentos antero-posterior dos ossos da face com a cirurgia ortognática, terapêutica que vale para os padrões faciais do tipo I, que pode ter oclusão correta e apresentar deficiência ântero-posteriores do segmento maxilar da mandíbula e da região mentoniana; do tipo II que apresenta a mandíbula e a região mentoniana retruídas associadas à deficiência ântero-posterior da maxila, que somados reduzem significativamente o espaço para língua com retroposicionamento e conseqüente redução do espaço aéreo; e do tipo III, que normalmente possui grande retrusão do segmento maxilar (95% dos casos de prognatismo não possuem mandíbula grande) e que, quando submetidos à cirurgia exclusivamente mandibular, sofrem recidiva, pois a indicação cirúrgica seria o avanço do segmento maxilar no sentido antero-posterior, e não a retrusão da mandíbula, que diminuirá o espaço útil para a língua, levando ao insucesso do tratamento ortodôntico-cirúrgico.
+
+Vale salientar que o paciente candidato à cirurgia ortognática como tratamento da apnéia obstrutiva do sono deverá ser avaliado pelo otorrinolaringologista ou cirurgião de cabeça e pescoço, que utilizam exames apropriados, entre eles a polissonografia, para que sejam descartados outros fatores como apnéia obstrutiva de origem central e obesidade, e com isto estabelecer um bom diagnóstico diferencial entre os tipos e graus de apnéia obstrutiva do sono e se existe ou não a indicação da cirurgia ortognática como terapêutica.
+---
+# Exemplo de paciente portador de deformidade dentofacial com padrão de face do tipo II, porém com diagnóstico de classificação de oclusão do tipo III de Angle, com queixa principal de Apnéia Obstrutiva do Sono, que teve como tratamento cirurgia ortognática de maxila, mandíbula e mentoplastia, todos com movimentos de avanço e rotação em sentido anti-horário para permitir projeção ântero-posterior de toda face e aumentar significativamente o espaço aéreo útil na orofaringe, indicado pelas setas, tratamento este que solucionou a obstrução respiratória e a queixa principal do paciente (Fig. 17.3 a-d).
+
+a
+b
+c
+d
+
+> Fig. 17.3 a-d - Paciente com apnéia obstrutiva do sono submetido a cirurgia ortognática.
+> 
+> a - perfil antes da cirurgia ortognática.
+> b - perfil no pós-operatório de 20 dias.
+> c - telerradiografia lateral inicial com destaque entre setas do espaço aéreo.
+> d - telerradiografia lateral após a cirurgia e com destaque entre setas do aumento significativo do espaço aéreo.
+---
+# POSICIONAMENTO DOS DENTES COM TRATAMENTO ORTODÔNTICO PRÉVIO À CIRURGIA ORTOGNÁTICA
+
+Compartilhamos com o conceito de responsabilidade mútua de cirurgião e ortodontista, sendo que os melhores resultados que podem ser alcançados são frutos da integração entre os profissionais em questão, para tanto sugerimos que os movimentos ortodônticos não sejam iniciados enquanto não houver consenso dos profissionais com relação aos movimentos dentários necessários para realização da cirurgia, e a melhor forma para diminuir os insucessos é individualizar o tratamento, para que exista estabilidade a longo prazo, e tal integração, quer por contatos pessoais ou por carta (sempre documentados), transmite alto grau de confiança por parte do paciente, que se sente assistido e amparado por uma equipe integrada, sendo que estas percepções serão muito úteis no momento da realização da cirurgia, pois o mesmo será submetido a um ato cirúrgico, em ambiente hospitalar, sob anestesia geral, e temos observado que o pós-operatório é proporcional à condição emocional/psicológica do paciente durante a fase de preparo ortodôntico; portanto, pacientes devidamente assistidos têm melhor evolução, pois este inconscientemente entendeu que o tratamento teve início, meio e fim, sendo que tal conduta divide a responsabilidade do caso entre os profissionais em questão, que poderão dividir a sensação de satisfação que este tratamento propicia ao cirurgião e ao ortodontista e, em caso de insucesso, a mesma fórmula divide a responsabilidade e a confiança do paciente caso seja necessário alguma nova intervenção, que infelizmente acontece, mesmo alheio à nossa vontade, contudo, aprenderemos mais com os erros que com os acertos.
+
+Para avaliar melhor o posicionamento dentário, utilizaremos modelos de estudo, onde a manipulação destes será importante para definir se existem compensações fisiológicas e funcionais adaptativas ocorridas pela falta de coordenação das bases ósseas conforme a seguir. Além disso, pode-se avaliar a posição dos dentes morfologicamente e através de traçados cefalométricos (Fig. 17.4 a-d).
+
+[Imagem contendo quatro partes:]
+
+a. Modelo de gesso mostrando a arcada dentária superior e inferior em oclusão.
+b. Fotografia clínica mostrando os dentes em oclusão.
+c. Radiografia cefalométrica lateral mostrando o perfil ósseo e dentário.
+d. Traçado cefalométrico com linhas e ângulos de referência para análise ortodôntica.
+
+Fig. 17.4 a-d - Paciente já submetida a tratamento ortodôntico extenso apresentando Classe II esquelética com os incisivos inferiores vestibularizados.
+---
+Fig. 17.5 a-d - Caso preparado pelo Dr. Claudio Azenha.
+
+a-b - modelo pré-cirúrgico e foto intrabucal após a retração dos incisivos inferiores. No retratamento, foram extraídos os dentes 34 e 44, o que resultou em um espaço grande permitindo maior aumento da região do corpo da mandíbula pela osteotomia sagital bilateral, para restabelecer a Classe I esquelética e dentária (canino).
+
+c - modelo de estudo pré-cirúrgico com coordenação na mão (simulando os movimentos ósseos), para avaliar o engrenamento dos dentes, que permite avaliar a oclusão final, independentemente do posicionamento espacial da maxila e da mandíbula.
+
+d - foto pós-cirúrgica.
+
+Os incisivos centrais superiores se encontram com inclinações corretas?
+
+Pode-se utilizar como referência o plano palatino, onde os incisivos centrais podem ter uma angulação de 110° com este plano, porém mais importante do que o valor numérico é que os dentes estejam bem posicionados na base óssea.
+
+Fig. 17.6 - 1. PP - é a medição do ângulo formado pelo plano palatino (ENA-ENP) com o longo eixo do incisivo superior.
+
+Avalia a posição dos incisivos superiores na maxila. Em pacientes braquifaciais, aceitam-se incisivos mais vestibularizados e, em dolicofaciais, mais verticalizados.
+
+Norma clínica: 110° ± 2°
+---
+E os incisivos inferiores?
+
+Pode-se utilizar como referência numérica o IMPA de 92° como média de bom posicionamento. Porém, o mais importante é que esteja centralizado dentro da sua base óssea, e caso exista a necessidade de extrações para corrigir a vestibularização excessiva, ou falta de espaço para o alinhamento e nivelamento, estes casos necessitam de avaliação criteriosa para determinar se existe osso suficiente na região da sínfise para a extração de pré-molares e retração ortodôntica que, em caso negativo deverá ser evitada, cabendo ao cirurgião um planejamento cirúrgico que envolva osteotomias subapicais para a correção cirúrgica destes problemas.
+
+Fig. 17.7 - IMPA - é a medição do ângulo formado pelo plano mandibular (Go Me) com o longo eixo do incisivo inferior. Norma clínica: 92° ± 2° (padrão brasileiro).
+
+Fig. 17.8 a-b - Avaliação do posicionamento dos dentes posteriores: a - região posterior com mordida cruzada, com molares verticalizados e bem posicionados dentro do osso, situação clínica que indica expansão cirúrgica para a correção da deficiência transversal durante a cirurgia ortognática, por meio osteotomia maxilar Le Fort I segmentada entre incisivos laterais e caninos superiores. Portanto, está contra-indicada qualquer mecânica que resulte em inclinação dos dentes para vestibular na tentativa de evitar a segmentação da maxila, pois este é um movimento altamente recidivante após a cirurgia ortognática e se ocorrer resultará em mordida aberta anterior. b - Inclinação dos molares para palatino resultando em mordida cruzada; estes casos permitem mecânica apropriada para correção, sem necessidade de expansão cirúrgica.
+
+Fig. 17.9 a-b - Incisivos inferiores, osso alveolar e sínfise mandibular após tratamento ortodôntico: estudo retrospectivo. WEHRBEIN, H. & DIEDRICH, P. - Am J Orthod, v113, n.3, 1998.
+
+Fig. 17.10 a-d - Exemplo clínico de um caso com sínfise muito fina, levando inclusive a retrações gengivais. Fator que contra-indica extrações de pré-molares.
+---
+Existe espaço suficiente para acomodar os dentes dentro das bases ósseas?
+
+Existe a necessidade de extrações por falta de espaço? Se positivo, quais serão extraídos? Os primeiros ou os segundos pré-molares? Depende da individualização do caso, e da discussão com o ortodontista, sendo que, na maioria dos casos, para os grandes apinhamentos ou com vestibularização excessiva, a extração dos primeiros pré-molares com ancoragem total é a melhor opção, para problemas menores uma ancoragem relativa com extração dos primeiros pré-molares pode ser a melhor opção, pois permite perder a ancoragem para finalizar o fechamento dos espaços, assim que os caninos estejam coordenados (fora da boca, em modelos de estudo), e para movimentos pequenos, ou mesmo igualar o número de dentes, a opção de extrair os segundos pré-molares é a mais indicada.
+
+Temos que programar o tratamento ortodôntico em função da melhor acomodação dos dentes em suas bases ósseas, sendo que a arcada superior deve ser tratada independentemente do inferior; os movimentos dentários que desejamos são os mais estáveis, ou seja, a favor do osso, e a coordenação da arcada deve ser feita "fora da boca", avaliando-se os modelos de estudo periódicos, pois, na maioria dos casos, os movimentos prévios à cirurgia ortognática são diferentes dos casos não cirúrgicos.
+
+As exodontias devem ter indicação para acomodar os dentes dentro das bases ósseas, e não para criar espaços ou overjet, a fim de diminuir o número de segmentos operados para facilitar ou diminuir a cirurgia, pois, no atual estágio técnico da cirurgia ortognática, com materiais que permitem grandes movimentos dos ossos da face, bem como segmentações na maxila e mandíbula, técnicas anestésicas seguras, possibilidade de um bom preparo geral do paciente no que diz respeito à saúde geral, não se pode adequar o paciente à capacidade técnica do cirurgião, cabendo ao ortodontista aumentar o nível do cirurgião, pois deve-se lembrar que o ortodontista é co-responsável pelo tratamento, e mais ainda, se a cirurgia não foi realizada de maneira satisfatória, o paciente cobrará diretamente do ortodontista, e este terá dificuldade ou até impossibilidade de finalizar o caso.
+
+## Existe discrepância transversal da maxila?
+
+A melhor forma para determinar e diagnosticar tal problema é manipular os modelos de estudo, e não dentro da boca, inclusive para facilitar a decisão da conduta a ser tomada. Lembrando-se que este protocolo é para pacientes onde não existe possibilidade de tratamento clínico e tentativas de expansão que não sejam cirúrgicas em pacientes adultos, resultam, normalmente, em inclinação dos dentes posteriores com possibilidade garantida de recidiva do caso. Cabe ao cirurgião a orientação ao ortodontista para o preparo do caso onde existe a necessidade de corrigir a discrepância transversal entre as arcadas (mordida cruzada), principalmente o melhor momento para intervenção, que deve ser no momento da cirurgia ortognática, onde se pode segmentar a maxila em 3 partes dentárias (de canino a segundo molar bilateral e de incisivo lateral a incisivo lateral), submetendo o paciente a uma única intervenção cirúrgica, sendo que se pode expandir a maxila e, caso não seja suficiente, pode-se contrair a arcada inferior mandibular associando-se a osteotomia sagital da mandíbula (bilateral) com a osteotomia da sínfise mandibular.
+
+O preparo ortodôntico nestes casos é feito com alinhamento segmentado (Fig. 17.13 a-e).
+---
+Portanto, a indicação para a expansão ortopédica cirurgicamente assistida, com o uso de aparelho disjuntor de Haas ou Hirax antes da cirurgia ortognática, tem rara indicação, apenas para casos extremos, conforme exemplo (Fig. 17.11), que necessita deste procedimento, que deve ser realizado sob anestesia geral, em ambiente hospitalar, pois a expansão ortopédica assistida cirurgicamente realizada em consultório, além de ineficaz por não possibilitar a desinserção completa do septo nasal e da separação da lâmina pterigomaxilar (zona de maior resistência à expansão da maxila) tem forte semelhança a uma sessão de tortura medieval para o paciente, mesmo com o uso de ansiolíticos.
+
+Para o preparo de cirurgia segmentada da maxila, deve-se promover uma divergência entre as raízes dos incisivos laterais e caninos para permitir a osteotomia vertical, sem colocar em risco os dentes em questão (Fig. 17.12 a-b).
+
+Fig. 17.12 a-b - Em casos onde está planejada a segmentação da maxila, colocam-se os braquetes de maneira a divergir as raízes dos caninos e incisivos laterais, onde será feita a segmentação do osso. a - Início do nivelamento. b - Radiografia periapical após uso do fio de aço .019 x .025".
+
+Fig. 17.11 - Caso com necessidade de 7 mm de expansão em cada lado, situação que impossibilita a correção durante a cirurgia ortognática pela falta de elasticidade da mucosa do palato; portanto, um raro caso que necessita de Expansão Ortopédica Cirurgicamente Assistida, antes da cirurgia ortognática (em ambiente hospitalar).
+
+Fig. 17.13 a-e - Paciente com padrão de face e de mordida do tipo II cirúrgico com preparo ortodôntico segmentado realizado pelo Prof. Dr. Jurandir Antonio Barbosa, onde o alinhamento e nivelamento foram realizados de incisivo lateral a incisivo lateral e de canino a segundo molar (bilateral), permitindo o nivelamento da arcada superior "cirurgicamente" pela osteotomia maxilar Le Fort I com segmentação entre incisivo lateral e canino superior durante a cirurgia ortognática.
+---
+pítulo 17
+
+▲ a ▲ b ▲ c
+
+▲ d
+
+▲ Fig. 17.14 a,b - Vistas frontal e lateral da face com 15 dias após a cirurgia ortognática de maxila com segmentação entre incisivos laterais e caninos superiores, mandíbula e mentoplastia.
+
+▲ Fig. 17.15 c,d - Oclusão após 50 dias de cirurgia, momento em que a paciente foi encaminhada ao Dr. Jurandir Barbosa para realinhamento e finalização do caso, cabendo a ele a remoção das resinas colocadas unindo os incisivos laterais e caninos para estabilização e imobilização da osteotomia vertical entre os dentes (para que ocorra a consolidação óssea), indicando a recolagem imediata e um novo fio para nivelamento, evitando movimentos dentários indesejados.
+
+▲ a ▲ b
+
+▲ c ▲ d ▲ e
+
+▶ Fig. 17.16 a-e
+a,b - Vistas frontal e lateral da face com 50 dias após a cirurgia ortognática.
+c-e - Oclusão finalizada com os caninos e laterais reposicionados, onde salientamos que a finalização perfeita é muito importante para a estabilidade do caso a longo prazo.
+---
+# OSTEOTOMIAS E MÉTODOS DE FIXAÇÃO
+
+A reprodução no paciente de um bom planejamento cirúrgico, além de um bom treinamento do cirurgião, depende também de meios de fixação dos ossos da face (placas e parafusos de titânio) que possibilitem a imobilidade dos fragmentos para o processo de ossificação, sem nenhum tipo de bloqueio maxilomandibular ("boca amarrada"), quer seja rígido (com fios de aço) ou com elásticos. Atualmente, utilizamos materiais de fabricação da Osteomed, distribuídas no Brasil pelo grupo Implamed/Imact, não só em cirurgias ortognáticas, mas também em grandes reconstruções e traumatismo da face, conforme exemplos a seguir:
+
+Fig. 17.17 - Osteotomia maxilar Le Fort I com segmentação entre incisivo lateral e canino superior (bilateral).
+
+Fig. 17.18 - Fixação da osteotomia maxilar com colocação de enxertos autógenos entre os segmentos, tendo como região doadora os processos coronóides da mandíbula estabilizados com parafusos.
+
+Fig. 17.19 a b
+a - Placa Prebent (pré-dobradas com avanço de 2 a 12 mm), sistema Osteomed, lado direito, colocada no pilar nasal e fixada com parafusos de 1,6 mm de diâmetro autoperfurantes e autorrosqueáveis.
+b - Placa Buttress, sistema Osteomed, lado esquerdo.
+
+Fig. 17.20 a b
+a - Placa de reconstrução 2,4 mm adaptada em modelo do próprio paciente (prototipagem), permitindo melhor adaptação e redução significativa do tempo cirúrgico.
+b - Placa pré-moldada em prototipagem, sendo utilizada para estabilizar o enxerto de costela para reconstrução cirúrgica de hemimandíbula.
+
+Fig. 17.21 - Placa Double Row, sistema Osteomed, utilizada na fixação da osteotomia sagital em região de corpo de mandíbula.
+---
+# ORTODONTIA PRÉ-OPERATÓRIA
+
+Normalmente, a Ortodontia pré-operatória resume-se em:
+
+- alinhamento e nivelamento dentário;
+- coordenação interarcada; e
+- descompensação dentária.
+
+O que se pode dizer quanto ao alinhamento e nivelamento é que é fundamental uma montagem criteriosa do aparelho, considerando-se muito o equilíbrio das cristas marginais, evitando, assim, interferências ao final do preparo. Como normalmente na boca não se consegue visualizar essa harmonia, deve-se moldar com frequência após o uso do fio .020" de aço.
+
+A curva de Spee deve ser completamente nivelada. Nos casos de curvas extremamente acentuadas ou em casos onde a oclusão impossibilita o nivelamento total, aceita-se uma correção parcial no pré-operatório e a finalização do nivelamento realizada após a cirurgia. Num caso muito difícil, pode-se considerar a hipótese da correção através de cirurgia subapical, intruindo ou extruindo apenas o segmento desejado.
+
+Os espaços e diastemas devem ser fechados, mantendo-os em casos de espaço protético ou restaurações estéticas.
+
+A coordenação interarcadas e torques também só podem ser checados após o alinhamento com fio .019 x .025" de aço.
+
+A descompensação dentária será checada manipulando-se os modelos, buscando centralizar a linha média e colocando os caninos em Classe I. Nos casos de segmentação, não se considera a linha média, apenas a Classe I de caninos.
+
+Em um tratamento ortodôntico-padrão, o ortodontista procura uma mecanoterapia capaz de corrigir as discrepâncias transversal, vertical e sagital.
+
+No caso de paciente cirúrgico, o objetivo é o oposto. A Ortodontia não almeja a correção, a sua função é eliminar as compensações dentárias de maneira a expor a maloclusão como ela realmente é, deixando a correção exclusivamente para a cirurgia. Não é difícil a Ortodontia pré-operatória agravar o caso, e isto deve ser muito bem explanado ao paciente no início do tratamento (Fig. 17.20 a-b).
+
+Quanto mais se refinar o preparo, menos tempo de Ortodontia pós-cirúrgica. O paciente, normalmente, tem muita ansiedade para remover o aparelho após a cirurgia.
+---
+Fig. 17.22 a-b - O preparo ortodôntico-cirúrgico, na maioria das vezes, piora o caso para depois a cirurgia corrigir a discrepância
+
+| a | b |
+|---|---|
+| Image showing teeth without braces | Image showing teeth with braces |
+
+**Observação importante:** no caso de cirurgia na mandíbula, os terceiros molares inferiores devem ser removidos 6 meses antes da cirurgia, para que haja cicatrização do osso na região, pois o corte cirúrgico passa por essa região.
+
+Um dos problemas mais comuns no preparo ortodôntico para cirurgia ortognática é a presença de contatos prematuros, que causam instabilidade no encaixe da oclusão durante a cirurgia, o que pode colaborar para que ocorram recidivas. Se os contatos são discretos, podem ser resolvidos com ajuste oclusal. Porém, se são grandes, devem ser resolvidos ortodonticamente. Se o contato ocorre em pontos cêntricos, como, por exemplo, cristas marginais, pontas de cúspides ou fóssulas, deve ser feita intrusão do dente interferente. Isso pode ser realizado com recolagem de braquetes ou dobras. Se o contato ocorre em vertentes, devem ser melhorados a coordenação e/ou os torques na região interferente. Esse cuidado evita desgastes oclusais maiores nos dentes na hora da cirurgia e facilita a vida do cirurgião, que não vai precisar aplicar a "ortodontia de centro cirúrgico", pois, na hora da cirurgia, não podemos ter contatos prematuros ou macrotraumatismos, que podem comprometer a estabilidade das fixações, promovendo uma "não união óssea" ou "pseudo-artrose", que são graves problemas de falta de consolidação do osso, e que invariavelmente necessitará nova operação para correção, lembrando que os pacientes submetidos ao tratamento ortodôntico-cirúrgico, não terão nenhum tipo de bloqueio no pós-operatório, apenas uma dieta líquida controlada, passando a pastosa na segunda semana, e que deverá permanecer por 50 dias com a devida orientação por nutricionista, bem como 60 dias de afastamento de atividades físicas, podendo, no entanto, retomar o convívio social e suas atividades profissionais por volta de 15 dias da cirurgia.
+
+Fig. 17.23 a-d - Pacientes com birretrusão, fotos de face pré-tratamento.
+
+| a | b | c | d |
+|---|---|---|---|
+| Front view before treatment | Front view smiling before treatment | Side view before treatment | Side view smiling before treatment |
+---
+   73°
+     82° 82°
+    80°  88°
+         49°
+          0°
+        -5,5
+         -18
+
+---
+Fig. 17.26 a-f - Caso preparado pelo Dr. Claudio Azenha
+
+a-b - Modelos manipulados na mão mostrando que ainda há presença de Classe II do lado direito.
+
+c-d - Modelos mostrando pontos de contato que impedem o posicionamento correto da mandíbula. É necessário corrigir a posição do dente ou, se for possível, fazer desgastes oclusais.
+
+e-f - Após a correção do posicionamento dentário, é possível a colocação da mandíbula em Classe I de caninos, lados direito e esquerdo.
+
+| a | b |
+|---|---|
+| Dental model side view left | Dental model side view right |
+
+| c | d |
+|---|---|
+| Dental model top view | Dental model bottom view |
+
+| e | f |
+|---|---|
+| Dental model side view left after correction | Dental model side view right after correction |
+
+Fig. 17.27 a-d - Fotos da face pré-tratamento, onde foram realizados avanço da maxila e mandíbula, além da correção do plano oclusal.
+
+| a | b | c | d |
+|---|---|---|---|
+| Front view before | Front view after | Side view before | Side view after |
+---
+ítulo 17
+
+Four dental images showing different stages of orthodontic treatment
+
+Fig. 17.28 a-d - Fotos intrabucais pós-tratamento. Correção da Classe II e da linha média.
+
+Os modelos devem ser obtidos:
+
+- no início do tratamento;
+- após a fase de alinhamento e nivelamento com fio .020" de aço;
+- dois meses após a terapêutica com fios retangulares;
+- dias antes da cirurgia;
+- ao final do tratamento.
+
+De maneira geral, o tempo de Ortodontia pré-cirúrgica varia entre 10 e 14 meses em casos sem exodontia, 18 meses em casos de duas extrações de pré-molares e 24 meses com 4 extrações de pré-molares. Durante esse período, o paciente deve fazer visitas regulares ao cirurgião para que ele possa acompanhar o andamento do tratamento, bem como aumentar o vínculo com o paciente e seus familiares, além de promover contato com pacientes que já foram operados a alguns dias e outros que retornam para visitas anuais, e que também estão aguardando na sala de espera, poderão transmitir "de paciente para paciente" as reais dificuldades do pós-operatório da cirurgia ortognática.
+
+A Ortodontia pós-cirúrgica serve para se realizarem os refinamentos finais e a intercuspidação. Varia em média de 4 a 6 meses, podendo se estender mais, caso não tenha sido possível refinar o preparo devido a interferências da oclusão ou se por ansiedade do paciente a cirurgia tenha sido antecipada.
+
+Alguns meses antes do final do tratamento ortodôntico, o paciente deve iniciar o acompanhamento com psicólogo e nutricionista, fundamentais, principalmente, para o período imediatamente após a cirurgia, pois, tanto a alimentação estará diferente nesta fase, como a face terá passado, muitas vezes, por grandes mudan-
+---
+ças que, embora para melhor, sempre são mudanças. Na maioria das vezes, constata-se uma melhora muito grande na auto-estima, com os pacientes valorizando se muito mais. Orientamos ainda os cuidados de um fonoaudiólogista para a reintrodução da mastigação e coordenação da mímica facial, bem como de um fisioterapeuta para drenagens e outros recursos que comprovadamente tornam o pós-cirúrgico mais confortável e acelere a recuperação.
+
+Outro item importante a se comentar é que alguns pacientes passam por um período pós-cirúrgico onde ocorre desconforto na ATM, às vezes, até manifestando um quadro de dor. Esse período, normalmente, é transitório e está ligado a uma fase de descoordenação muscular, promovido pelo próprio ato cirúrgico, onde os grupos musculares: masseter, pterigóideo medial, temporal, são totalmente desinseridos, fato que leva a um edema acentuado no pós-operatório imediato, causando retrusão temporária da mandíbula, e que associado ao peso do edema, pressiona as estruturas internas da articulação. Quando estamos diante deste quadro, anularemos esta situação com elásticos leves (5/16" médio), que diminui acentuadamente o desconforto pós operatório. Essa mesma situação é a responsável pelo período em que o paciente fica em Classe II nos primeiros dias após a cirurgia.
+
+Quanto à sensibilidade, ela é muito variável de paciente para paciente, porém o que mais se constata é que ocorre parestesia envolvendo os nervos maxilar e mandibular, bem como suas terminações (perda temporária da sensibilidade e não da motricidade, neste caso estaríamos diante de uma paralisia de nervos motores, não comum à cirurgia ortognática, devido ao acesso cirúrgico totalmente intrabucal), na região de lábios e dentes, que tende a voltar ao normal inicialmente na parte superior (lábio superior e dentes), em média em 3 semanas e depois na região inferior pode variar de 3 meses até 2 anos, dependendo da idade do paciente e do tamanho do movimento, principalmente nos avanços mandibulares. Por outro lado, devido a essa parestesia inicial, os pacientes não costumam ter muita dor na fase pós-operatória imediata.
+
+A mobilidade também sofre alteração. Os lábios ficam sem muito movimento nos primeiros meses (inclusive os pacientes ficam sem muita expressão nesse período). A relação lábio-incisivo nem deve ser muito considerada nesse período inicial, pois tende a melhorar. A abertura da boca fica limitada e os movimentos de lateralidade dificilmente são possíveis de serem realizados. A mastigação começa a normalizar após 60 a 90 dias. O paciente deve estar ciente de que é temporário.
+
+Embora o cirurgião explique tudo isso antes da cirurgia, essas informações são importantes que o ortodontista saiba para poder informar aos seus pacientes e com isso lhes dar também um pouco mais de tranquilidade e realidade.
+
+Com tudo que está envolvido num tratamento ortodôntico cirúrgico, nossa conclusão é que vale a pena e, acima de tudo, a decisão de seguir esse ou outro caminho não cabe a nós. Nossa obrigação é realizar um diagnóstico radical, informando aos pacientes tudo o que observarmos, dando as alternativas de tratamento, com seus prós e contras e fazendo-os participar da decisão.
+
+Os casos a seguir foram tratados com Ortodontia e Cirurgia ortognática, todos com cirurgias combinadas de maxila, mandíbula e mentoplastia (págs. 456 a 463).
+---
+# CASOS CLÍNICOS
+
+a b c
+
+d e f
+
+g h i
+
+j k l
+
+Fig. 17.29 a-l - Paciente K. G. - Tratamento ortodôntico com 4 extrações de pré-molares realizado pela Prof. Dra. Reinildes Paschoel em sua clínica privada em Campinas-SP.
+---
+| a | b | c |
+|---|---|---|
+| [Front view of a woman with long dark hair and red teardrop earrings] | [Side view of the same woman] | [Front view of the same woman smiling] |
+
+| d | e | f |
+|---|---|---|
+| [Front view of the same woman with hoop earrings] | [Side view of the woman with hoop earrings] | [Front view of the woman smiling with hoop earrings] |
+
+| g | h | i |
+|---|---|---|
+| [Close-up of teeth with braces, side view] | [Close-up of teeth with braces, front view] | [Close-up of teeth with braces, other side view] |
+
+| j | k | l |
+|---|---|---|
+| [Close-up of teeth without braces, side view] | [Close-up of teeth without braces, front view] | [Close-up of teeth without braces, other side view] |
+
+Fig. 17.30 a-l - Paciente K. F. - Tratamento ortodôntico com 2 extrações superiores, realizado pelos alunos da turma 8 do mestrado da Faculdade S. L. Mandic. Campinas, sob a responsabilidade dos Profs. Drs. Jurandir A. Barbosa e Helio Scavone, com planejamento e execução da cirurgia sob minha responsabilidade e do Prof. Dr. Renato Vita.
+---
+ulo 17
+
+| a | b | c |
+|---|---|---|
+| [Front view photo] | [Side profile photo] | [Smiling front view photo] |
+| d | e | f |
+| [Front view photo with earrings] | [Side profile photo] | [Smiling front view photo with earrings] |
+
+| g | h | i |
+|---|---|---|
+| [Close-up of teeth with braces] | [Close-up of teeth with braces] | [Close-up of teeth with braces] |
+| j | k | l |
+| [Close-up of teeth without braces] | [Close-up of teeth without braces] | [Close-up of teeth without braces] |
+
+Fig. 17.31 a-l - Paciente D. M. - Tratamento ortodôntico com 4 extrações realizado pelo Dr. Carlos Rondelli, em sua clínica privada em Americana-SP
+---
+| a | b | c |
+|---|---|---|
+| [Front-facing portrait] | [Side profile portrait] | [X-ray of skull profile] |
+
+| d | e | f |
+|---|---|---|
+| [Front-facing portrait] | [Side profile portrait] | [X-ray of skull profile] |
+
+| g | h |
+|---|---|
+| [Panoramic dental X-ray] | [Panoramic dental X-ray with additional structures] |
+
+Fig. 17.3? a-h - Paciente R. B. A. - Retratamento ortodôntico, a paciente já havia sido submetida a uma tentativa de tratamento sem cirurgia, por outro profissional, que resultou em 2 extrações superiores com perda de ancoragem, sendo necessário recorrer à segmentação maxilar para verticalizar os incisivos superiores cirurgicamente, realizado pelo Prof. Dr. João Baptista Soares Filho, em sua clínica privada no Rio de Janeiro/RJ.
+---
+17
+
+| a | b | c |
+|---|---|---|
+| [Front view of face] | [Side profile view] | [Front view of face smiling] |
+
+| d | e | f |
+|---|---|---|
+| [Front view of face] | [Side profile view] | [Front view of face smiling] |
+
+| g | h | i |
+|---|---|---|
+| [Close-up of teeth, side view] | [Close-up of teeth, front view] | [Close-up of teeth, side view] |
+
+| j | k | l |
+|---|---|---|
+| [Close-up of teeth, side view] | [Close-up of teeth, front view] | [Close-up of teeth, side view] |
+
+▲ Fig. 17.33 a-l - Paciente F.C. - Tratamento ortodôntico realizado pelo Dr. Fernando Delmar, em sua clínica privada em Campinas, sendo a paciente portadora de assimetria facial, com abertura da mordida unilateral, provocada por hiperplasia condilar do lado direito, doença que provoca crescimento unilateral da cabeça do mandíbula, comprometendo a oclusão e a face.
+---
+a   b   c
+
+d   e   f
+
+g   h   i
+
+j   k   l
+
+Fig. 17.34 a-l - Paciente J.P. Tratamento ortodôntico realizado pelo Prof. Dr. Jurandir Antonio Barbosa, em sua clínica privada em Jundiaí-SP, com alinhamento e nivelamento por segmentos, de canino a segundo molar bilateral e de incisivo lateral a incisivo lateral, com divergências das raízes de incisivo lateral e canino para permitir a segmentação da maxila e consequente nivelamento cirúrgico da arcada superior, corrigindo a Classe III, e mordida aberta e assimetria da face. Aproveitamos para utilizar como exemplo a contenção pós-tratamento, que não deve ter nenhum ponto de interferência na oclusão, sob o risco de remodelação condilar indesejável e recidiva do tratamento.
+
+---
+ulo 17
+
+| a | b | c |
+|---|---|---|
+| [Front view photo] | [Side profile photo] | [Front smiling photo] |
+| d | e | f |
+| [Front view photo, hair back] | [Side profile photo, hair back] | [Front smiling photo, hair back] |
+| g | h | i |
+| [Close-up of teeth with braces, right side] | [Close-up of teeth with braces, front view] | [Close-up of teeth with braces, left side] |
+| j | k | l |
+| [Close-up of teeth after treatment, right side] | [Close-up of teeth after treatment, front view] | [Close-up of teeth after treatment, left side] |
+
+▲ Fig. 17.35 a-l - Paciente R.S.V - Tratamento ortodôntico realizado pelo Prof. Dr. Mauro Picchioni, sendo a paciente portadora de agenesia do segundo pré molar superior direito, fato que não provocou o desvio da linha média superior em relação à face.
+---
+
+a▲ b▲ c▲
+
+d▲ e▲ f▲
+
+g▲ h▲ i▲
+
+j▲ k▲ l▲
+
+▲ Fig. 17.36 a-l - Paciente A.Y. - Tratamento Ortodôntico realizado pela Dra. Reinildes Puschel, sendo que o mesmo apresentava Classe III esquelética e agenesia dos incisivos laterais superiores.

@@ -1,0 +1,1630 @@
+# O STRAIGHT WIRE
+
+## INTRODUÇÃO
+
+A partir da dentição permanente, normalmente iniciamos o tratamento de segunda fase, realizado com aparatologia fixa. Esse tratamento pode ser uma continuidade do tratamento de primeira fase, realizado anteriormente, e que procura minimizar os problemas, facilitando e reduzindo o tempo de tratamento dessa segunda fase. Pode, também simplesmente, ser um tratamento novo. Pode, ser num paciente jovem ou num adulto. No paciente jovem, temos que considerar dois aspectos importantes: ele ainda pode apresentar crescimento e que terá toda uma vida pela frente. No paciente adulto, principalmente o de mais idade, muitas vezes, temos que respeitar a oclusão que este apresenta em prol da estabilidade futura, evitando assim grandes mudanças. Nessa segunda fase, o bom senso é imperativo, para encontrar o equilíbrio entre o tratamento ideal e o minimalista. Como já discutido, baseado nos objetivos gerais, definiremos os objetivos individuais e decidiremos o rumo de nosso tratamento.
+
+Uma vez que saibamos o caminho que queremos seguir, precisamos escolher as ferramentas que usaremos nessa jornada. E um dos itens a serem discutidos neste capítulo será a escolha da mecânica. Na verdade, não nos prendemos a nenhuma filosofia. A base principal que utilizamos é o Straight Wire MBT (Técnica preconizada pelos profs. McLaughlin, Bennett e Trevisi), com algumas modificações. Porém, algumas vezes, associamos outras filosofias, como o arco segmentado de Burstone ou arco seccional de Ricketts. Nos próximos capítulos discutiremos o porquê da escolha do MBT. Nós descreveremos a sequência básica de tratamento, desde a montagem do aparelho até a finalização e contenção. Nós debateremos alguns protocolos de tratamento para variados casos, que aparecem com mais frequência em nossos consultórios. Não é possível abordarmos todos os tipos de casos, mas os mais comuns. Nós apresentaremos uma técnica simplificada sobre ajuste oclusal, importante item na finalização dos casos. Nós discutiremos também sobre cirurgia ortognática, inclusive sobre o preparo ortodôntico prévio.
+
+Ao estudarmos a mecânica ortodôntica, observamos que existem diversos tipos de técnicas e filosofias, as quais utilizam variados tipos de braquetes. Essas variações estão ligadas à presença ou não de torques, angulações, rotações e in/out inseridos nos braquetes. Essas técnicas derivam do arco de canto (Edgewise) desenvolvido por Angle, no início do século XX. Se usarmos a técnica de Edgewise de forma clássica, sem alteração da posição de colagem dos acessórios (braquetes e tubos), somos obrigados a aplicar dobras de 1ª, 2ª e 3ª ordens nos fios ortodônticos (Fig. 12.1 a-c), de forma a obtermos uma boa finalização do tratamento.
+
+> Fig. 12.1 a-c - Quando utilizamos braquetes da técnica Edgewise, normalmente temos que aplicar dobras nos fios ortodônticos em três planos diferentes. No plano horizontal são chamadas dobras de 1ª ordem, no plano vertical dobras de 2ª ordem e, no sentido vestibulolingual, dobras de 3ª ordem (torque). Segundo Andrews, para confeccionar arcos ideais retangulares superior e inferior, incluindo os segundos molares, são necessárias 76 dobras. Com certeza, isso consome tempo, que poderia estar sendo usado para um melhor estudo do caso.
+
+▲ 12.1 a - Dobras de 1ª ordem (horizontais).
+
+[A imagem mostra uma ilustração de dentes com aparelho ortodôntico, destacando as dobras horizontais nos fios entre os braquetes.]
+---
+Capítulo 12
+
+[Imagem mostrando ilustrações de dentes com aparelhos ortodônticos]
+
+12.1.b - Dobras de 2ª ordem (Verticais).
+12.1.c - Dobras de 3ª ordem (Torque).
+
+Justamente devido ao tempo e à dificuldade de sempre se confeccionarem arcos com dobras idênticas, a Ortodontia evoluiu, com a criação de braquetes que contêm informações predeterminadas. Desde 1927, Angle já sugeriu que se posicionassem os braquetes angulados na tentativa de diminuir a necessidade de dobras de 2ª ordem. Depois, em 1957, Jarabak propôs a incorporação de inclinações nos braquetes para diminuir a necessidade de dobras de 3ª ordem. Foi a primeira modificação no próprio braquete, por isso ele é considerado o precursor dessa nova fase na Ortodontia. Até o início dos anos 60, existiam braquetes com torques com variação de 5°, partindo de 5° até 25°. Como se vê, já há muito tempo havia uma preocupação de criar um sistema que facilitasse a vida dos ortodontistas. Porém, não havia consenso quanto à quantidade de angulação e inclinação a ser dada em cada braquete. É nesse ponto que a pesquisa realizada por Andrews, em 1964, foi tão importante.
+
+A partir da avaliação de 120 pares de modelos, selecionados de uma amostra total de 1988, ele avaliou quais características estavam consistentemente presentes. Esses modelos apresentavam oclusão ótima naturalmente obtida. Nunca foram e nem precisariam ser tratadas ortodonticamente, apresentavam dentes alinhados e de boa aparência anatômica e pareciam ter oclusão excelente.
+
+A partir dessa descoberta é que Andrews criou as "Seis Chaves para uma Oclusão Normal", já citadas no capítulo 6. Para tentar atingir essas seis chaves, ele desenvolveu e apresentou em 1970 o aparelho Straight Wire, que revolucionou a Ortodontia. Os braquetes e tubos passaram a apresentar informações que procuravam diminuir a quantidade de dobras nos três planos. Essas informações foram baseadas nos resultados médios encontrados em sua pesquisa. Porém, Andrews introduziu algumas modificações, já pensando em compensações da mecânica, uma vez que não é possível aplicar as forças diretamente no centro de resistência dos dentes.
+---
+# IN-OUT
+
+| Edgewise | Straight Wire |
+|----------|---------------|
+| [Diagram of teeth alignment] | [Diagram of teeth alignment] |
+
+# ANGULAÇÃO
+
+| Edgewise | Straight Wire |
+|----------|---------------|
+| [Diagram showing tooth angulation] | [Diagram showing tooth angulation] |
+
+# INCLINAÇÃO
+
+| Edgewise | Straight Wire |
+|----------|---------------|
+| [Diagram showing tooth inclination] | [Diagram showing tooth inclination] |
+
+Fig. 12.2 a-c - Os braquetes de Straight Wire contêm informações que permitem o uso de arcos contínuos, diminuindo muito, mas não eliminando a necessidade de dobras.
+
+A partir daí surgiram e vão continuar surgindo inúmeras técnicas, algumas mais conhecidas e utilizadas e outras, menos. Na verdade, essas variações estão ligadas a opiniões baseadas principalmente em observações clínicas, e temos que considerar que a experiência clínica é de cada um, muito pessoal. A escolha da prescrição vai desde a filosofia de diagnóstico e objetivos de tratamento até a mecânica a ser utilizada.
+
+Nós acreditamos que não existe aparelho ruim, mas sim aparelho mal indicado.
+
+Nós apresentaremos, a seguir, as prescrições mais utilizadas no Brasil, para que possamos discutir um pouco a respeito e mostrar nosso protocolo de tratamento.
+
+# PRESCRIÇÕES
+
+Nós veremos também uma comparação com a pesquisa de Andrews, apresentando o resultado médio encontrado em relação à angulação e inclinação, fazendo o arredondamento de uma casa decimal.
+
+| PESQUISA DE ANDREWS |    |    |    |    |    |    |    |
+|---------------------|----|----|----|----|----|----|-----|
+| Maxila              | U1 | U2 | U3 | U4 | U5 | U6 | U7  |
+| Angulação           | 3,6°| 8° | 8,4°| 2,7°| 2,8°| 5,7°| 0,4°|
+| Torque              | 6,1°| 4,4°| -7,2°| -8,5°| -8,8°| -11,5°| -8,1°|
+| Mandíbula           | L1 | L2 | L3 | L4 | L5 | L6 | L7  |
+| Angulação           | 0,5°| 0,4°| 2,5°| 1,3°| 1,5°| 2° | 2,9°|
+| Torque              | -1,7°| -3,2°| -12,7°| -19°| -23,6°| -30,6°| -36°|
+
+Tab. 12.1
+---
+Capítulo 12
+
+### ANDREWS PADRÃO
+
+| Maxila    | U1  | U2  | U3  | U4  | U5  | U6   | U7   |
+|-----------|-----|-----|-----|-----|-----|------|------|
+| Angulação | 5°  | 9°  | 11° | 2°  | 2°  | 5°   | 5°   |
+| Torque    | 7°  | 3°  | -7° | -7° | -7° | -9°  | -9°  |
+| Rotação   | 0°  | 0°  | 0°  | 0°  | 0°  | 10° D| 10° D|
+
+| Mandíbula | L1  | L2  | L3   | L4   | L5   | L6   | L7   |
+|-----------|-----|-----|------|------|------|------|------|
+| Angulação | 2°  | 2°  | 5°   | 2°   | 2°   | 2°   | 2°   |
+| Torque    | -1° | -1° | -11° | -17° | -22° | -30° | -35° |
+| Rotação   | 0°  | 0°  | 0°   | 0°   | 0°   | 0°   | 0°   |
+
+▲ Tab. 12.2
+
+### ROTH
+
+| Maxila    | U1   | U2  | U3      | U4   | U5   | U6    | U7    |
+|-----------|------|-----|---------|------|------|-------|-------|
+| Angulação | 5°   | 9°  | 13° / 9°| 0°   | 0°   | 0°    | 0°    |
+| Torque    | 12°  | 8°  | -2°     | -7°  | -7°  | -14°  | -14°  |
+| Rotação   | 0°   | 0°  | 4° M    | 2° D | 2° D | 14° D | 14° D |
+
+| Mandíbula | L1  | L2  | L3   | L4   | L5   | L6   | L7   |
+|-----------|-----|-----|------|------|------|------|------|
+| Angulação | 2°  | 2°  | 7°   | -1°  | -1°  | -1°  | -1°  |
+| Torque    | -1° | -1° | -11° | -17° | -22° | -30° | -30° |
+| Rotação   | 0°  | 0°  | 2° M | 4° D | 4° D | 4° D | 4° D |
+
+▲ Tab. 12.3
+
+### MBT
+
+| Maxila    | U1   | U2   | U3      | U4  | U5  | U6    | U7    |
+|-----------|------|------|---------|-----|-----|-------|-------|
+| Angulação | 4°   | 8°   | 8°      | 0°  | 0°  | 0°    | 0°    |
+| Torque    | 17°  | 10°  | -7° / 0°| -7° | -7° | -14°  | -14°  |
+| Rotação   | 0°   | 0°   | 0°      | 0°  | 0°  | 10° D | 10° D |
+
+| Mandíbula | L1  | L2  | L3      | L4   | L5   | L6   | L7   |
+|-----------|-----|-----|---------|------|------|------|------|
+| Angulação | 0°  | 0°  | 3°      | 2°   | 2°   | 0°   | 0°   |
+| Torque    | -6° | -6° | -6° / 0°| -12° | -17° | -20° | -10° |
+| Rotação   | 0°  | 0°  | 0°      | 0°   | 0°   | 0°   | 0°   |
+
+▲ Tab. 12.4
+---
+## CAPELOZZA PADRÃO I
+
+| Maxila    | U1  | U2  | U3  | U4  | U5  | U6   | U7   |
+|-----------|-----|-----|-----|-----|-----|------|------|
+| Angulação | 5°  | 9°  | 8°  | 0°  | 0°  | 0°   | 0°   |
+| Torque    | 7°  | 3°  | 5°  | -7° | -7° | -10° | -10° |
+| Rotação   | 0°  | 0°  | 0°  | 0°  | 0°  | 10°D | 10°D |
+
+| Mandíbula | L1  | L2  | L3   | L4   | L5   | L6   | L7   |
+|-----------|-----|-----|------|------|------|------|------|
+| Angulação | 2°  | 2°  | 5°   | 2°   | 2°   | 0°   | 0°   |
+| Torque    | -1° | -1° | -11° | -17° | -22° | -25° | -25° |
+| Rotação   | 0°  | 0°  | 0°   | 0°   | 0°   | 0°   | 0°   |
+
+Na variação de acordo com o padrão, as alterações ficam restritas à região de canino a canino superior e inferior.
+
+## CAPELOZZA PADRÃO II
+
+| Maxila    | U1  | U2  | U3  |
+|-----------|-----|-----|-----|
+| Angulação | 5°  | 9°  | 5°  |
+| Torque    | 7°  | 3°  | -5° |
+
+| Mandíbula | L1  | L2  | L3   |
+|-----------|-----|-----|------|
+| Angulação | 2°  | 2°  | 5°   |
+| Torque    | 4°  | 4°  | -11° |
+
+## CAPELOZZA PADRÃO III
+
+| Maxila    | U1   | U2   | U3  |
+|-----------|------|------|-----|
+| Angulação | 5°   | 9°   | 11° |
+| Torque    | 14°  | 10°  | 2°  |
+
+| Mandíbula | L1  | L2  | L3   |
+|-----------|-----|-----|------|
+| Angulação | 0°  | 0°  | 0°   |
+| Torque    | -6° | -6° | -11° |
+
+Comparação das angulações entre as diferentes prescrições e a pesquisa de Andrews.
+
+## ANGULAÇÃO
+
+| Maxila       | U1    | U2  | U3      | U4   | U5   | U6   | U7   |
+|--------------|-------|-----|---------|------|------|------|------|
+| Pesquisa     | 3,6°  | 8°  | 8,4°    | 2,7° | 2,8° | 5,7° | 0,4° |
+| Andrews      | 5°    | 9°  | 11°     | 2°   | 2°   | 5°   | 5°   |
+| Roth         | 5°    | 9°  | 13°/9°  | 0°   | 0°   | 0°   | 0°   |
+| MBT          | 4°    | 8°  | 8°      | 0°   | 0°   | 0°   | 0°   |
+| Capelozza I  | 5°    | 9°  | 8°      | 0°   | 0°   | 0°   | 0°   |
+| Capelozza II | 5°    | 9°  | 5°      | 0°   | 0°   | 0°   | 0°   |
+| Capelozza III| 5°    | 9°  | 11°     | 0°   | 0°   | 0°   | 0°   |
+
+| Mandíbula    | L1   | L2   | L3   | L4   | L5   | L6  | L7   |
+|--------------|------|------|------|------|------|-----|------|
+| Pesquisa     | 0,5° | 0,4° | 2,5° | 1,3° | 1,5° | 2°  | 2,9° |
+| Andrews      | 2°   | 2°   | 5°   | 2°   | 2°   | 2°  | 2°   |
+| Roth         | 2°   | 2°   | 7°   | -1°  | -1°  | -1° | -1°  |
+| MBT          | 0°   | 0°   | 3°   | 2°   | 2°   | 0°  | 0°   |
+| Capelozza I  | 2°   | 2°   | 5°   | 2°   | 2°   | 0°  | 0°   |
+| Capelozza II | 2°   | 2°   | 5°   | 2°   | 2°   | 0°  | 0°   |
+| Capelozza III| 0°   | 0°   | 0°   | 2°   | 2°   | 0°  | 0°   |
+---
+Comparação das angulações entre as diferentes prescrições e a pesquisa de Andrews.
+
+| INCLINAÇÃO |
+|------------|
+
+| Maxila | U1 | U2 | U3 | U4 | U5 | U6 | U7 |
+|---------|----|----|----|----|----|----|----| 
+| Pesquisa | 6,1° | 4,4° | -7,2° | -8,5° | -8,8° | -11,5° | -8,1° |
+| Andrews | 7° | 3° | -7° | -7° | -7° | -9° | -9° |
+| Roth | 12° | 8° | -2° | -7° | -7° | -14° | -14° |
+| MBT | 17° | 10° | -7° / 0° | -7° | -7° | -14° | -14° |
+| Capelozza I | 7° | 3° | -5° | -7° | -7° | -10° | -10° |
+| Capelozza II | 7° | 3° | -5° | -7° | -7° | -10° | -10° |
+| Capelozza III | 14° | 10° | 2° | -7° | -7° | -10° | -10° |
+
+| Mandíbula | L1 | L2 | L3 | L4 | L5 | L6 | L7 |
+|-----------|----|----|----|----|----|----|----| 
+| Pesquisa | -1,7° | -3,2° | -12,7° | -19° | -23,6° | -30,6° | -36° |
+| Andrews | -1° | -1° | -11° | -17° | -22° | -30° | -35° |
+| Roth | -1° | -1° | -11° | -17° | -22° | -30° | -30° |
+| MBT | 6° | 6° | -6° / 0° | -12° | -17° | -20° | -10° |
+| Capelozza I | -1° | -1° | -11° | -17° | -22° | -25° | -25° |
+| Capelozza II | 4° | 4° | -11° | -17° | -22° | -25° | -25° |
+| Capelozza III | -6° | -6° | -11° | -17° | -22° | -25° | -25° |
+
+Como pudemos observar, existem grandes variações entre os autores e mesmo em relação à pesquisa. Andrews, após trabalhar com uma prescrição padrão, apresentou uma série de modificações de acordo com variadas situações, por exemplo, com torques diferentes para os incisivos em casos de Classes I, II e III. Isso está ligado diretamente à maneira de tratar o paciente. Roth, por exemplo, tinha uma filosofia baseada em objetivos de tratamento, que incluíam estética facial e dentária, oclusão funcional e saúde das ATMs, estabilidade e saúde periodontal. Para que isso seja possível, é importante que as bases ósseas estejam equilibradas, sendo, muitas vezes, necessária a cirurgia ortognática que, embora seja um ótimo recurso, nem sempre é aceito pelo paciente.
+
+Fundamental é que haja coerência na prescrição. Roth apresenta um canino superior bastante angulado para mesial, além de apresentar rotação de 4° para mesial e aí faz a compensação nos dentes posteriores, aplicando anti-rotação (rotação para distal) e deixando-os mais verticalizados para aumentar a ancoragem. Na arcada inferior ocorre o mesmo. Em relação ao torque, os dentes anteriores superiores apresentam-se mais abertos de canino a canino (mais vestibularizados), em comparação com Andrews, facilitando assim as guias funcionais. Os dentes posteriores têm prescrição parecida, sendo um pouco mais verticalizados, o que facilita
+---
+o assentamento vestibulolingual. Em 2000, Roth aceitou que fosse criada para o canino superior uma prescrição de 9° de angulação para diminuir o risco de perda de ancoragem (mesialização dos dentes posteriores), o que aumentava os riscos de se terminarem casos em Classe II de caninos.
+
+Capelozza também introduziu algumas mudanças, propondo uma variação nos dentes anteriores, incluindo os caninos. Isso vem da lógica de que os dentes de um paciente Padrão II não podem estar colocados da mesma forma que os de um paciente Padrão III. Isso é compatível com a frase que criou "o que é possível fazer, o que é razoável tentar e o que é impossível obter". Ou seja, sua prescrição abre a possibilidade de trabalhar de maneira compensatória, respeitando assim o padrão do paciente. É muito importante saber se desejamos essas compensações em nosso paciente. Os dentes posteriores apresentam informações muito parecidas com as de Andrews, com os molares inferiores estando um pouco mais verticalizados no sentido vestibulolingual (torque) e mesiodistal (angulação). O ponto forte da prescrição é a variação angular dos caninos, deixando-os mais verticalizados para casos de Padrão II e mais angulados para mesial em casos de Padrão III.
+
+O sistema MBT foi desenvolvido por McLaughlin, Bennett e Trevisi. Trabalha com forças leves, o que é possível devido à redução das angulações dos dentes anteriores, diminuindo a necessidade de ancoragem. Os dentes posteriores inferiores apresentam redução no torque negativo, deixando-os mais verticalizados, o que permite um melhor assentamento oclusal. Foi tirada também a informação de anti-rotação extra dos molares e pré-molares (Roth), o que diminuiu muito o desengrename nto que ocorria nas fases iniciais de alinhamento e nivelamento. Os caninos sofreram boa redução na sua angulação, o que facilita o encaixe em casos sem extração e o movimento de retração nos casos de extração. Os incisivos sofreram grande mudanças em relação ao torque. Os superiores com aumento do torque positivo, e os inferiores com aumento do torque negativo. Isso é devido à mecânica, pois os dentes superiores tendem a se inclinarem para trás durante fases de retração. Isso também ocorre com o uso de elásticos de Classe II, que nos dentes inferiores tendem a causar vestibularização.
+
+Portanto, observa-se, que a escolha da prescrição tem muito a ver com aquilo que pretendemos fazer.
+
+Na verdade, não existe um braquete que seja adequado para todo tipo de paciente. A individualização, executada pelo ortodontista, é sempre necessária. O que poderá existir no futuro, com a tecnologia, é o surgimento de um braquete para cada paciente e, se isso ocorrer, aí sim o diagnóstico e o planejamento serão mais importantes ainda.
+
+Sempre dizemos que se quer falar bem de uma técnica ou filosofia, você deve conhecê-la bem, mas se quer falar mal, deve-se conhecer muito mais.
+
+Muitas vezes, ao vermos colegas criticando algo, perguntamos quantas vezes trabalhou com aquilo e, normalmente, ouvimos: "nunca". Nós temos que tomar cuidado para que nossa ignorância em determinado assunto não nos leve a falar besteira.
+---
+# 13.
+## O porquê da técnica MBT
+---
+# O PORQUÊ DA TÉCNICA MBT
+
+Após esse breve resumo em relação às prescrições, apresentaremos nosso protocolo em relação à técnica MBT (técnica preconizada pelos profs. McLaughlin, Bennett e Trevisi), uma vez que, após trabalharmos com o sistema original, passamos a aplicar algumas modificações.
+
+A mudança da prescrição que utilizávamos (Roth) para MBT veio devido ao fato de estarmos tendo alguns problemas de ancoragem, principalmente devido ao desengrenamento posterior e determinada dificuldade de encaixarmos os caninos superiores em Classe I quando na época só existia o braquete de 13° de angulação para os caninos superiores. Outros fatores secundários também colaboraram com essa mudança: alguns casos de black space entre os incisivos superiores, perda de torque anterior superior durante a retração, aprofundamento de mordida em fases iniciais de tratamento (Fig. 13.1 a-f).
+
+É importante salientar que podem ser realizadas adaptações em qualquer técnica, como por exemplo, alterar posição de braquetes e tubos para minimizar os efeitos colaterais. Porém, acreditamos que quanto menos isso for necessário melhor.
+
+| Figura | Descrição |
+|--------|-----------|
+| a | Desengrenamento posterior. |
+| b | Aprofundamento de mordida anterior e abertura posterior. |
+| c | Recolagem de canino de 13° para tentar verticalizá-lo e corrigir a Classe II. |
+| d | Perda de torque anterior durante a retração, ficando sem overjet e ainda com espaço para fechar. |
+| e | Angulação excessiva do canino leva ao aprofundamento da mordida anterior e à abertura posterior. |
+| f | Black space. |
+
+Fig. 13.1 a-f - Problemas comuns que aparecem nos casos clínicos durante a mecânica de alinhamento e nivelamento, e retração com a técnica de Roth. Depois se revertia, mas o custo biológico e o de tempo não valiam a pena.
+---
+# O MBT
+
+Nós dividiremos a explicação sobre a prescrição MBT em região anterior, que compreende os incisivos superiores e inferiores e caninos e região posterior, que compreende pré molares e molares. Abordaremos os prós e contras mostrando as modificações que realizamos.
+
+## REGIÃO ANTERIOR - ANGULAÇÃO
+
+Foi diminuída nos incisivos e caninos superiores e inferiores em relação a Roth e Andrews, comprometendo menos a ancoragem.
+
+Nos incisivos superiores e inferiores em casos de coroas anatômicas mais triangulares, a angulação de Roth e Andrews favorece a formação de black space (Fig. 13.2 a c). Na técnica MBT, foi reduzido no incisivo central de 5° para 4° e no incisivo lateral, de 9° para 8°. Porém, tem que se tomar cuidado com dentes mais retangulares para não abrir espaço na região incisal, o que normalmente incomoda mais o paciente (Fig. 13.3 a d).
+
+| Imagem | Descrição |
+|--------|-----------|
+| a | Black space ao final do nivelamento. |
+| b | Recolagem para corrigir a angulação dos incisivos. |
+| c | Eliminação do black space. |
+
+Fig. 13.2 a-c - Em dentes triangulares, deve-se tomar cuidado para não criar black space (buraco escuro) entre os dentes anteriores (caso tratado com Roth).
+
+| Imagem | Descrição |
+|--------|-----------|
+| a | Início - ponto de contato correto. |
+| b | Abertura da região incisal durante o nivelamento. |
+| c | Dobra de 2ª ordem para correção. |
+| d | Ponto de contato corrigido e recolagem. |
+
+Fig. 13.3 a-d - Em dentes retangulares, deve-se tomar cuidado para não criar espaço na região incisal (caso tratado com MBT).
+---
+Fig. 13.4 a-c - O diagnóstico diferencial deve ser feito através de exames clínico e radiográfico. Três fatores podem causar black space: raízes divergentes, anatomia do dente e falta da crista óssea interproximal. Se for a raiz, recolar o braquete ou fazer dobra no fio, se for anatomia lixar a face proximal, e se for falta de osso fazer tratamento compensatório convergindo as raízes e se necessário colocar resina para preencher um pouco o espaço.
+
+De acordo com Tarnow, a distância ideal entre o ponto de contato das coroas e a crista óssea interproximal é de 5 mm. Desta maneira a papila gengival preencherá todo espaço. Quando diminuímos a inclinação das raízes adjacentes estamos mudando o ponto de contato mais para cervical do dente, aproximando-o da crista óssea, aumentando a previsibilidade da presença da papila na região.
+
+| a - Raízes convergentes | b - Raízes paralelas | c - Raízes divergentes |
+|--------------------------|----------------------|------------------------|
+
+Nos incisivos inferiores, a angulação mesial presente em Roth e Andrews (2°) foi eliminada, zerando na técnica MBT. Nós devemos tomar os mesmos cuidados abordados com os incisivos superiores.
+
+Nos caninos superiores, a angulação foi reduzida para 8° (Roth original tem 13° e agora também tem com 9°, Andrews é 11°). Essa redução foi fundamental para evitar o efeito "montanha russa", no início do nivelamento, que aprofunda a mordida anterior e abre a mordida posterior, perdendo um fator muito importante, que é ancoragem morfofuncional (engrenamento da oclusão), principalmente em casos onde o canino se encontra mal posicionado (verticalizado ou em infravestibuloversão, ou seja vestibularizado e aquém do plano oclusal).
+
+Fig. 13.5 a-b - Comparação da deflexão do fio no início do nivelamento e da direção hipotética que o fio seguiria a partir do canino, em dois casos similares em relação à posição do canino. No MBT, devido à menor angulação, a deflexão do fio não é tão acentuada.
+
+| a - Roth original - Angulação do canino 13° | b - MBT - Angulação do canino 8° |
+|---------------------------------------------|----------------------------------|
+
+Fig. 13.6 a-c - Quando o braquete do canino apresenta muita angulação, até ele ser nivelado, ele causa danos à oclusão, aprofundando a mordida anterior e abrindo a mordida posterior, o que facilita a perda de ancoragem. Depois, o quadro se reverte, porém o caso biológico e o de tempo são altos (caso tratado com Roth - canino, 13°).
+
+| a - Ancoragem morfofuncional - Início do caso: a oclusão está engrenada | b - Efeito "montanha russa" - perda da ancoragem morfofuncional | c - Quando os caninos se assentam, o quadro se reverte |
+|--|------------------------------------------------------------------|----------------------------------------------------------|
+---
+tulo 13
+
+Fig. 13.7 a-d - Quando o braquete do canino apresenta menos angulação, ele evita que ocorra muito desengrenamento da oclusão (caso tratado com MBT - canino 3°).
+
+| a - Início do caso - a oclusão está engrenada. | b - Início do nivelamento. |
+|------------------------------------------------|----------------------------|
+| c - Nivelamento superior com fio de aço .020". | d - Fase final da retração. |
+
+Essa redução de angulação também favoreceu o encaixe dos caninos superiores em Classe I, uma vez que eles passaram a estar mais verticalizados. Porém, na técnica MBT, os caninos inferiores também sofreram redução de angulação, passando para 3° (Andrews tem 5° e Roth 7°). Numa comparação entre os caninos superiores e inferiores em relação a Roth, houve mudança de 5° no superior e 4° no inferior e, em relação a Andrews, a mudança foi 3° no superior e 2° no inferior. Se a posição mais verticalizada do canino superior favorece a correção da Classe II, de certa forma a verticalização do canino inferior perpetua o problema. Então, preferimos um canino inferior um pouco mais angulado, com 5°, só que com menos torque negativo do que em Andrews e Capelozza. No final de 2007, a American Orthodontics lançou o braquete de canino inferior com 5° de angulação e 0° de torque.
+
+Nosso protocolo de uso dos caninos originais do MBT em relação à angulação é o seguinte (Fig. 13.8 a-c):
+
+- em casos de Classe I - colamos os caninos de forma padrão, seguindo o longo eixo da coroa;
+- em casos de Classe II - canino superior: abaixar a distal + 2° e canino inferior; subir a mesial + 2°, isso verticaliza o superior e inclina o inferior para mesial;
+- em casos de Classe III - canino superior: abaixar a mesial ± 2° e canino inferior; subir a distal + 2°, isso inclina o superior para mesial e verticaliza o inferior.
+
+| a - Classe I - colagem seguindo o longo eixo | b - Classe II - colagem para verticalizar o superior e inclinar inferior para mesial. | c - Classe III - colagem para inclinar o superior para mesial e verticalizar o inferior. |
+|---------------------------------------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+
+Fig. 13.8 a-c - De acordo com o problema, posicionamos os braquetes dos caninos em relação à angulação.
+---
+Essa alteração por ser pequena é fácil de ser realizada, sem atrapalhar a adaptação do braquete à anatomia dos caninos. Quando fazíamos essa modificação nos braquetes de Roth, perdíamos por não haver compatibilidade da nova posição do braquete em relação à forma do canino (Fig. 13.9 a b). Isso alterava o torque e a rotação do dente.
+
+| Fig. 13.9 a-b - Devido à grande angulação 13°, ao modificar a posição do braquete do canino de Roth, temos problemas com a adaptação à anatomia do dente, levando a alterações de torque e rotação. |
+|---|
+| [Duas imagens intraorais mostrando diferentes configurações de braquetes nos dentes] |
+
+Não optamos por usar braquetes de Andrews ou Capelozza nos caninos por preferirmos o torque diferente destes. Sendo assim, é mais simples fazer pequena alteração na colagem no início do tratamento do que ter de inserir torque posteriormente.
+
+## REGIÃO ANTERIOR - INCLINAÇÃO
+
+Incisivos superiores - o torque positivo foi aumentado, passando a 17° nos incisivos centrais e 10° nos laterais (Roth 12° e 8°, e Andrews 7° e 3°), tendendo a levá-los mais para vestibular.
+
+Incisivos inferiores - o torque negativo foi aumentado, passando a -6° (Roth e Andrews -1°), tendendo a deixá-los mais verticalizados.
+
+Os caninos apresentam 2 tipos de braquetes: um com gancho e torque de 0° e outro sem gancho com torque de -7° no superior, e -6° no inferior; podendo ser usado invertido em 180°, passando a +7° e +6° (Roth utiliza -2° no superior e -11° no inferior; Andrews -7° no superior e -11° no inferior).
+
+A prescrição MBT para os incisivos compensa os efeitos do uso de elásticos de Classe II, que tendem a verticalizar os superiores e vestibularizar os inferiores. Embora seja citado pelos autores que pode ser usado tanto em casos de Classe I como em Classe II ou III, discordamos, até pelo simples fato de que como uma única prescrição possa servir para situações tão contrárias. Nós temos que avaliar cada caso individualmente e, de acordo com a mecânica selecionada, faremos algumas modificações. O mais importante é definirmos que tipo de força os incisivos receberão.
+---
+Capítulo 13
+
+A seguir, mostraremos um protocolo de escolha dos braquetes de incisivos, de acordo com cada problema em relação aos mais comuns.
+
+- Classe I sem XP - MBT de canino para trás e Roth nos incisivos superiores e inferiores.
+- Classe I com XP (apinhamento) - MBT de canino para trás e Roth nos incisivos superiores e inferiores.
+- Classe I com XP (protrusão) - MBT de canino para trás e Roth nos incisivos superiores e inferiores.
+- Classe II sem XP (distalização ou propulsão mandibular) - MBT superior e inferior.
+- Classe II com XP de 4 pré-molares - MBT superior e no inferior, MBT de canino para trás e Roth nos incisivos.
+- Classe II com XP de 2 pré-molares superiores - MBT superior e inferior.
+- Classe III com ou sem XP - MBT superior e inferior.
+- Casos cirúrgicos sem XP - tratar como Classe I,ou seja, MBT de canino para trás e Roth nos incisivos.
+- Casos cirúrgicos com XP - MBT superior e Roth nos incisivos inferiores.
+
+Para facilitar, a American Orthodontics montou kits, com braquetes de MBT de caninos para trás e Roth nos incisivos superiores e inferiores, que chamamos de MBT Classe I (na verdade não existe e nem é autorizado pelos autores, é apenas para facilitar). É importante salientar que, dependendo do fabricante, podem haver diferenças no In-out (espessura) dos braquetes quando se misturam prescrições, o que causaria desalinhamento dos dentes.
+
+Olhando para esse protocolo, podemos observar que a indicação mais precisa para a prescrição dos incisivos é para tratamento compensatório de Classe III, vestibularizando os superiores e verticalizando os inferiores.
+
+Nos casos de Classe I, preferimos trocar por braquetes de Roth para não criarmos um overjet indesejado. Outra opção é dar torque compensatório nos fios ou arredondar o fio retangular superior na região dos incisivos.
+
+Já nos casos de Classe II, temos que avaliar a mecânica que será empregada, e principalmente se haverá exodontias inferiores. Nos casos de mecânica de retração na arcada superior, seja devido à extração ou ao uso de elásticos ou propulsores, temos que ter mais controle do torque, onde a técnica MBT nos atende bem. No caso da arcada inferior, temos que avaliar que tipo de força será empregada. Por exemplo, ao usar propulsores mandibulares ou elásticos de Classe II, a resultante será de vestibularização dos incisivos inferiores, então o braquete MBT atuará como uma força resistente, por tender a deixar os incisivos mais verticalizados. Agora, quando são realizadas exodontias na arcada inferior, naturalmente já há tendência à verticalização dos incisivos durante o fechamento dos espaços (Fig. 13.10 a-b). Então, preferimos, baseados em nossos resultados clínicos, usar braquetes de Roth nos incisivos inferiores, para termos mais controle de torque.
+
+[A imagem mostra dois casos clínicos, um modelo de gesso e uma fotografia intraoral, ilustrando o caso descrito no texto. A legenda indica: Fig. 13.10 a-b - Caso de Classe I com extrações tratado com MBT nos incisivos superiores e inferiores. Note, comparando com o modelo inicial, o bom controle de torque superior e a verticalização excessiva dos inferiores. No protocolo atual, quando há extração inferior, usamos braquetes de Roth nos incisivos inferiores.]
+---
+Nos caso de realizarmos apenas exodontias superiores, queremos normalmente uma retração com bom controle de torque, e na arcada inferior evitar a vestibularização dos incisivos, o que atrapalharia a retração superior (Fig. 13.11 a-b).
+
+Fig. 13.11 a-b - Caso de Classe II com extrações apenas na arcada superior, o controle de torque é fundamental. Usamos MBT superior e inferior.
+
+[Imagens omitidas: Duas fotografias intraorais mostrando aparelhos ortodônticos em dentes superiores e inferiores]
+
+Nos casos cirúrgicos, trabalhamos como casos de Classe I, pois a cirurgia fará a correção das bases ósseas. Apenas em casos de extração e cirurgia, usamos MBT nos incisivos superiores, em vez de Roth, pois não podemos correr o risco de uma possível verticalização dos incisivos superiores atrapalhar o posicionamento da mandíbula no momento da cirurgia (Fig. 13.12 a-b).
+
+Fig. 13.12 a-b - Caso cirúrgico preparado ortodonticamente com 4 extrações. A falta de controle de torque dos incisivos superiores impediu o posicionamento correto da mandíbula no momento da cirurgia. É fundamental a coordenação entre ortodontista e cirurgião.
+
+[Imagens omitidas: Duas fotografias intraorais mostrando dentes antes e após tratamento ortodôntico]
+
+No MBT, os caninos superiores apresentam dois tipos de braquetes. O de 0° de torque, que deixa os caninos mais verticalizados no osso. Esse braquete tem gancho e, normalmente, é utilizado em casos de arcadas triangulares ou ovais (as mais comuns para o padrão brasileiro) ou em casos de extrações onde se deseja um movimento de retração com mais liberdade dos caninos. O outro braquete é sem gancho e tem -7° de torque, como Andrews, usado em casos de arcadas mais largas, com bom osso basal. Ao invertermos o braquete na colagem, rodando-o 180°, ele passa a ter torque de +7°, que poderia ser utilizado em casos de arcadas muito estreitas, com pouco osso basal, ou em situações de agenesia de incisivo lateral, onde o canino será mesializado. Nesse caso, o canino terá a mesma angulação do incisivo lateral, e o torque positivo será parecido. Nós consideramos que o torque de 0° é adequado para muitos casos, uma vez que ele é bem parecido com o torque de -2° do braquete de Roth, e permite uma guia mais suave, com o ângulo funcional mais aberto. Além disso, o fato de usarmos ao final do nivelamento normalmente fios de calibre .019" x .025" que não preenchem totalmente o slot .022", faz com que não se aproveite todo o torque presente no braquete. A folga é de aproximadamente 10°, porém acreditamos que, devido aos movimentos mastigatórios e à gonfose, que leva os dentes a pequenos movimentos, a perda do torque não seja tão grande.
+---
+Nos caninos inferiores, também existem dois tipos de braquetes: o de 0° de torque com gancho que como o superior deixa os caninos mais verticais, o outro braquete é de - 6° de torque sem gancho, o que permite que ao invertermos ele passe a + 6°. O raciocínio é igual para a arcada superior. Nós consideramos que o torque de 0° é adequado para muitos casos, uma vez que observamos com freqüência que a arcada inferior apresenta atresia dentoalveolar, com os dentes inferiores inclinados para lingual. Quando temos uma arcada mais desenvolvida, aí o torque de - 6° é o mais indicado. Ao compararmos com a prescrição de - 11° presente nos braquetes de Andrews, Roth e Capelozza, percebemos uma diferença grande. Nossas observações clínicas mostram que, muitas vezes, ao usar braquetes com tamanho torque negativo, embora compatíveis com a pesquisa de Andrews (resultado médio dos caninos: - 12,7°), os caninos ficam muito inclinados para lingual, com a raiz ficando muito saliente (Fig. 13.13).
+
+Fig. 13.13 - Com frequência, observamos em casos tratados com torque de -11° nos caninos inferiores uma posição final destes muito lingualizada, criando inclusive algum problema nas guias, uma vez que há um overjet lateral fazendo com que o canino não participe de parte do movimento de lateralidade (caso tratado com prescrição Roth).
+
+Fig. 13.14 - Caso tratado com prescrição MBT de 0° nos caninos inferiores, deixando-os mais verticalizados.
+
+Fig. 13.15 a-c - Caso tratado com prescrição Roth. Observe a posição do canino inferior antes do início e durante o tratamento. O torque de -11°, muitas vezes, lingualiza os caninos inferiores. Aí é necessário aplicar torque positivo no fio para eliminar o overjet criado, que compromete a guia em canino.
+
+Ao usarmos braquetes de caninos com torque de 0°, temos que ficar atentos a dois fatores: o estético, observando se os caninos não ficarão muito aparentes durante o sorriso (Fig. 13.16 a-b) e a oclusão, avaliando com cautela se os caninos inferiores não estarão em traumatismo oclusal com os caninos ou incisivos laterais superiores. Para isso, temos que pedir para o paciente fechar a boca lentamente até o primeiro contato e observar se não há movimento do canino superior para vestibular. Se avaliarmos apenas estaticamente, com o paciente já em oclusão, podemos ser enganados, acreditando que o canino inferior encontra-se bem posicionado em relação ao torque.
+---
+Fig. 13.15 a-b - Caninos superiores muito verticalizados, muitas vezes, comprometem a estética, por se destacarem demais.
+
+## REGIÃO ANTERIOR - ROTAÇÃO
+
+Na prescrição Roth, o braquete dos caninos apresentam rotação para mesial de 4° para os superiores e 2° para os inferiores. A ideia é compensar uma possível rotação do canino para distal em casos de extração. Porém, o que vemos, muitas vezes, é um desalinhamento dos caninos em relação aos incisivos laterais (Fig. 13.17 a-b). A solução, neste caso, é a colagem do braquete mais para mesial para compensar. Nas outras prescrições, incluindo MBT, essa rotação não existe. Também é importante salientar que, algumas vezes, alguns ortodontistas comentam que, de acordo com a marca de braquetes que trabalham, essa rotação não existe. Isso ocorre por alteração do fabricante que não segue a prescrição original de Roth. Sendo assim, podemos até dizer que esse ortodontista está usando uma prescrição parecida, mas não exatamente Roth.
+
+Fig. 13.17 a-c
+
+> Fig. 13.17 a-c:
+> a-b - Caninos inferiores desalinhados em relação aos incisivos laterais. Necessidade de dobra offset mesial (dobra de 1ª ordem) para correção (caso tratado com prescrição Roth).
+> c - Braquete de Roth do canino superior direito mostrando a rotação para mesial.
+
+## REGIÃO POSTERIOR - ANGULAÇÃO
+
+Na arcada superior, foi mantida a angulação prescrita por Roth (0° para todos os posteriores), que já apresentava uma modificação na região dos pré-molares e molares em relação a Andrews (pré-molares + 2° e molares + 5°). Essa prescrição favorece o encaixe em Classe I, além de aumentar um pouco a ancoragem.
+
+Na arcada inferior, na técnica MBT, trabalha-se a região dos pré-molares com +2°, o que favorece o encaixe em Classe I e os molares com 0°. Roth já se preocupava mais com o preparo de ancoragem trabalhando todos os posteriores com -1°.
+
+Em relação à angulação dos posteriores superiores e inferiores, Capelozza trabalha de maneira igual ao MBT, porém a diferença importante está no torque posterior inferior, que deixa os dentes no MBT mais verticais no osso, favorecendo um melhor engrenamento oclusal.
+---
+## REGIÃO POSTERIOR - INCLINAÇÃO
+
+Na arcada superior, foi mantida a inclinação prescrita por Roth, com -7° para os pré-molares e -14° para os molares. Esse torque nos molares favorece o encaixe da oclusão e já é uma modificação em relação aos molares em Andrews (-9°).
+
+Na arcada inferior, há uma mudança importante. Comparando com Roth, o torque negativo dos dentes posteriores na técnica MBT foi reduzido em 5° nos pré-molares, 10° nos primeiros molares e 20° nos segundos molares (em relação a Andrews 25°), deixando-os mais verticalizados no osso, o que favorece muito a manutenção do engrenamento oclusal. Essa variação maior nos molares é devida ao fato de ser mais difícil incorporar torque quanto mais posterior for o dente. Porém, em nossa experiência clínica, o torque de -10° nos segundos molares inferiores, algumas vezes, mostra-se exagerado, vestibularizando-o. É recomendado quando o segundo molar erupciona lingualizado, às vezes, entrando até em mordida de Brodie.
+
+![Comparação entre as diferentes técnicas em relação aos torques dos dentes posteriores inferiores e molares superiores]
+
+| Técnica | Molar Superior | Pré-molar Superior | 2º Molar Inferior | 1º Molar Inferior | Pré-molar Inferior | Canino Inferior |
+|---------|----------------|--------------------|--------------------|-------------------|---------------------|------------------|
+| Andrews | -9°            | -9°                | -35°               | -30°              | -17°                | -11°             |
+| Roth    | -14°           | -14°               | -30°               | -30°              | -17°                | -11°             |
+| Capelozza| -16°          | -16°               | -25°               | -25°              | -17°                | -11°             |
+| MBT     | -14°           | -14°               | -10°               | -20°              | -12°                | -6°              |
+
+Avaliando o conjunto, vemos que existe um consenso quanto ao torque dos pré-molares superiores (-7°), que o torque de -14° nos molares superiores seja mais adequado e que a prescrição MBT, mais verticalizada desde os caninos inferiores, permite um melhor assentamento oclusal. Só não concordamos muito com o torque dos segundos molares inferiores, recomendando -20° como ideal.
+
+A grande diferença que sentimos quando mudamos nossa prescrição de Roth para MBT foi que o tratamento seguia, na maioria das vezes, mantendo o engrenamento oclusal, tão importante para ancoragem, conforto do paciente e até mesmo para termos um referencial melhor quanto ao que tínhamos que fazer no que diz respeito à relação ântero-posterior.
+---
+# REGIÃO POSTERIOR - ROTAÇÃO
+
+Na prescrição Roth, os braquetes dos pré-molares apresentam rotação distal de 2° para os superiores e 4° para os inferiores. Nos molares, apresentam uma rotação extra de 4° para distal (14° no superior e 4° no inferior). O objetivo dessas rotações é aumentar a ancoragem e evitar que, em casos de extrações, os dentes posteriores girem para mesial. Porém, o que observamos clinicamente é que, muitas vezes, isso leva a um desengrenamento da oclusão, com os pré-molares sendo jogados para fora, em direção vestibular. Isso só piora a ancoragem morfofuncional (Fig. 13.19 a-c). Nas outras prescrições, incluindo MBT, não há rotação para os pré-molares e nem para os molares inferiores. Nos molares superiores, há rotação distal de 10°, que na verdade apenas compensa a anatomia dos dentes, mantendo-os estáveis no osso.
+
+![Fig. 13.19 a-c - O tubo de Roth para os molares superiores apresentam rotação distal extra para aumentar a ancoragem, porém rodam os molares e projetam os pré-molares para fora (vestibular), desengrenando a oclusão. Somado a isso, há o torque negativo dos dentes posteriores inferiores.]
+
+| Imagem | Descrição |
+|--------|-----------|
+| a | Visão oclusal de dentes posteriores com aparelho ortodôntico |
+| b | Visão lateral de dentes posteriores com aparelho ortodôntico |
+| c | Visão frontal de dentes com aparelho ortodôntico completo |
+
+![Fig. 13.20 a-c - Tubo de Roth - a rotação pode ser compensada soldando os tubos mais para distal ou fazendo dobras de 1ª ordem (rotação mesial). O torque negativo dos dentes posteriores inferiores, aplicando torque positivo no fio ortodôntico]
+
+| Imagem | Descrição |
+|--------|-----------|
+| a | Antes do início do tratamento - bom engrenamento oclusal. |
+| b | Efeito negativo das rotações. |
+| c | Dobras realizadas para compensar. |
+---
+Esse talvez tenha sido o principal fator que nos levou a buscar alternativas e, ao iniciar essa nova fase com MBT, pudemos logo perceber que esse problema estava resolvido, na maioria das vezes. Isso nos motivou a ir em frente e, após alguns anos trabalhando com essa prescrição, passamos a adotar algumas mudanças para minimizar outros problemas que passaram a ocorrer (Fig. 13.21 a-f).
+
+[A imagem mostra seis fotografias intraorais de um caso tratado com MBT, mostrando a progressão do tratamento ortodôntico. As imagens estão organizadas em duas fileiras de três, mostrando vistas laterais e frontais dos dentes antes e depois do tratamento com aparelho ortodôntico.]
+
+Fig. 13.21 a-f - Caso tratado com MBT - a oclusão normalmente caminha corrigida no sentido vestibulolingüal, do início ao fim.
+
+## RESUMO E CONCLUSÃO
+
+Resumindo, de toda essa abordagem que fizemos sobre as prescrições, podemos concluir que, no MBT:
+
+- a prescrição posterior é muito boa, com alguma restrição para o torque do segundo molar inferior (muito vertical);
+- os caninos apresentam algum problema com a angulação, principalmente em casos de Classes II e III, podendo facilmente ser corrigido alterando-se a posição de colagem. Quanto ao torque, normalmente usamos o de 0°, podendo usar o de -7°/-6° em arcadas largas, com bom osso basal;
+- os incisivos são bons para Classe III, porém ruins para Classe I. E, nos casos de Classe II, temos que avaliar a mecânica que será empregada. Quando necessitarmos de mudanças, os braquetes de Roth nos atendem bem. Em casos de Classe II, tratados com compensação sem extração, os braquetes de Capelozza Padrão II são uma alternativa boa, porém podemos compensar com torques nos fios para não aumentar a necessidade de estoque no consultório.
+---
+# VERSATILIDADE
+
+O sistema MBT é chamado de versátil, pois apresenta algumas versatilidades. As sete principais são descritas a seguir:
+
+1 - Movimentação das raízes dos incisivos laterais superiores para vestibular, quando invertemos a posição de colagem em 180°. Isto também é possível em outras prescrições (Fig. 13.22 a-c).
+
+2 - Três opções de torques para os caninos superiores.
+
+3 - Três opções de torques para os caninos inferiores.
+
+4 - Braquetes intercambiáveis para os incisivos inferiores, devido ao fato de não ter angulação.
+
+5 - Braquetes intercambiáveis para os pré-molares superiores, devido ao fato de não ter rotação, o que não é possível na prescrição Roth.
+
+6 - Utilização de tubos dos segundos molares superiores, em casos sem ancoragem extrabucal, para diminuir o volume. Possível nas outras prescrições.
+
+7 - Uso de tubos dos segundos molares inferiores nos primeiros e segundos molares superiores do lado oposto, em casos finalizados em relação molar de Classe II, pelo fato de ter rotação 0°, angulação 0° e torque de -10°, o que permite deixá-lo mais verticalizado, posição mais adequada para essa situação (Fig. 13.26 a-c).
+
+| Incisivo Lateral | Incisivo Central | Incisivo Lateral | Incisivo Central |
+|------------------|-------------------|------------------|-------------------|
+| 10°              | 17°               | -10°             | 17°               |
+
+[Imagem mostrando a rotação dos dentes e braquetes]
+
+Fig. 13.22 a-c - A inversão do braquete do incisivo lateral permite trazer sua raiz para vestibular, uma vez que há inversão do torque, passando de positivo para negativo, o que será efetivo apenas quando colocarmos fios retangulares.
+---
+Capítulo 13
+
+Fig. 13.23 a-f - Quando o incisivo lateral se encontra posicionado por palatino (tanto a coroa quanto a raiz), ao fazermos o alinhamento, a coroa vem para vestibular mas a raiz não acompanha. É necessário torque extra. Então, se colocarmos o braquete invertido, com rotação de 180°, estaremos invertendo o torque, passando de positivo para negativo. Ao inserirmos fios retangulares, a raiz movimenta-se em direção vestibular. Note, nesse caso clínico, a mudança de zênite (nível) gengival e do alinhamento cervical na região palatina, dois itens importantes para serem observados em todos os alinhamentos de região anterior, pois ajuda na estabilidade do caso.
+
+a-b - Início do caso.
+c-d - Alinhamento com fios redondos.
+e-f - Alinhamento com fios retangulares.
+
+Fig. 13.24 a-d - Após atingirmos nossos objetivos, devemos ancorar o fio retangular na região de incisivos laterais, para não perder do ponto e criar problemas. Note, nesse caso clínico, como ocorreu o movimento da raiz do incisivo lateral para vestibular, inclusive aparecendo um volume na região vestibular. Novamente, houve mudança de zênite gengival e no alinhamento cervical por palatino.
+
+a,c - Após o alinhamento com fios redondos;
+b,d - Após o alinhamento com fio retangular.
+
+[The text is accompanied by several clinical photographs showing dental alignments and orthodontic treatments at various stages, illustrating the points made in the text.]
+---
+       As ver salilidades ? # 3 que divemnrespeilo aos braqueles dos caninos já foram comentadas.
+
+       As versatilidades 4 e 5 dizem respeito à possibilidade de uso de outro braquete que nãO seja exalamenle 0 do
+ dente a ser colado, numa eventual falra do braquete deste
+
+       A vcrsatilidadc 6 diz rcspcito a0 volumc, para mais conforto a0 pacicnte, sendo possível em qualquer prescrição
+ (Fig. 13.25 a d).
+
+  Fig. 13.25 ad Em todas as prescriçzas, poderos Trocar 0s tubos dos primeircs molares superiores  de segundos molares 5 que diminui 0 volume para dar
+                                                                            pelo
+   segundos molares; c d tubas de sogundos molares nos dais molares                                        tubos de pimncircs
+
+       A versatilidade 7 pode ser usada quando deixarmos os molarcs cm rclação dc Classc Il ao final do cratamento
+quando normalmente ele ficará um pouco girado para mesial e mais verticalizados para quc haja 0 assentamento com
+ 0 molar €prémolar inferiores. Nesse caso, usa-se noprimeiro           segundo molares superiores 0 tubo do segundo molar
+ inferior do lado oposto, que terá rotação 0 mantendo 0 molar girado para mesial e torque de       10 , próximo do torque
+ normal para molares superiores ( Fig. 13.26 ac)
+
+                                                                                Fig 13.26 a€ Tubo do sequndo rclar inferior direi-
+                                                                                  phjctivn &c mantelo girarlo  verticalizado para
+                                                                                melhor assentamento, indicado ros casos em que
+---
+# 14. Seqüência da mecânica
+---
+# SEQÜÊNCIA DA MECÂNICA
+
+A prioridade de tratamento segue a seguinte ordem: problemas transversais, verticais e ântero-posteriores.
+
+A partir de termos definido nosso diagnóstico e planejamento do caso, procederemos com a montagem do aparelho e a seqüência de mecânica. Neste capítulo, abordaremos de maneira resumida os principais aspectos de cada fase, da montagem à contenção.
+
+- Montagem do aparelho – bandagem, ancoragem e colagem.
+- Alinhamento e nivelamento – correção do overbite.
+- Fechamento de espaços – correção do overjet.
+- Renivelamento.
+- Finalização – intercuspidação.
+- Contenção.
+
+## MONTAGEM DO APARELHO
+
+Em nossa opinião, na mecânica, as duas fases mais importantes são a montagem do aparelho e o momento do fechamento de espaços, que determinarão a possibilidade de uma boa finalização. Alguns conceitos são necessários para se discutir a montagem/colagem do aparelho.
+
+Andrews, quando fez sua pesquisa e divulgou o aparelho Straight Wire, propôs o uso do centro da coroa clínica como o local de colagem dos braquetes e tubos. Porém, devido à dificuldade de se definir essa posição em determinadas situações fez com que alguns outros autores passassem a adotar o uso de tabelas para determinar a posição de colagem do aparelho. Nós pensamos que o uso de tabelas realmente facilita a montagem do aparelho, desde que não nos esqueçamos o conceito de Andrews, afinal os resultados que ele encontrou em sua pesquisa em relação a torque, angulação e in-out levou em consideração o centro da coroa clínica.
+
+[A imagem mostra três figuras ilustrativas de dentes com marcações:]
+
+Fig. 14.1 - Eixo vestibular da coroa clínica (EVCC).
+
+Fig. 14.2 - EV - ponto médio do eixo vestibular.
+
+Fig. 14.3 - Plano de Andrews. A superfície ou o plano no qual o plano médio transverso de cada coroa terá uma arcada contínua quando os dentes estiverem otimamente posicionados.
+---
+Segundo Orban, o comprimento da coroa clínica é 1,8 mm menor que o comprimento da coroa anatômica. Porém, isso nem sempre ocorre, o que impede de nos basearmos apenas no conceito de centro da coroa clínica no momento da colagem.
+
+Fig. 14.4 - Exemplo clínico de como podemos cometer erro na colagem se considerarmos apenas o critério de centro da coroa clínica.
+
+Outros itens a serem observados para uma colagem correta são: anatomia da coroa clínica, presença de fraturas nas bordas incisais e zênites gengivais.
+
+Fig. 14.5 - A anatomia alterada pode dificultar a colagem.
+
+Fig. 14.6 - Fratura de borda incisal. O dente deve ser reconstruído primeiro, porém avaliar nível gengival. Neste caso, permite um pouco de extrusão do dente 11.
+
+Fig. 14.7 a-b - Os zênites gengivais dos incisivos centrais e caninos superiores devem coincidir e o dos incisivos laterais deve estar 1 mm abaixo.
+
+a - Zênites gengivais corretos.
+b - Zênites gengivais alterados - invertidos.
+
+Fig. 14.8 - No momento da colagem, devem ser considerados a anatomia dos dentes e o nível gengival, principalmente em pacientes que mostram gengiva durante o sorriso, para se decidir se o nivelamento será pela borda incisal ou gengival, podendo-se desgastar o dente posteriormente.
+
+Fig. 14.9 a-b - Neste caso, optou-se pela extrusão do dente 21 para se buscar o nivelamento gengival, para posterior desgaste da borda incisal. O dente é anatomicamente longo.
+
+a - Início do tratamento
+b - Após o nivelamento
+---
+# POSICIONAMENTO DOS BRAQUETES
+
+## HORIZONTAL: POSIÇÃO MESIODISTAL
+
+Normalmente, fica no eixo vestibular da coroa clínica, ou seja, no centro mesiodistal dos dentes (Fig. 14.10 a-d), sendo que nos caninos aconselhamos deslocar levemente para mesial (Fig. 14.12).
+
+Fig. 14.10 a-d - O braquete deve estar situado no centro da coroa no sentido mesiodistal. Devemos olhar os dentes com espelho para confirmar o posicionamento.
+
+[A imagem mostra 4 fotografias dentárias ilustrando o posicionamento do braquete]
+
+Fig. 14.11 a-b - Sem o espelho fica difícil ter certeza da posição horizontal do braquete, principalmente quando a coroa do dente está parcialmente encoberta por outro dente.
+
+[A imagem mostra 2 fotografias de dentes com braquetes]
+
+Fig. 14.12 - Quando um dente está girado, podemos deslocar levemente o braquete para o lado do problema.
+
+[A imagem mostra um diagrama ilustrativo de dentes com braquetes, com uma seta indicando o deslocamento]
+
+Fig. 14.13 - Os braquetes dos caninos normalmente devem ser colados um pouco deslocados para mesial, a fim de que se mantenham alinhados.
+
+[A imagem mostra uma fotografia de dentes caninos com braquetes]
+
+Fig. 14.14 a-b - Nos molares, os tubos ficam centralizados na face vestibular.
+
+[A imagem mostra 2 fotografias de molares com tubos ortodônticos]
+---
+VERTICAL: POSIÇÃO CERVICOCLUSAL
+
+Normalmente, deve ficar no centro da coroa clínica, porém como já foi abordado, nem sempre é possível. Por isso, preferimos adotar tabelas de colagem (Tabs. 14.1 e 14.2). Elas são baseadas numa média da altura das coroas clínicas e serve para a maioria dos casos. Nós usamos posicionadores para checar a altura da colagem. Eles devem ser colocados perpendiculares à coroa clínica dos dentes.
+
+Fig. 14.15 a-b - No sentido vertical, o braquete deve ficar no centro da coroa clínica, porém isso nem sempre é possível. O mais importante é usar o bom senso.
+
+Fig. 14.16 a-c - Os posicionadores são usados para checar a altura da colagem. Eles devem ser colocados perpendiculares à coroa clínica dos dentes.
+
+Na arcada superior (Tab. 14.1), avaliamos o tamanho da coroa clínica do primeiro pré-molar e aí e diminuímos a altura para os dentes posteriores, aumentamos nos caninos e incisivos centrais superiores e mantemos nos incisivos laterais.
+
+Na arcada inferior (Tab. 14.2), avaliamos o tamanho da coroa clínica do primeiro pré-molar e aí e diminuímos a altura para os dentes posteriores, aumentamos nos caninos e mantemos nos incisivos centrais e laterais.
+
+| TABELA DE COLAGEM |                |
+|-------------------|----------------|
+| DENTE             | POSIÇÃO DO SLOT|
+| Incisivo Central  | 4,5 mm         |
+| Incisivo Lateral  | 4,0 mm         |
+| Canino            | 4,5 mm         |
+| Primeiro Pré-molar| 4,0 mm         |
+| Segundo Pré-molar | 3,75 mm        |
+| Primeiro molar    | 3,5 mm         |
+| Primeiro molar    | 3,0 mm         |
+
+Tab. 14.1 - Arcada superior. Posição do slot em relação à borda incisal (tamanho médio de dentes).
+
+| TABELA DE COLAGEM |                |
+|-------------------|----------------|
+| DENTE             | POSIÇÃO DO SLOT|
+| Incisivo Central  | 4,0 mm         |
+| Incisivo Lateral  | 4,0 mm         |
+| Canino            | 4,5 mm         |
+| Primeiro Pré-molar| 4,0 mm         |
+| Segundo Pré-molar | 3,75 mm        |
+| Primeiro molar    | 3,5 mm         |
+| Primeiro molar    | 3,0 mm         |
+
+Tab. 14.2 - Arcada inferior. Posição do slot em relação à borda incisal (tamanho médio de dentes).
+---
+Com essa maneira de colar, teremos a guia em caninos, porém com uma desoclusão não muito vertical. Já a guia protrusiva será de 4 incisivos inferiores contra 2 superiores (incisivos centrais) (Fig. 14.18). Consideramos ser esta a maneira para o equilíbrio entre função e estética. Se colarmos os caninos superiores com uma diferença maior e os incisivos laterais superiores com a mesma altura dos icisivos centrais, estaremos favorecendo as guias funcionais, porém comprometendo a estética, pois os caninos irão se destacar muito e ficará uma sensação de sorriso invertido (Fig. 14.19 a-b).
+
+Fig. 14.17 - Guia em caninos. Como a colagem de caninos e incisivos segue a mesma altura a guia é suave.
+
+[Imagem de dentes mostrando a guia em caninos]
+
+Fig. 14.18 - Guia protrusiva. Como a colagem dos incisivos superiores é diferente a guia fica só nos incisivos centrais.
+
+[Imagem de dentes mostrando a guia protrusiva]
+
+Fig. 14.19 a-b - Os dentes superiores devem acompanhar a curvatura do lábio inferior. Se os caninos são colados com uma medida maior que os incisivos centrais superiores, eles podem se destacar muito durante o sorriso.
+
+[Duas imagens de sorrisos mostrando diferentes alinhamentos dos dentes superiores]
+
+Nos dentes posteriores, após instalarmos os tubos dos primeiros molares, posicionaremos os tubos dos segundos molares e os braquetes dos segundos pré-molares de forma que o fio passe de maneira passiva em relação à altura, desde que as cristas marginais estejam niveladas. Se não estiverem, podemos avaliar quantos milímetros há de diferença e fazer a compensação, para que cheguem ao final do tratamento niveladas.
+
+Fig. 14.20 a-b - Se as cristas marginais estiverem niveladas, colamos o segundo pré-molar de forma que o fio passe de maneira passiva em relação à altura do primeiro molar.
+
+[Imagem esquemática de dentes com aparelho ortodôntico e imagem real de dentes com aparelho ortodôntico]
+---
+Não seguiremos a tabela quando estivermos diante de uma boca com dentes grandes, devendo aumentar a distância de colagem em relação às bordas incisais, porém devemos manter as mesmas proporções entre os dentes. O mesmo raciocínio deve ser feito no caso de uma boca com dentes pequenos, onde reduziremos a distância.
+
+Em casos de mordidas profundas, colamos os incisivos e caninos superiores e inferiores de 0,5 a 1 mm mais para incisal, para compensar e facilitar a correção. O mesmo raciocínio pode ser feito para mordidas abertas, levando os braquetes dos incisivos e caninos de 0,5 a 1 mm mais para cervical.
+
+Fig. 14.21 - Em casos de mordida profunda, colar os incisivos e caninos de 0,5 a 1 mm mais para incisal.
+
+Fig. 14.22 - Em casos de mordida aberta, colar os incisivos e caninos de 0,5 a 1 mm mais para cervical.
+
+## AXIAL: POSIÇÃO EM RELAÇÃO À ANGULAÇÃO DO DENTE
+
+Normalmente, colamos os braquetes seguindo o longo eixo da coroa clínica dos dentes.
+
+Fig. 14.23 a,b - Nos incisivos, devemos nos preocupar em estabelecer um bom ponto de contato e deixar as raízes quase paralelas ao final do tratamento.
+
+Fig. 14.24 - Colagem compensatória para a correção de black space (braquetes de Roth).
+
+Fig. 14.25 - Deve haver equilíbrio no ponto de contato, sem ocorrer black space ou abrir a região incisal (braquetes de MBT).
+---
+Outro item importante é deixá-los paralelos ao plano sagital mediano (PSM). Segundo Kokich, se os incisivos superiores apresentam desvio da linha média, porém estão paralelos ao PSM é muito menos perceptível do que se eles estiverem inclinados (Fig. 14.26).
+
+Fig. 14.27 - A colagem do dente 21 favorece o agravamento do quadro. A inclinação é muito mais perceptível do que um desvio da linha média, onde os dentes estejam paralelos ao plano sagital mediano.
+
+Fig. 14.26 - Paciente com plano oclusal inclinado.
+
+Fig. 14.28 a-c - Outro paciente com grande alteração do plano oclusal numa vista frontal. Colagem compensatória para mudar a angulação dos dentes anteriores superiores, e assim disfarçar o problema. Os braquetes são angulados, deslocando-os no mesmo sentido, porém colados um pouco mais alto do lado onde o plano oclusal está inclinado para cima. Conforme vai ocorrendo a movimentação dos dentes devem ser realizados desgastes nas bordas incisais, pois as mesmas vão ficando desniveladas.
+
+a. Plano oclusal mais baixo do lado direito.
+b. Colagem compensatória.
+c. Compensação estética por mudança da angulação dos incisivos.
+
+Fig. 14.29 a e b
+a - Plano oclusal correto - colagem normal.
+b - Plano oclusal inclinado - colagem compensatória.
+
+| a | b |
+|---|---|
+| [Diagrama mostrando 4 dentes com braquetes alinhados uniformemente] | [Diagrama mostrando 4 dentes com braquetes alinhados em ângulo ascendente da esquerda para a direita] |
+---
+Nos caninos, devemos observar o engrenamento em Classe I, podendo assim fazer pequenas alterações na colagem, deixando-o um pouco mais verticalizado ou angulado, de acordo com cada caso. Isso já foi explicado no capítulo 12.
+
+Nos pré molares, em geral, colamos o braquete paralelo às cristas marginais do dente, só devendo tomar cuidado com alterações anatômicas que poderiam levar a erros.
+
+Nos molares, também colamos paralelo às cristas marginais, deixando a mesma quantidade de cúspide exposta na mesial e distal. Em casos que necessitamos aumentar a ancoragem, podemos colocar os tubos 0,5 mm mais para cervical na mesial; assim, quando o dente for nivelado, ele estará numa posição mais verticalizada, dificultando o seu deslocamento para mesial.
+
+> Fig. 14.30 - Quando desejamos verticalizar os molares, podemos colocar o tubo mais para cervical na mesial.
+
+[A imagem mostra uma fotografia intraoral de dentes com aparelho ortodôntico, ilustrando a colocação dos tubos nos molares.]
+
+## COLAGEM INFERIOR EM MORDIDAS PROFUNDAS
+
+Em alguns casos, necessitamos montar o aparelho fixo inferior, mas não temos espaço devido à mordida profunda. Para resolver essa situação, temos 3 alternativas.
+
+- Montar o aparelho superior e protruir os incisivos - indicado mais em casos onde os incisivos superiores estejam lingualizados (Fig. 14.31 a-c).
+- Instalar um levante anterior - pacientes meso ou braquifaciais, pois permite a extrusão posterior (Figs. 14.32 a-c e 14.33 a-c).
+- Instalar um levante posterior - pacientes meso ou dolicofaciais, pois faz o controle vertical (Fig. 14.34 a-c).
+
+[A imagem mostra um diagrama ilustrativo e duas fotografias intraorais demonstrando a montagem do aparelho superior e a vestibularização dos incisivos.]
+
+> Fig. 14.31 a-c - Montagem do aparelho superior e vestibularização dos incisivos para permitir a colagem inferior.
+---
+▲ Fig. 14.32 a-c - Colagem de Bite Turbo para levante anterior de mordida, indicado para meso ou braquifaciais.
+
+| a | b | c |
+|---|---|---|
+|  |  |  |
+
+▲ Fig. 14.33 a-c - Plano anterior fixo para levante de mordida, indicado para meso ou braquifaciais. Pode ter inclinação para anterior, afim de induzir a mandíbula a deslizar para a frente.
+
+| a | b | c |
+|---|---|---|
+|  |  |  |
+
+▲ Fig. 14.34 a-c - Levante posterior indicado para dolicofaciais.
+a-b - levante removível
+c - levante de resina fotopolimerizável na superfície oclusal.
+
+| a | b | c |
+|---|---|---|
+|  |  |  |
+---
+# ANCORAGEM
+
+A ancoragem no tratamento ortodôntico é um dos itens mais importantes na Ortodontia; afinal, segundo a 3ª Lei de Newton, "a toda ação existe uma reação de mesma intensidade no sentido oposto". Em todo movimento realizado existe uma tendência a ocorrer uma reação contrária, que chamamos de efeito colateral. Quanto mais pudermos prever esse efeito colateral, melhor caminharemos com a mecânica ortodôntica. Em muitos casos, ele é prejudicial e temos que minimizá-lo ao máximo através de sistemas de ancoragem. Em outros casos, ele é benéfico e pode até ajudar a acelerar os resultados do tratamento.
+
+Para definirmos a ancoragem a ser utilizada em cada caso, devemos determinar o planejamento a ser executado, o que foi amplamente discutido no capítulo 9.
+
+A avaliação é feita antes de iniciarmos o tratamento e deve ser checada a cada sessão, a fim de verificar se a ancoragem está sendo suficiente ou deve ser aumentada.
+
+A quantidade de ancoragem depende de alguns fatores.
+
+## QUANTIDADE DE MOVIMENTO A SER REALIZADO E O ESPAÇO DISPONÍVEL
+
+[A imagem mostra uma ilustração de dentes com aparelho ortodôntico]
+
+Fig. 14.35 - Clinicamente, devemos seguir a seguinte ordem para avaliar o andamento do caso a cada sessão:
+
+- checar a relação posterior (molares e pré-molares);
+- checar a relação dos caninos;
+- checar o overjet.
+
+## OS DENTES A SEREM MOVIMENTADOS (QUAIS E QUANTOS)
+
+[A imagem mostra duas fotografias intraorais da arcada dentária superior]
+
+Fig. 14.36 - Fechamento de espaço - 5 dentes posteriores contra 4 anteriores.
+
+Fig. 14.37 - Fechamento de espaço - 8 dentes anteriores contra 2 posteriores.
+---
+A MAGNITUDE DA FORÇA QUE DEVE SER RESISTIDA
+
+Fig. 14.38 - Fechamento de espaço: arcada superior - retração de canino; arcada - inferior retração do bloco.
+
+[Image of teeth with braces showing the closure of space in the upper and lower dental arches]
+
+| Magnitude da força necessária para cada movimento |           |
+|---------------------------------------------------|-----------|
+| Inclinação                                        | 50-75 g   |
+| Movimento de corpo                                | 100-150g  |
+| Verticalização                                    | 70-125g   |
+| Rotação                                           | 50-75g    |
+| Extrusão                                          | 50-75g    |
+| Intrusão                                          | 15-25g    |
+
+Tab. 14.3 - PROFFIT, W.R., Ortodontia Contemporânea, Editora Guanabara Koogan, 2ª edição, pág. 282, 1995.
+
+A QUANTIDADE DE MOVIMENTAÇÃO A SER REALIZADA
+
+[Four images of dental arches with braces, showing different stages of tooth movement]
+
+Fig. 14.39 a-d - Caso com muito apinhamento não exige muito da ancoragem, pois os dentes ocuparão rapidamente o local dos dentes que foram extraídos, sem necessidade de retração.
+
+[Two images of dental arches with braces, showing a case with less crowding]
+
+Fig. 14.40 a-b - Caso sem apinhamento e que é de retração exige mais da ancoragem, pois os dentes terão que ser arrastados dentro do osso.
+---
+# A MORFOLOGIA RADICULAR E QUANTIDADE DE OSSO
+
+  
+
+▲ Fig. 14.41 a-b - Os dentes posteriores apresentam uma área de raiz maior do que a dos dentes anteriores.
+
+
+
+▲ Fig. 14.42 - Quanto menos osso, mais crítica fica a ancoragem.
+
+## ANCORAGEM MORFOFUNCIONAL
+
+  
+
+▲a                ▲b
+
+▲ Fig. 14.43 a-b - Pacientes braquifaciais tendem a perder menos ancoragem do que os dolicofaciais.
+
+  
+
+▲a                ▲b
+
+▲ Fig. 14.44 a-b - Pacientes com oclusão mais engrenada e com anatomia mais profunda dos dentes tendem a perder menos ancoragem do que dentes desengrenados e com anatomia mais rasa.
+---
+Uma vez definido o planejamento e avaliado os critérios citados, selecionaremos a ancoragem.
+
+Na maxila, didaticamente, preferimos dividir em 3 grupos:
+
+- ancoragem leve: por exemplo, barra palatina fixa;
+- ancoragem forte: por exemplo, barra palatina fixa + botão de Nance;
+- ancoragem absoluta: miniimplantes.
+
+Na mandíbula dividimos em:
+
+- ancoragem leve: por exemplo, arco lingual;
+- ancoragem absoluta: miniimplantes.
+
+Logicamente, que se aceitam variações, como, por exemplo, na necessidade de expansão, podemos usar um quadri-hélice que depois servirá de ancoragem (Fig. 14.46). Porém, lembramos que, ao realizarmos a expansão, normalmente levamos a um desengrenamento temporário da oclusão, o que significa perda da ancoragem morfofuncional, tão importante no tratamento.
+
+Fig. 14.45 - Barra palatina fixa.
+Fig. 14.46 - Quadri-hélice sendo usado como ancoragem após ter sido usado para expansão.
+
+O arco extrabucal é um excelente recurso de ancoragem, entretanto, dependemos muito da colaboração do paciente.
+
+Em casos de ancoragem forte, temos que avaliar o seguinte: se o caso apresenta discrepância de modelo muito negativa devido a apinhamento severo, podemos lançar mão de uma barra palatina com botão de Nance, pois haverá pouca ou nenhuma retração anterior. Porém, se o caso não apresenta discrepância muito negativa e envolve muita retração anterior o botão de Nance, não deverá ser usado ou se for usado, deverá primeiro se fazer a retração completa de caninos, depois remover o botão de Nance e retrair os incisivos. Nessa situação, hoje, com certeza, a melhor opção é o uso de miniimplantes, que economiza tempo de tratamento e melhora a qualidade dos resultados.
+---
+tulo 14
+
+Image a Image b Image c
+
+Image d Image e
+
+> Fig. 14.47 a-j: Casos com muito apinhamento permitem o uso do botão de Nance, pois praticamen-te não ocorre movimento de re-tração anterior.
+> g-e: Início do tratamento.
+> f-j: Após o alinhamento, quase todos os espaços das extrações foram ocupados.
+
+Image f Image g Image h
+
+Image i Image j
+
+Image k
+
+> Fig. 14.48: O botão de Nance po-derá atrapalhar o movimento de retração em casos sem muito api-nhamento. Nessa situação, seria indicado outro tipo de ancoragem ou teríamos que fazer a retração dos caninos para depois realizar a retração dos incisivos.
+
+Image l
+
+> Fig. 14.49: Tentar retrair sem remover o botão de Nance pode machucar o palato.
+---
+Uma observação importante a se fazer é que, ao escolhermos uma ancoragem fixa, devemos sempre avaliar os molares, pois, muitas vezes encontram-se mal posicionados e ao fazermos o alinhamento levaremos outros dentes para uma posição errada. Nós devemos inicialmente corrigir os molares (Figs. 14.50 a-d e 14.51 a-d).
+
+Fig. 14.50 a-d - Molares girados para mesial. Ao ancorá-los, os pré-molares foram levados para lingual durante o alinhamento. Somente após a retirada da ancoragem fixa e a instalação da barra palatina removível foi possível corrigir o problema.
+
+[A imagem mostra uma série de quatro fotografias da arcada dentária superior, demonstrando o processo de correção dos molares girados.]
+
+Fig. 14.51 a-d - Molares girados para mesial e lingualizados. Primeiro foi corrigido com barra palatina removível para depois ser dada sequência ao tratamento.
+
+[A imagem mostra outra série de quatro fotografias da arcada dentária superior, ilustrando outro caso de correção de molares girados.]
+
+Outros fatores que podem ajudar na ancoragem estão ligados a:
+
+- prescrição da técnica;
+- tipos de braquetes;
+- montagem do aparelho.
+
+No caso da prescrição, foram abordadas no capítulo 13 algumas variações, que existem principalmente ligadas aos molares e caninos. Na prescrição, Roth original, por exemplo, os caninos superiores apresentam uma angulação de 13° (muito acentuada) e os molares, uma rotação aumentada para compensar (14°). Já no MBT, a angulação do canino é mais suave (8°) e com isso os molares não necessitam de compensação na rotação.
+---
+Quanto aos tipos de braquetes, as modificações estão ligadas principalmente aos caninos. Nos últimos anos, surgiram braquetes que procuram dar mais liberdade de movimento aos caninos, diminuindo o atrito (Fig. 14.52 a-e).
+
+![Fig. 14.52 a-e - Vários braquetes surgiram com o objetivo de facilitar o movimento de retração dos caninos. O mais atual é o Barbosa Versátil do prof. Jurandir A. Barbosa, que incorpora os conceitos dos braquetes Synergy e Tip-Edge além de outros detalhes, como o projeto que permite o uso combinado com qualquer técnica ou braquete, tornando-se, assim, uma ótima opção, principalmente quando não podemos perder ancoragem posterior.]
+
+a - Braquete Synergy (Rocky Mountain)
+b - Braquete Tip-Edge (TP Orthodontics)
+c - Braquete Barbosa Versátil (GAC)
+d e e - A amarração feita nas aletas centrais diminui o atrito
+
+![Fig. 14.53 - Braquete de canino com muita angulação favorece sua deflexão do fio no momento da retração, dificultando o deslize e aprofundando a mordida.]
+
+![Fig. 14.54 - Usando um braquete sem angulação a corda desliza com facilidade para trás (menos risco de perda de ancoragem). Depois, faz-se a correção da raiz.]
+
+Outros braquetes que surgiram com a proposta de gerar menos atrito, facilitando assim o deslize, são os autoligados (Fig. 14.55). Aparentemente, nos fios redondos, usados no início do tratamento, isso realmente ocorre, porém nos fios mais calibrosos retangulares não há muita diferença em relação aos braquetes convencionais.
+
+![Fig. 14.55 - Braquete autoligado (Time - American Orthodontics)]
+---
+| a | b | c |
+|---|---|---|
+| [Left side view of teeth] | [Front view of teeth] | [Right side view of teeth] |
+| d | e | f |
+| [Left side view with braces] | [Front view with braces] | [Right side view with braces] |
+| g | h | i |
+| [Left side view with braces and hooks] | [Front view with braces and hooks] | [Right side view with braces and hooks] |
+
+Fig. 14.56 a-i - Paciente apresentando Classe II dentária bilateral tratado com distalização e braquetes autoligados.
+a-c - Fotos pré-tratamento.
+d-f - Distalização sendo realizada com bimetric de Wilson.
+g-i - Fotos pós - distalização, realizando a retração.
+
+## MINIIMPLANTES
+
+A ancoragem absoluta com miniimplantes é o tipo mais eficaz de ancoragem estática. Também denominado dispositivo de ancoragem temporário (DAT), anula totalmente a reação indesejada na ancoragem.
+
+O ligamento periodontal é o responsável pela transmissão dos estímulos de reabsorção e neoformação óssea para o movimento dentário. Desta forma, os dentes de apoio da ancoragem sempre estarão sujeitos à movimentação, enquanto os miniimplantes, por não possuírem ligamento periodontal, são estáticos.
+---
+Os miniimplantes (Fig. 14.57) derivam dos implantes utilizados para reabilitação protética, que também podem ser utilizados como ancoragem ortodôntica, com a diferença de que estes não são temporários, são osseointegrados. O material de confecção dos miniimplantes (liga de titânio grau V polido) difere dos implantes, justamente, por não buscar a osseointegração, facilitando sua remoção após o uso. A sua estabilidade é dada pelo embricamento mecânico entre o parafuso e o osso. Os parafusos de fixação de enxertos ósseos foram os primeiros miniparafusos utilizados pelos ortodontistas. O avanço tecnológico oferece, hoje, miniparafusos com desenhos específicos para a Ortodontia. Eles são compostos por 3 partes: cabeça, perfil transmucoso e ponta ativa. O seu modelo e tamanho são determinados de acordo com a biomecânica e o sítio de instalação.
+
+A instalação é relativamente simples, desde que seguido um protocolo cirúrgico. Os sítios de colocação são variados, normalmente entre as raízes (Fig. 14.58), no osso alveolar, mas podem também ser instalados na região retromolar, rafe palatina, áreas edêntulas, de preferência em gengiva inserida a fim de facilitar amarrações e higienização. Como os miniimplantes são colocados mais próximo da fase de retração, aconselhamos colar o aparelho de maneira a divergir as raízes da região onde será instalado.
+
+## VANTAGENS PRINCIPAIS
+
+- Oferece ancoragem absoluta
+- Menos tempo de atendimento
+- Menos tempo de tratamento
+- Evita efeitos colaterais em outros dentes
+- Mais estético
+- Mais previsibilidade
+- Não depende da colaboração do paciente
+- Cirurgia de instalação e remoção simples e pouco invasiva
+- Baixo custo financeiro
+- Amplia as possibilidades de tratamento
+
+## INDICAÇÕES
+
+- Retração anterior
+- Mesialização de dentes posteriores
+- Correção de linha média
+- Correção de plano oclusal
+- Distalização de molares
+- Intrusão / Extrusão
+- Verticalização de molares
+- Movimentos dentários individuais
+
+[A imagem mostra três tipos de miniimplantes e uma radiografia de um miniimplante instalado.]
+---
+# SITUAÇÕES DE USO MAIS COMUNS
+
+## Retração anterior
+
+São utilizados dois miniimplantes, um de cada lado, entre as raízes dos primeiros molares e segundos pré-molares, o mais apical possível nos casos de mordida profunda. Conseguem-se o máximo controle de ancoragem, retração com intrusão e controle de torque.
+
+[A series of 10 dental images labeled from a to j showing various stages of orthodontic treatment with braces and miniimplants]
+
+Fig. 14.59 a-k: O uso de miniimplantes permite uma ancoragem absoluta, com excelente controle de torque e retração com intrusão. Isso diminui o tempo de tratamento, além de melhorar a qualidade dos resultados. Caso clínico com grande overjet e mordida profunda. Note a grande remodelação anterior, eliminando a protrusão alveolar. Nas áreas 3 e 4 da sobreposição de Ricketts, observam-se o controle de ancoragem e a retração dos incisivos superiores com intrusão.
+---
+MESIALIZAÇÃO DE DENTES POSTERIORES
+(Figs. 14.60 a 14.64).
+
+O ideal é que o miniimplante seja colocado o mais cervical possível, mais próximo da linha de ação da força. Evita que os dentes anteriores inclinem-se para lingual.
+
+Fig. 14.60
+Fig. 14.61
+
+Fig. 14.62
+Fig. 14.63
+Fig. 14.64
+
+CORREÇÃO DE PLANO OCLUSAL (Fig. 14.65 a-n)
+
+Alguns trabalhos começaram a ser publicados mostrando a possibilidade de miniimplantes permitirem a melhora do plano oclusal. Para isso, deve ser instalado na maxila um miniimplante alto, o mais apical possível do lado em que o plano estiver mais baixo, para que haja um vetor de força intrusiva.
+
+a
+b
+c
+
+d
+e
+f
+---
+
+▲g ▲h ▲i
+
+▲j ▲k ▲l
+
+▲m ▲n
+
+► Fig. 14.65 a-n - Neste caso, o miniimplante foi utilizado para retração unilateral, correção da linha média superior e intrusão dos dentes posteriores esquerdos corrigindo, assim, o desvio do plano oclusal.
+
+DISTALIZAÇÃO (Figs. 14.66 a 14.68)
+
+Podem ser instalados miniimplantes no palato e, com o auxílio de BTP, realizar distalizações simétricas. Quando instalados entre os pré-molares, por vestibular, cursores ou distalizadores realizam distalizações assimétricas ou unilaterais.
+
+▲ Fig. 14.66 ▲ Fig. 14.67 ▲ Fig. 14.68
+
+---
+# BIOMECÂNICA
+
+Muitas vezes, os miniimplantes não podem ser instalados exatamente onde seria o local ideal para promover o movimento apenas na direção desejada, sem produzir efeitos colaterais. Desta forma, o ortodontista deve saber contornar a situação introduzindo uma alça ou um elástico, por exemplo. Para todos os casos, deve-se ter conhecimento de biomecânica básica e visualizar os componentes das forças e o seu vetor resultante.
+
+O caso clínico a seguir exemplifica esta situação.
+
+O paciente, procurou por retratamento, possuía o dente 23 impactado, causando reabsorções nas raízes dos dentes 21 e 22, o que justificou sua extração. Foi optado pelo fechamento do espaço. Observa-se atresia maxilar leve, desvio de linha média superior para a esquerda, dente 13 mesializado em relação ao 43, apinhamento inferior. Esta situação poderia ser agravada se os dentes anteriores fossem usados como ancoragem para a mesialização dos posteriores.
+
+[The text describes three clinical images of a patient's teeth from different angles]
+
+A posição ideal para a instalação do miniimplante seria entre as raízes dos dentes 21 e 22, o mais cervical possível, para que o ponto de aplicação de força se aproximasse da linha de movimentação do dente, o fio ortodôntico. Porém, mesmo com dobras para aumentar a divergência entre as raízes, o sítio possível para a instalação do miniimplante foi mais apical.
+
+[The text describes three additional images: one showing teeth with orthodontic appliances, and two X-ray images of teeth]
+
+Fig. 14.70 a-c - A ativação inicial causou intrusão indesejada e a mecânica teve de ser repensada para minimizar o vetor de força intrusiva.
+---
+Fig. 14.71 a-b Esta ativação por deslize utiliza um elástico que liga o miniimplante ao dente 24, o que causa um vetor de força resultante para mesial e para cima (intrusão).
+
+Fig. 14.72 a-b - Alças longas foram utilizadas. O fechamento do espaço com alças possibilita a anulação do vetor intrusivo. O elástico intermaxilar ajuda no fechamento da mordida.
+
+## POSSÍVEIS PROBLEMAS
+
+A taxa de insucessos com miniimplantes é baixa, cerca de 10%, e na maioria dos casos são situações perfeitamente reversíveis.
+
+- Perda de estabilidade: causada por pressão exagerada do paciente ou da ativação do aparelho, ou ainda, por falta de estabilidade primária no momento da instalação.
+- Mucosite periimplantar: inflamação ao redor do miniimplante devido à má higienização.
+- Lesão nas raízes: por falta de planejamento adequado, erro do operador; quando a lesão for menor que 2 mm não deve causar danos graves.
+- Fratura do miniimplante: por torque exagerado de instalação.
+- Lesão de tecidos moles, nervo ou seio maxilar.
+
+## ALINHAMENTO E NIVELAMENTO - CORREÇÃO DO OVERBITE
+
+Após a montagem do aparelho, iniciaremos a fase de alinhamento e nivelamento. Um ponto importante é avaliar a situação transversal das arcadas para decidir se será necessário utilizar aparelhos acessórios para promover expansão. Algumas vezes, lançamos mão de barra palatina ou quadri-hélice para a arcada superior e bi-hélice para a arcada inferior, a fim de realizar a expansão dentoalveolar, o que pode ocorrer concomitantemente com o aparelho fixo. Em casos de atresia mais severa, devemos tratar previamente, antes da colocação de aparelhos fixos.
+---
+Em casos de Classe II, onde se decida fazer a distalização no início do tratamento, realizamos os procedimentos necessários e montamos o aparelho fixo na sequência.
+
+O Straight Wire usa o princípio das forças recíprocas onde um dente malposicionado ao tentar alinhar-se desloca outros dentes (Fig. 14.73 a-b). No caso de extrações, teoricamente, ao fazermos a dobra posterior dos fios de nitinol, incisivos malposicionados deslocarão os caninos para trás em busca de sua correção. Porém, na prática clínica, observamos que, além de os caninos sofrerem deslocamento para trás, os incisivos, algumas vezes, também se projetam para a frente, o que na maioria das vezes não é desejado (Fig. 14.74 a-b).
+
+| Fig. 14.73 a-b - Princípio das forças recíprocas no Straight Wire | Fig. 14.74 a-b - Algumas vezes, além do deslocamento posterior dos caninos, ocorre a vestibularização dos incisivos. |
+|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| - para ocorrer o alinhamento do dente 33 e dos incisivos, houve o deslocamento dos dentes para a esquerda, ocupando o espaço da extração. | |
+
+O alinhamento pode ser:
+
+- total: prende-se o fio contínuo em todos os braquetes que forem possíveis (princípio das forças recíprocas);
+- parcial: prende-se o fio apenas em alguns braquetes, podendo ser usado o fio contínuo ou segmentado (busca-se o alinhamento de alguns dentes sem alterar posição de outros).
+
+No caso do alinhamento total, os dentes malposicionados deslocarão os dentes próximos e, por isso, deve ser avaliado se esse efeito colateral, normalmente temporário, é desejado ou não.
+---
+Fig. 14.75 a-c - Alinhamento total. Prende-se o fio em todos os braquetes que forem possíveis; usa-se o princípio das forças recíprocas.
+
+Muitas vezes, esse efeito colateral leva a um desengrenamento da oclusão que não é interessante, pois pode comprometer a ancoragem, além do que pode significar aumento do tempo de tratamento e maior custo biológico.
+
+Fig. 14.76 a-c - Após o início do alinhamento ocorreu um desengrenamento, revertido na sequência do tratamento.
+
+Fig. 14.77 a-d - Em outros casos, esse alinhamento contínuo é benéfico, facilitando o desenvolvimento do caso.
+---
+Quando avaliamos um caso e julgamos que o alinhamento total pode ser prejudicial, aí optamos pelo alinhamento parcial. Isso pode ser feito de diversas maneiras. Podem-se usar fios segmentados ou contínuos (Figs. 14.78 a-d - 14.81 a-c).
+
+### Fig. 14.78 a-d - Alinhamento parcial
+
+Conforme faz-se o stripping, puxa-se dente-a-dente para trás, a fim de criar espaço para alinhar os incisivos sem protruí-los. Usa-se um fio guia segmentado de aço calibre .018" ou .020".
+
+[Imagens a, b, c, d mostram diferentes vistas de dentes com aparelho ortodôntico, ilustrando o processo de alinhamento parcial]
+
+### Fig. 14.79 a-b - Alinhamento parcial
+
+Usa-se um fio guia de aço segmentado na retração parcial, a fim de descomprimir a região anterior e, com isso, evitar a vestibularização dos dentes.
+
+[Imagens a, b mostram vistas de dentes com aparelho ortodôntico e fio segmentado]
+
+### Fig. 14.80 a-b - Alinhamento parcial
+
+Usam-se um fio contínuo e colagem parcial de braquetes. Através de um Lace back (amarrilho conjugado) faz-se a retração parcial do canino, a fim de descomprimir a região anterior.
+
+[Imagens a, b mostram vistas laterais de dentes com aparelho ortodôntico e fio contínuo]
+
+### Fig. 14.81 a-c - Alinhamento parcial com fio segmentado
+
+[Imagens a, b, c mostram diferentes vistas de dentes com aparelho ortodôntico e fio segmentado, ilustrando o alinhamento parcial]
+---
+Quando segmentamos, podem ser usados conceitos mais complexos de técnicas segmentadas como a de Burstone, por exemplo, ou simplesmente usar segmentos de fios simples apenas aplicando os mesmos conceitos de biomecânica. Nós acreditamos que chegaremos aos mesmos resultados, tendo um desenvolvimento bem parecido do caso. O importante é trabalhar com forças leves. Se usamos mais fio na segmentação podemos fazer uma ativação um pouco maior e, se usamos menos fio, a ativação deve ser mais leve (Figs. 14.82 a1 e 14.83 a1).
+
+[A imagem mostra uma série de 12 fotografias intraorais demonstrando diferentes estágios de um tratamento ortodôntico. As imagens estão organizadas em 4 linhas e 3 colunas, rotuladas de 'a' a 'l'.]
+
+Fig. 14.82 a1 - Alinhamento parcial iniciado com arco segmentado, com conceitos da técnica de Burstone, depois, arco contínuo ainda com alinhamento parcial e, finalmente, inclusão dos incisivos.
+
+| Imagem | Descrição |
+|---------|-----------|
+| a, b, c | Vistas lateral direita, frontal e lateral esquerda do estágio inicial do tratamento. Mostram brackets e fios ortodônticos em posição, com dentes desalinhados. |
+| d, e, f | Vistas similares às anteriores, mostrando um estágio intermediário com alguma melhora no alinhamento. |
+| g, h, i | Vistas mostrando progresso adicional no alinhamento dos dentes, com fios ortodônticos mais evidentes. |
+| j, k, l | Vistas finais mostrando um alinhamento significativamente melhorado, com fios ortodônticos completos em todos os dentes visíveis. |
+
+As imagens ilustram a progressão do tratamento ortodôntico, desde o estágio inicial com dentes desalinhados até o estágio final com alinhamento significativamente melhorado, demonstrando o uso de diferentes técnicas de segmentação e ativação conforme descrito no texto.
+---
+ítulo 14
+
+  
+  
+  
+  
+
+▲ Fig. 14.83 a-l - Alinhamento parcial iniciado de maneira simples. Os incisivos alinham-se praticamente sozinhos. Depois, passou-se para fio contínuo.
+
+  
+
+▲ Fig. 14.84 a-c - Alinhamento utilizando-se a técnica de overlay (dois fios), onde se mantém um fio de aço de calibre .018" ou .020" e por baixo coloca-se um fio .012" ou .014" de níquel. Isso minimiza os efeitos colaterais. Se utilizássemos um fio contínuo de maior calibre para fazer o alinhamento do canino, com certeza haveria o deslocamento dos pré-molares e incisivos, o que poderia complicar o andamento do caso.
+---
+Em relação à sequência dos fios contínuos a serem utilizados, ela é algo muito particular de cada profissional. Nossa sequência mais usada é:
+
+- fio .012" de nitinol para iniciar casos com mais apinhamento;
+- fio .014" de nitinol na sequência ou para iniciar casos com menos apinhamento;
+- fio .018" de nitinol (pulamos o .016", pois deixamos o .014" atuar por mais tempo);
+- fio .018" de aço;
+- fio .020" de aço (com isso se completa a correção das angulações);
+- fio .019" x .025" de aço (para a correção dos torques e completar a correção da sobremordida);
+- fio .019" x .025" de aço trançado/Braided (para a finalização e intercuspidação).
+
+O fio .016" termo/ativado pode ser utilizado para substituir os fios nitinol iniciais.
+
+Quando não for possível entrar com o fio .019" x .025" de aço, então colocamos primeiro o fio .019" x .025" termoativado e se, a forma não for compatível com a arcada, aí colocamos o .017" x .025" de aço para incorporar os torques iniciais.
+
+Quando estamos tratando um caso com extrações, normalmente usamos o fio .019" x .025" dupla chave para realizar o fechamento dos espaços.
+
+Em casos de mordida profunda, ela deve ser corrigida antes da correção do overjet ou em casos de extração antes de executar a retração. Se ao final do alinhamento ainda tivermos mordida profunda, aplicamos curva de Spee reversa no fio inferior (Fig. 14.85 a-d). Nós preferimos aplicar nos fios retangulares, pois aí conseguimos o controle de torque anterior (é colocado torque negativo) para evitar o efeito colateral, que é a vestibularização dos incisivos. Em pacientes dolicofaciais, normalmente, utilizamos o arco-utilidade de Ricketts para corrigir a mordida profunda (abordado no Cap. 10).
+
+![Fig. 14.85 a-d - Curva reversa no fio retangular]
+
+a-b - ao aplicarmos a curva com torque vestibular de coroa (+) nos incisivos.
+c-d - deve ser aplicado o torque negativo compensatório para evitar a vestibularização dos incisivos.
+---
+Um fator importante a ser observado é a forma da arcada, para que possamos selecionar a forma de nitinol mais indicada para cada caso. No comércio encontramos principalmente 3 formas de nitinol:
+
+- Triangular.
+- Quadrada ou Tru-Arch (forma mais encontrada em americanos).
+- Oval (forma mais comum encontrada em brasileiros).
+
+| OrthoForm™ I - Tapered | OrthoForm™ II - Square | OrthoForm™ III - Ovoid |
+|------------------------|------------------------|------------------------|
+| Fig. 14.86 - Triangular| Fig. 14.87 - Quadrada  | Fig. 14.88 - Oval      |
+
+Após o alinhamento e nivelamento iniciais realizados com fios de nitinol instalaremos os fios de aço. Para isso, necessitamos selecionar o diagrama que será utilizado. O objetivo é manter os dentes bem colocados dentro do osso, respeitando o que Andrews chama de "borda Wala" (Fig. 14.89 a-c).
+
+Fig. 14.89 a-c - Para que haja estabilidade, estética e saúde periodontal, é importante que os dentes fiquem bem posicionados no osso. Clinicamente a borda wala pode ser observada no limite entre a gengiva inserida e a gengiva livre, numa vista oclusal. Se os dentes inferiores estiverem bem posicionados no plano transversal, então os dentes superiores devem estar com suas cúspides palatinas ocluindo no sulco principal dos inferiores. Isso se obtém fazendo a coordenação interarcadas.
+
+O diagrama que utilizamos em nosso dia-a-dia é o de Trevisi, pela simplicidade e facilidade de uso. Ele é baseado no diagrama de Interlandi, muito utilizado no Brasil, porém, com uma leitura direta, sem necessidade de se realizarem medidas.
+
+Através de transparências numeradas de 1 a 8, quanto a curvatura anterior das arcadas e cada uma delas apresentando uma variação posterior divididas de A a F, selecionamos aquela que melhor nos atende.
+---
+No kit do diagrama existem blocos com as diversas formas de arco, para que após selecionarmos o diagrama do paciente destaquemos a folha correspondente e deixemos junto à pasta do paciente.
+
+Normalmente, seleciona-se a forma da arcada inferior, e a superior deve seguir o mesmo formato, sendo 2 mm mais larga que a inferior.
+
+| DIAGRAMA | ORTODÔNTICO | INDIVIDUAL |
+|----------|-------------|------------|
+| TREVISI  |             |            |
+
+DIAGRAMA APROPRIADO P/ O PACIENTE:
+
+N°: ______
+ARCOS: [ ] [ ] [ ]
+SECRETARIA: ___________________________
+DATA: _______________
+
+Diagrama Ortodôntico Individualizado TREVISI
+
+Diagramas Ortodônticos TREVISI N° 04 e N° 05
+
+Diagrama de arco dental numerado
+
+Molde dental inferior
+
+Molde dental superior
+
+Diagrama de arco dental simples
+
+Fig. 14.90 a-f - Diagrama de Trevisi e a transparência sendo utilizada para selecionar a forma da arcada inferior. Neste caso, a forma escolhida foi a 7B. Após a obtenção do fio inferior, o superior deve ser confeccionado de forma que siga o mesmo formato, porém sendo 2 mm mais largo.
+
+Um item muito importante a ser observado ao final dessa fase não é apenas o alinhamento das bordas incisais dos dentes, como também o alinhamento das margens gengivais, que mostra que as raízes estão bem posicionadas, o que ajuda na estabilidade.
+
+Imagem de molde dental superior
+
+Imagem de arcada dentária superior com aparelho ortodôntico
+---
+# FECHAMENTO DE ESPAÇOS - CORREÇÃO DO OVERJET
+
+Esta é a fase da mecânica ortodôntica onde ocorre a reaproximação controlada dos segmentos anteriores e posteriores quando existem espaços devido às extrações ou distalizações.
+
+Nesta fase três situações podem ocorrer:
+
+- distalização do segmento anterior (retração anterior);
+- mesialização dos segmentos posteriores (perda de ancoragem);
+- ambos os movimentos (movimento recíproco).
+
+O controle de ancoragem está diretamente relacionado à quantidade de retração anterior desejada e a quantidade de espaços remanescentes.
+
+Quando o objetivo do tratamento é fazer retração anterior de maior intensidade, deve-se fazer um maior controle de ancoragem para evitar a mesialização dos segmentos posteriores e, quando os espaços remanescentes das extrações forem maior que o necessário para a retração anterior, então, perde-se ancoragem.
+
+[A imagem mostra ilustrações de dentes representando:
+1. Espaço remanescente das extrações
+2. Retração anterior
+3. Perda de Ancoragem
+4. Retração anterior e perda de ancoragem]
+
+## FATORES PRIMORDIAIS ANTES DO INÍCIO DA RETRAÇÃO
+
+É fundamental que antes do início da retração algumas condições sejam respeitadas.
+
+### ARCOS ALINHADOS E NIVELADOS
+
+Os dentes devem estar muito bem alinhados, nivelados e sem rotações. Clinicamente, o último fio de alinhamento e nivelamento (.019" x .025" de aço) deve estar sem deflexão, sem deformação, totalmente dentro dos slots dos braquetes e ter sido colocado há pelo menos 30 dias.
+
+### AUSÊNCIA DE MORDIDA PROFUNDA
+
+Um controle vertical efetivo antes do início da retração deve ser realizado, pois, durante a retração, naturalmente, já existe tendência a aprofundamento da mordida. Se no início da retração houver mordida profunda, além de aprofundar ainda mais, haverá dificuldade na retração dos superiores e, consequentemente, maior perda de ancoragem. Portanto, o ideal é iniciar a retração com trespasse vertical dos dentes anteriores ligeiramente diminuído.
+---
+# AVALIAÇÃO DAS ANGULAÇÕES DENTÁRIAS
+
+No final do alinhamento e nivelamento, deve-se pedir uma radiografia panorâmica e observar as angulações das raízes porque um dente com angulação alterada funciona como um "finca pé", dificultando a retração dos dentes anteriores.
+
+▶ Fig. 14.94 a-b - Radiografia panorâmica. As coroas dos caninos estão muito anguladas para mesial, com as raízes para distal, provocando maior perda de ancoragem.
+
+[A imagem mostra uma radiografia panorâmica dental e um diagrama ilustrativo de dentes com aparelho ortodôntico]
+
+# CONTROLES DURANTE A RETRAÇÃO
+
+## CONTROLE VERTICAL E DE TORQUES (EFEITO GABLE)
+
+Durante a retração, os dentes anteriores tendem a lingualizar e extruir, criando assim mordida profunda indesejada. Para evitar este acontecimento, deve-se fazer uma dobra no arco de retração para vestibularizar e intruir os dentes anteriores e com isso evitar o aprofundamento da mordida e lingualização dos dentes anteriores. Essa dobra chama-se efeito gable. Quando se utiliza o arco Dupla Chave, esta ativação é feita unindo-se as duas alças com fio de amarrio (Fig. 14.95).
+
+[A imagem mostra um diagrama ilustrativo de dentes com aparelho ortodôntico, demonstrando o efeito gable]
+---
+Fig. 14.96 a-c - Falta de controle de torque e o problema criado:
+
+a - [Imagem de dentes sem descrição]
+
+b - Com controle de torque.
+
+c - Sem controle de torque, Classe II de canino.
+
+---
+Fig. 14.97 a-c
+
+> Fig. 14.97 a-c - Toda sessão devemos avaliar a relação posterior, relação dos caninos e overjet, para ver se está tudo sob controle.
+
+## PERFIL FACIAL
+
+O perfil facial é uma das referências para saber o quanto de retração superior tem que ser feita, e isso deve ser monitorado, nesta fase, para concluir o caso com um perfil harmonioso e agradável. Na média, para cada 2 mm de retração dos incisivos superiores, o lábio superior retrai 1 mm, podendo variar se o lábio for grosso (varia menos) ou fino (varia mais).
+
+## RETRAÇÃO QUANTO AO NÚMERO DE DENTES
+
+A retração pode ser parcial quando primeiro retraímos os caninos e depois os quatro incisivos ou em massa quando retraímos os seis dentes anteriores juntos.
+
+## RETRAÇÃO PARCIAL DE CANINOS/RETRAÇÃO PARCIAL DE INCISIVOS
+
+Este tipo de retração é feito quando queremos fazer um melhor controle da ancoragem, pois se utilizam molares e pré-molares como apoio para retrair apenas o canino. Após a retração do canino, este é conjugado aos pré-molares e molares, ajudando na ancoragem, e a seguir realiza-se a retração dos quatro incisivos. A desvantagem é o fator estético que, durante o período de retração dos caninos, ocorre abertura de espaços entre caninos e incisivos laterais, além de ser um pouco mais demorada que a retração em massa.
+
+Fig. 14.98 a-c
+
+> Fig. 14.98 a-c - Retração parcial superior. Retração do canino por deslize.
+---
+# Retração Parcial com Arco Segmentado
+
+Fig. 14.99 - Retração parcial. Retração dos incisivos por deslize.
+
+[Imagem de um diagrama esquemático mostrando dentes com aparelho ortodôntico]
+
+Fig. 14.100 - Retração parcial. Retração dos incisivos com alça. Ativação dobrando atrás.
+
+[Imagem clínica mostrando dentes com aparelho ortodôntico]
+
+Fig. 14.101 - Retração parcial. Retração dos incisivos com alça. Ativação dobrando atrás.
+
+[Imagem clínica mostrando dentes com aparelho ortodôntico]
+
+Fig. 14.102 - Retração parcial. Retração dos incisivos com alça. Ativação com ligadura de aço.
+
+[Imagem clínica mostrando dentes com aparelho ortodôntico]
+
+Outra opção para a retração parcial dos incisivos é o uso de arcos segmentados. Isso permite deixar os dentes posteriores assentados, o que é muito bom do ponto de vista da ancoragem morfofuncional, além de viabilizar uma retração com bom controle vertical e de torque dos incisivos.
+
+Fig. 14.103 a-c - Arco segmentado preconizado pelo prof. Mário Sérgio Duarte para retração anterior com controle vertical.
+
+a - Antes da retração.
+[Imagem clínica mostrando dentes com aparelho ortodôntico antes da retração]
+
+b - Após a retração.
+[Imagem clínica mostrando dentes com aparelho ortodôntico após a retração]
+
+c - Ativação para controle vertical.
+[Imagem clínica mostrando dentes com aparelho ortodôntico com ativação para controle vertical]
+
+## Retração em Massa
+
+A retração dos seis dentes anteriores em grupo, do ponto de vista de superfícies radiculares, exige um pouco mais de ancoragem, porém o tempo de retração é menor e não compromete a estética com abertura de espaços na região anterior.
+---
+Fig. 14.104 a-c - Retração em massa
+
+Fig. 14.105 - Retração em massa com alça Dupla chave
+
+Fig. 14.106 - Retração em massa por deslize com Alastik
+
+# RETRAÇÃO QUANTO À TÉCNICA
+
+Basicamente, existem dois tipos de retração:
+
+- Retração sem atrito, que utiliza arcos com alças.
+- Retração com atrito, que utiliza arcos sem alças (mecânica de deslize).
+
+## RETRAÇÃO SEM ATRITO (ARCOS COM ALÇAS)
+
+A retração sem atrito é realizada utilizando arcos com alças. O princípio é que ao ativarmos as alças elas vão querer voltar à sua forma original e nesse momento os espaços existentes vão sendo fechados, ou seja, não depende do atrito, e sim do retorno das alças à sua forma inicial. Existem diversas formas de alças descritas na literatura e deve se utilizar aquela que, em sua prática clínica, obtém maior controle, com melhores resultados. Descreveremos a seguir o Arco dupla chave, que em nossa experiência clínica tem apresentado bons resultados.
+
+### Arco Dupla Chave (DKL - Double Key Loop)
+
+O arco dupla chave é confeccionado com fio de aço de diversos calibres, sendo que o que mais utilizamos é o .019" x .025". Ele apresenta duas alças de cada lado, sendo uma na mesial e outra na distal dos caninos.
+
+Fig. 14.107 a-b - Arco dupla chave
+---
+   8 mm
+|<----->|
+|       |
+v       v
+-----------------
+        22 a 46 mm
+<------------------->
+
+---
+Em alguns casos, mesmo ativando com ligadura de aço na alça distal, ocorre o aprofundamento da mordida, sendo necessárias ativações adicionais para maior controle vertical e de torques. Essa ativação é feita unindo-se as duas alças com amarrio, o que acentua o levante do setor anterior do arco (Efeito Gable), evitando ainda mais a lingualização e mordida profunda. O único cuidado que se deve ter é que esse controle maior sobre os incisivos exige mais da ancoragem.
+
+![Fig. 14.113 a-b - União das alças para criar o efeito gable, a fim de evitar a mordida profunda e a lingualização dos incisivos.]
+
+![Fig. 14.114 a-b - É interessante checar a ativação do efeito gable fora da boca, para observar a quantidade de ativação e se está simétrica. A ativação corresponde a 10° de torque.]
+
+Quanto à ativação do DKL, em pacientes que apresentam tendência à mordida aberta, pode-se utilizar a ativação com dobra distal; em pacientes com trespasse vertical normal, ativa-se com ligadura de aço na alça distal; em casos tendendo à mordida profunda, unem-se as duas alças com amarrio.
+
+Alguns cuidados são necessários na utilização do DKL para não ocorrerem efeitos colaterais indesejáveis. Um dos principais é não exceder a força de ativação. Como referência, ativa-se o arco até que ocorra a abertura de 1 mm nas alças de cada hemiarcada e aguardam-se cerca de 6 semanas para reativar.
+
+Conforme já descrito, durante a retração, tem-se que ficar atento ao controle vertical e à relação entre as arcadas, procurando ativar as arcadas superior e inferior de maneira sincronizada para finalizar esta fase com boa relação molar, de caninos, sobressaliência e sobremordida.
+
+É importante lembrar que os espaços devem ser fechados primeiro na arcada inferior e depois na superior porque, se for necessário, a arcada superior permite movimentos compensatórios que dificilmente se conseguem na inferior.
+---
+Outra possibilidade de ativação, sugerida pelos profs. Jurandir A. Barbosa e Hideo Suzuki, é o uso de um cantiléver preso ao tubo acessório do molar, o que vai gerar tendência à verticalização do molar, ajudando na ancoragem (Fig. 14.115).
+
+[A imagem mostra uma fotografia intraoral de dentes com aparelho ortodôntico. Um cantiléver é visível, preso ao tubo acessório do molar.]
+
+Outros tipos de alças podem ser utilizadas para retração em massa (Fig. 14.116).
+
+[A imagem mostra outra fotografia intraoral de dentes com aparelho ortodôntico, demonstrando um tipo diferente de alça para retração em massa.]
+
+## Ativação unilateral
+
+Quando o caso apresenta desvio de linha média e necessita-se fazer ativação assimétrica ou unilateral, deve-se instalar o arco normalmente; do lado oposto ao da ativação, travar na distal para impedir o deslocamento do arco e ativar o lado desejado. Desde o início das ativações, deve-se buscar o mais rápido possível a Classe I de caninos, normalização da linha média e relação dos incisivos. Se ocorrer o fechamento de todos os espaços e o desvio da linha média permanecer, dificilmente será corrigido na fase final de tratamento.
+
+[A imagem mostra uma ilustração esquemática de dentes com aparelho ortodôntico, demonstrando a ativação unilateral para correção de desvio de linha média.]
+
+Fig. 14.117 - Em casos de linha média desviada ativa-se o lado oposto do desvio até centralizar a linha média. Uma vez corrigido o problema, segue-se ativando bilateralmente.
+---
+# Mesialização de molares (Perda de ancoragem)
+
+O DKL pode ser utilizado para fazer o fechamento dos espaços das extrações retraindo os dentes anteriores, conforme foi visto, ou mesializar os posteriores de acordo com o diagnóstico (Fig. 14.118).
+
+Quando se quer mesializar os dentes posteriores, o arco deve estar passivo com suas alças fechadas e servirá de ancoragem anterior para perda de ancoragem posterior. A ativação deve ser feita com elásticos, Lace back ou mola aberta. Para facilitar o deslizamento dos dentes posteriores para mesial, deve-se desgastar ou anodizar (tratamento químico que afina o fio) o arco na região posterior. Se necessitar maior perda de ancoragem, recomenda-se utilizar arco .021" x .025" para ter melhor controle de torque na região anterior e, com isso, maior ancoragem anterior.
+
+![Fig. 14.118 - DKL para fechamento de espaço com mesialização posterior]
+
+## RETRAÇÃO COM ATRITO (MECÂNICA DE DESLIZE)
+
+Outra opção para se realizar a retração em massa é a mecânica de deslize, onde não se utilizam alças, e a retração ocorre pelo deslizamento do fio para trás, ou seja, ocorre o atrito do fio nos slots e tubos.
+
+As vantagens são a simplicidade e o fato de que, por não se utilizarem alças, o fio fica mais rígido, diminuindo a possibilidade de deflexão, aprofundamento da mordida e perda de torque anterior. O problema é que, se houver necessidade de um maior controle vertical, justamente por não apresentar alças, que permitem o efeito Gable, fica difícil resolver o problema. Se aplicarmos curva reversa, o deslize fica muito prejudicado.
+
+O nivelamento deve estar perfeito, com o fio .019" x .025" entrando com muita facilidade e deslizando facilmente pelos tubos dos molares. Se houver resistência, provavelmente, a mecânica não andará bem. Muitas vezes, antes de chegar no fio retangular, é necessário usar o fio australiano .020", que é mais duro que o aço comum, para se obter melhor nivelamento.
+
+Outro fator a se considerar é o fato de que, algumas vezes, o paciente amassa o fio na região posterior durante a mastigação, atrapalhando o deslize.
+
+A inclusão dos segundos molares aumenta o atrito e, se os incluímos, muitas vezes, ocorre desnivelamento, além de não nos ajudar na ancoragem.
+
+![Fig. 14.119 a-c - Para que a mecânica de deslize ande bem, é necessário um ótimo nivelamento dos dentes.]
+---
+A retração por deslize pode ser feita utilizando-se molas de nitinol ou alastik. A diferença é que com molas de nitinol trabalha-se com o conceito de forças contínuas e no caso do alastik com forças intermitentes.
+
+A vantagem da força contínua é que o intervalo entre as consultas pode ser maior (45 dias), pois não há perda da memória da ativação. Já o alastik perde sua ativação em bem menos tempo, sendo necessário um retorno com menos intervalo (21 dias), o que a princípio é uma desvantagem. Porém, é bom lembrar que forças intermitentes geram um "descanso" para os dentes, permitindo um restabelecimento das condições biológicas, diminuindo um pouco a chance de reabsorção radicular.
+
+| Fig. 14.120 - Retração em massa por deslize, com mola nitinol de 9 mm. | Fig. 14.121 - Retração em massa por deslize com o alastik. |
+|------------------------------------------------------------------------|-------------------------------------------------------------|
+| [Imagem mostrando aparelho ortodôntico com mola nitinol]               | [Imagem mostrando aparelho ortodôntico com alastik]        |
+
+## RETRAÇÃO COM MINIIMPLANTE
+
+Como já foi abordado, quando se discutiu sobre ancoragem, o uso de miniimplantes vem revolucionando a Ortodontia, exatamente por eliminar ou, no mínimo, diminuir muito o efeito colateral, que muitas vezes é um grande problema.
+
+A grande vantagem é a possibilidade de se fazer uma retração em massa com total controle de ancoragem e, dependendo da altura de instalação dos miniimplantes, com excelente controle vertical.
+
+| a | b |
+|---|---|
+| [Imagem mostrando aparelho ortodôntico com miniimplantes, vista lateral direita] | [Imagem mostrando aparelho ortodôntico com miniimplantes, vista lateral esquerda] |
+
+| c | d |
+|---|---|
+| [Imagem mostrando aparelho ortodôntico com miniimplantes, vista lateral direita com alças] | [Imagem mostrando aparelho ortodôntico com miniimplantes, vista lateral esquerda com alças] |
+
+Normalmente, preferimos utilizar mecânica com alças para não depender do atrito e para ter melhor controle do torque aplicando o efeito gable (Fig.122 a-h).
+---
+Fig. 14.122 a-h - Rotação com ativação nos miniimplantes. Controle total da ancoragem. Outra vantagem importante é o controle vertical que permite a correção da mordida profunda. Note que o canino encontra-se em Classe I, assim como o pré-molar está bem engrenado. O espaço entre eles é devido à discrepância de Bolton (abordado no capítulo 6).
+
+Fig. 14.123 - Mesialização dos dentes posteriores com ancoragem no miniimplante. A ativação é feita dobrando o fio na região posterior. Isso leva a uma abertura da alça, que devido à mecânica fechada. Como a região anterior está ancorada no miniimplante, apenas a região posterior sofre deslocamento para mesial.
+
+# RENIVELAMENTO / FINALIZAÇÃO / INTERCUSPIDAÇÃO
+
+## RENIVELAMENTO
+
+Após realizarmos o fechamento dos espaços, entraremos na fase final do tratamento, onde refinaremos a posição dos dentes para permitir uma intercuspidação correta, guias funcionais equilibradas e finalização estética adequada. Muitas vezes, nessa fase, faremos a recolagem de braquetes ou dobras nos fios.
+
+Só teremos sucesso na intercuspidação se nas fases prévias o tratamento tenha corrido bem.
+
+Os dentes tem que estar numa posição de Classe I ou bem próxima dela e a arcada coordenados.
+
+O fechamento de espaços normalmente foi realizado com fio .019" x .025" de aço e no renivelamento dependendo, do que for necessário, podemos voltar para fios finos, como por exemplo o .014" de nitinol. Tudo dependerá do
+---
+quanto alguns dentes estejam desnivelados, por colagem inicial errada ou por necessidade de ajustes finais na oclusão ou estética. O que vai depender na escolha do fio a ser utilizado é o tamanho da deflexão que existirá após a recolagem de braquetes. Mesmo que se tenha que voltar para fios finos, a troca para fios mais calibrosos ocorrerá normalmente de forma rápida, pois o problema estará em regiões localizadas.
+
+Fig. 14.124 a-g
+
+> Fig. 14.124 a-g
+> a-c - Caso de Classe II tratado inicialmente com distalização, com aparelho Jones Jig.
+> d-g - O molar sofreu inclinação, a banda foi reposicionada para se realizar o nivelamento. Neste caso, utilizamos o fio .019" x .025" termoativado e depois o .019" x .025" de aço para o ajuste de torques.
+
+Additional images
+---
+## Fig. 14.125 a-r
+
+a-c - Caso de Classe I com bastante apinhamento tratado com a extração dos primeiros pré-molares.
+
+d-f - Início do alinhamento e nivelamento, utilizando-se laceback para levar os caninos um pouco para trás e descomprimir região anterior. Fio .012" de níquel-titânio.
+
+g-i - Após o alinhamento, note-se que os pré-molares sofreram intrusão e consequente vestibularização (força aplicada fora do centro de resistência do dente). Fio .019" x .025" termoativado.
+
+j-l - Recolagem dos pré-molares. Fio .016" termoativado.
+
+m-o - Uso de elástico 3/16" médio para controlar o efeito colateral nos caninos superiores, que poderiam potencialmente sofrer deflexão mesial.
+
+p-r - Correção dos pré-molares.
+
+## Fig. 14.126 a-b - Quando no nivelamento queremos mover apenas um dente, podemos lançar mão do recurso do overlay, colocando um fio fino no dente que será corrigido e um fio mais grosso estabilizando os outros dentes. Neste caso, foram utilizados fio de níquel .019" para verticalizar o canino e fio de aço .018" (com offset na região do canino) para estabilizar os demais dentes.
+---
+O renivelamento pode ser realizado com reposicionamento de braquetes e tubos, como mostrado anteriormente ou com dobras de 1ª, 2ª ou 3ª ordens.
+
+## DOBRAS EM ORTODONTIA
+
+| Tipo de Dobra | Plano | Ilustração | Exemplo Clínico |
+|---------------|-------|------------|-----------------|
+| Dobra de 1ª ordem | (Plano horizontal) | Fig. 14.127 a | Fig. 14.127 b |
+| Dobra de 2ª ordem | (Plano vertical) | Fig. 14.128 a | Fig. 14.128 b |
+| Dobra de 3ª ordem | (Torção vestibulolingual) | Fig. 14.129 a | Fig. 14.129 b |
+
+Para realizarmos dobras, temos que ter em mente o que desejamos. Um bom exercício para o ortodontista iniciante é desenhar a situação clínica existente para visualizar as dobras que serão feitas. É necessário definir o movimento que se deseja.
+
+### CORREÇÃO DE BLACK SPACE COM DOBRA DE 2ª ORDEM
+
+| Fig. 14.130 | Fig. 14.131 |
+|-------------|-------------|
+| Com intrusão da distal e extrusão do mesial | Apenas com intrusão da distal |
+
+### VERTICALIZAÇÃO DOS INCISIVOS COM DOBRA DE 2ª ORDEM
+
+| Fig. 14.132 | Fig. 14.133 |
+|-------------|-------------|
+| Com intrusão da distal do 11 e da mesial do 21 | Dente 11: Intrusão da distal e extrusão da mesial. Dente 21: Intrusão da mesial e extrusão da distal |
+---
+a   b   c
+|   ↑↑  ||
+-   ⊟⊟  ⊟⊟
+
+---
+# INTERCUSPIDAÇÃO
+
+Após realizarmos o renivelamento, não deve faltar muito para a intercuspidação.
+
+Nessa etapa, utilizamos, na maioria das vezes, o fio de aço .019" x .025" de aço trançado, chamado de fio braided. Ele permite uma ótima intercuspidação, uma vez que é macio e ao mesmo tempo controla o torque, evitando assim que, ao se usarem elásticos, apenas a vestibular extrua (Fig. 14.139 a-c).
+
+Fig. 14.138 a,b - Neste exemplo, busca-se a verticalização do canino.
+a - Dobra no fio.
+b - Recolagem do braquete.
+
+Fig. 14.139 a-c
+a - O uso de elásticos com força pode levar à intercuspidação apenas por vestibular.
+b,c - O fio braided ajuda a controlar o torque, levando a um melhor assentamento.
+
+Os elásticos podem ser classificados de acordo com sua direção de força, sendo que para ocorrerem os movimentos dependerá de espaço.
+
+Fig. 14.140 a,b - Classe I - visa apenas a extrusão vertical.
+
+[The images in the document show various stages of dental braces and orthodontic procedures, including close-up views of teeth with braces and diagrams illustrating different techniques and movements in orthodontic treatment.]
+---
+Fig. 14.141 a-b - Classe II - visa a extrusão vertical, mesializando dentes inferiores e distalizando os superiores.
+
+Fig. 14.142 a-b - Classe III - visa a extrusão vertical, distalizando dentes inferiores e mesializando dentes superiores.
+
+Fig. 14.143 a-b - Elástico para a correção de linha média. Dependerá totalmente de haver espaços interproximais, senão será à custa de apenas deslocamento mandibular.
+
+A força aplicada nos elásticos fica entre 75 e 100 gramas. Então, dependendo da distância que serão colocados, é que escolhemos o elástico a ser utilizado.
+
+Ao realizarmos a intercuspidação com fio braided, preferimos fazer dobras para os dentes que desejamos movimentar e usar elásticos nos dentes adjacentes que estejam bem posicionados, a fim de evitar efeitos colaterais. Com isso, aplicamos forças contínuas nos dentes a serem intercuspidados, sendo que se usássemos elásticos, cada vez que o paciente deixasse de colocá-los o dente voltaria à posição inicial do fio (Figs. 14.144 a-b e 14.145 a-b).
+
+Fig. 14.144 - Dobra para a extrusão do segundo pré-molar.
+
+Fig. 14.145 - Dobra para a extrusão do segundo pré-molar, com elástico para evitar efeito colateral nos outros dentes.
+---
+Algo que também se pode fazer em alguns casos antes da remoção completa do aparelho é a remoção da parte posterior por 30 dias para permitir que a mastigação ajude no assentamento oclusal. (Fig. 14.146 a-b).
+
+[Duas imagens lado a lado mostrando dentes com aparelho ortodôntico, focando na parte posterior]
+
+Fig. 14.146 a-b - Remoção da parte posterior do aparelho para permitir um melhor engrenamento.
+
+## REMOÇÃO / CONTENÇÃO
+
+### REMOÇÃO
+
+Ao chegarmos ao fim do tratamento, ou porque atingimos um resultado ideal ou porque chegamos num limite faremos a remoção do aparelho.
+
+Após a retirada dos braquetes e bandas, removemos a resina e o ionômero de vidro aderido aos dentes, utilizando broca multilaminada e depois taça de borracha Enhance (Fig. 14.147 a-c).
+
+[Imagem mostrando três instrumentos odontológicos lado a lado]
+
+Fig. 14.147 a-c - Brocas multilaminadas para alta e baixa rotações e taça de borracha Enhance.
+
+A escolha da contenção também é um fator importante no tratamento. Normalmente, utilizamos fio twist-flex de .0175" colado de canino a canino inferior (Figs. 14.148 e 14.151) e placa a vácuo prensada de 1 mm de espessura na arcada superior (Fig. 14.150 a-c).
+
+Na arcada inferior, podemos usar a contenção higiênica (Fig. 14.149), que consiste de uma barra ondulada que permite um uso mais fácil do fio dental, porém, por apresentar uma quantidade maior de fio, aumenta a área de retenção de tártaro, comprometendo a saúde periodontal, confirmado por Shirasu et al.
+---
+Fig. 14.148 - Fio de aço twist-flex .0175".
+
+Fig. 14.149 - Contenção higiênica - Fio de aço .06" ondulado.
+
+Fig. 14.150 a-c - Placa a vácuo de 1 mm. O recorte é feito aquém da gengiva. É feito um desgaste no oclusal da região posterior para não interferir na mordida.
+
+Nós fazemos essa opção pela simplicidade do sistema e pela fácil adaptação dos pacientes.
+
+Outras alternativas podem ser utilizadas. Quando temos receio quanto à colaboração, preferimos fio colado na arcada superior também. Por outro lado, quando estamos diante de um paciente colaborador, podemos usar placas a vácuo nas arcadas superior e inferior (Figs. 14.150 a-c e 14.152 a-b).
+
+Fig. 14.151 - Fio de aço twist-flex .0175" na arcada superior.
+
+Fig. 14.152 a-b - Placa a vácuo inferior.
+---
+Existem 3 principais vantagens de usar placas a vácuo como contenção: 1) higienização - não há nada que interfira. 2) remoção da contenção aos poucos - após determinado tempo de uso, podemos ir diminuindo o uso aos poucos e testando a estabilidade. 3) permite a correção de pequenos detalhes de alinhamento na região anterior, que eventualmente não tenham sido corrigidos com o aparelho fixo.
+
+Outras vantagens são: contêm dentes anteriores e posteriores; não incomodam a língua por praticamen-te não ocupar espaço interno; proteção dos dentes contra desgastes no período noturno por rangimento; baixo custo, permitindo a confecção semestral ou anual; estética, caso o paciente tenha que usar no período diurno.
+
+As desvantagens da placa a vácuo são: por ser removível, depende da colaboração; se o caso não terminou bem intercuspidado, pode atrapalhar o engrenamento que ocorreria com os dentes posteriores livres; se o caso terminou com os côndilos fora de RC com o uso das placas, pode haver desprogramação mandibular.
+
+Para a confecção das placas, moldamos o paciente já sem os braquetes e bandas, preparamos os modelos desgastando, com bisturi com lâmina nº 10, as faces vestibulares dos incisivos superiores e inferiores. Isso permite que as placas a vácuo entrem mais justas, pois tendem a laçear um pouco por não serem muito rígidas.
+
+Nós devemos sempre avaliar as situações inicial e final do caso para escolher a contenção. Por exemplo, se o caso apresentava apinhamento inicialmente e tratamos sem extrações, quanto mais os incisivos foram ves-tibularizados, maiores as chances de recidiva. Nesse caso, optamos por contenção fixa, provavelmente eterna.
+
+Casos de diastemas também devem ser contidos com fio colado. Na arcada superior, muitas vezes, deixa-mos um fio twist-flex colado nos incisivos (Fig. 14.153 a-d).
+
+Casos de extrações também devem ser considerados para contenção fixa, estendendo-se até a região de pré-molares.
+
+| a | b |
+|---|---|
+| Imagem mostrando diastema entre os incisivos centrais superiores | Imagem mostrando vista oclusal da arcada superior com diastema |
+| c | d |
+| Imagem mostrando diastema fechado entre os incisivos centrais superiores | Imagem mostrando vista oclusal da arcada superior com fio twist-flex colado nos incisivos |
+
+Fig. 14.153 a-d - Casos de diastema devem ser contidos com fio colado, muitas vezes, eternamente.
+---
+# TEMPO DE USO DA CONTENÇÃO
+
+Na verdade, ninguém tem essa resposta ao certo, podendo variar de caso a caso. Na média, nosso protocolo é o seguinte.
+
+## Pacientes jovens
+
+- Quando usamos, contenção fixa, deixamos até o final do crescimento, por volta dos 18 anos de idade, aí removemos e confeccionamos placas a vácuo que serão usadas como teste. O paciente coloca à noite; se estiver tudo bem, ele não precisa usar e vai espaçando o período de teste até parar em definitivo. Se estiver difícil de colocar, ele usa para que os dentes fiquem no lugar e consideramos a hipótese de voltar à contenção fixa.
+
+- Quando usamos contenção removível, usamos dia e noite por 30 dias, depois passamos para uso noturno por 1 ano. Depois, iniciamos um programa de redução de uso, sendo por 3 meses noite sim/noite não, depois mais 3 meses, 1 noite sim/2 não e finalmente, 1 noite sim/3 não. É lógico que essa redução só ocorre se estiver tudo bem. Aí utilizamos até o final do crescimento dessa forma, ou seja, 2 vezes por semana. Se após esse período estiver tudo bem, podemos parar o uso.
+
+## Pacientes adultos
+
+- Quando usamos contenção fixa, deixamos por 2 anos, depois removemos e confeccionamos placas a vácuo para teste, fazendo um programa igual ao já citado.
+
+- Quando usamos contenção removível, seguimos o mesmo protocolo de pacientes jovens.
+
+# RECIDIVA
+
+O problema da recidiva é um fantasma que assombra os ortodontistas. Por isso, necessitamos conversar muito com os pacientes e fazê-los entender as limitações da Ortodontia.
+
+Como ortodontistas, devemos buscar o máximo refinamento possível quanto ao engrenamento oclusal e as guias funcionais, fatores importantes na estabilidade. Evitar grandes modificações também ajuda.
+
+Um conceito importante é o de sobrecorreção, que conta que havendo alguma recidiva ainda teríamos alguma sobra para a estabilização.
+---
+Alguns fatores influenciam na estabilidade.
+
+- Fechamento incorreto dos espaços.
+- Correção insuficiente das rotações.
+- Falta de paralelismo radicular.
+- Falta de correção dos torques.
+- Método incorreto de contenção.
+- Influência do crescimento.
+- Persistência de hábitos.
+- Expansões exageradas, tirando os dentes de sua posição normal.
+- Discrepâncias esqueléticas limitantes, que não permitem uma finalização adequada.
+- Falta de vedamento labial (Fig. 14.154).
+
+Fig. 14.154 - O vedamento labial é de extrema importância para a estabilidade dos incisivos. O lábio inferior pressiona o incisivo superior, que pressiona o incisivo inferior. A língua pressiona o incisivo inferior, que pressiona o incisivo superior. Isso cria uma zona de equilíbrio, chamada "zona neutra".
+
+[A imagem mostra uma ilustração anatômica da boca em perfil, destacando a posição dos lábios, dentes e língua.]
+
+Fig. 14.155 a-d - É fundamental observar o alinhamento cervical dos dentes, e não apenas o alinhamento dos incisivos. Quando observamos um desalinhamento, devemos checar a posição dos dentes no modelo inicial. Normalmente, ocorre em casos onde não apenas a coroa apresentava-se malposicionada, mas também a raiz.
+
+a,b - modelo inicial
+c,d - após o alinhamento inicial
+
+[As imagens mostram quatro fotografias de arcadas dentárias em diferentes estágios de tratamento ortodôntico:
+a) Vista superior de uma arcada dentária sem aparelho
+b) Vista frontal de uma arcada dentária sem aparelho
+c) Vista superior de uma arcada dentária com aparelho ortodôntico
+d) Vista frontal de uma arcada dentária com aparelho ortodôntico]
+---
+Fig. 14.156 a-c - Quando a coroa e raiz se encontram malposicionadas, inicialmente a coroa alinha-se primeiro e depois é necessário torque extra para a correção radicular, fator importante na estabilidade.
+
+Mesmo cuidando de todos esses fatores, não estamos livres de recidivas, inclusive, algumas vezes, ocorrendo vários anos após o término do tratamento.
+
+Citaremos a seguir o que alguns autores importantes disseram sobre as recidivas.
+
+- "O problema envolvido na contenção é tão grande que testa os limites extremos da habilidade do ortodontista mais competente, sendo com frequência maior que as dificuldades encontradas no tratamento do caso até aquele momento" (Angle, 1907).
+
+- Hawley disse que: "daria metade de seus honorários a quem se responsabilizasse pela contenção de seus resultados, quando o dispositivo ativo fosse retirado".
+
+- "Recidiva é uma resposta histogenética e morfogênica a alguma violação anatomofuncional de um estado existente de equilíbrio anatômico e funcional" (Enlow, 1980).
+
+- "O ortodontista não deve supor que a estabilidade provavelmente ocorrerá, mas que a instabilidade provavelmente será o padrão. Assumindo essa postura, poderemos, então, planejar melhor e prevenir mudanças indesejáveis!" (Little, 1995).
+
+- "O apinhamento é a ruga da boca" Capelozza.
+
+Por tudo isso devemos monitorar nossos pacientes, se possível, por toda a vida, esclarecendo as limitações, cuidando das recidivas antes que elas evoluam, sem nos sentirmos culpados, desde que tenhamos feito o melhor possível. E não podemos nos esquecer do lema: "Radicalismo no diagnóstico, Liberdade no tratamento". Muitas vezes, ao escolhermos um plano de tratamento alternativo, comprometemos a estabilidade do tratamento, e o paciente na verdade participou dessa decisão. Devido a isso, pode ser necessária contenção eterna.
+---

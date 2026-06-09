@@ -1,0 +1,293 @@
+# PROTOCOLOS DE TRATAMENTO DE PRIMEIRA FASE
+
+Após mostrarmos alguns aparelhos em seus respectivos grupos, classificaremos os tratamentos que poderão ser realizados em nossos pacientes em 2 tipos: tratamento de primeira fase, que engloba todos os procedimentos que realizarmos até a dentição permanente, ou seja, até por volta de 12 anos de idade e tratamento de segunda fase, que engloba os procedimentos realizados a partir da dentição permanente.
+
+Dependendo do tipo do problema e da idade de início do tratamento, poderá haver um intervalo entre essas fases, intervalo esse que poderá durar meses ou anos. Por outro lado, muitas vezes, há uma transição direta de fases de tratamento, sem qualquer interrupção.
+
+Quando falamos em tratamento de primeira fase, pensamos em todo tipo de procedimento que pode ser realizado com o objetivo de minimizar ou até eliminar as alterações existentes e que poderá facilitar o tratamento de segunda fase, inclusive, algumas vezes, nem sendo necessária essa segunda etapa.
+
+Quanto aos recursos a serem utilizados, não existem restrições técnicas ou filosóficas. São bem-vindas a Ortopedia Mecânica, a Ortopedia Funcional dos Maxilares e a Ortodontia Parcial. Nós acreditamos que para cada tipo de problema e para cada tipo de paciente existem as melhores opções e as opções alternativas. Algumas vezes, selecionamos um determinado tipo de aparelho julgando ser a melhor opção e, de repente, por falta de colaboração, deixa de sê-lo. Por outro lado, um outro aparelho, que não seria tão eficiente, mas que não depende de colaboração, nos traz mais resultados. Aí temos um exemplo de como não podemos nos restringir a apenas uma filosofia. Quando tratamos nossos pacientes, não devemos defender essa ou aquela técnica como se fosse um time de futebol. A melhor técnica é a que resolve e, normalmente, é a que você domina. Na figura 11.1 exemplificamos essa linha de raciocínio.
+
+| Aparelho | Características | Paciente | Eficiência | Resultado Final |
+|----------|-----------------|----------|------------|-----------------|
+| X (removível) | Necessita de colaboração | Paciente com pouca colaboração | Eficiência alcançada: 3<br>Eficiência esperada: 8 | Ruim (Nota 3) |
+| Y (fixo) | Não necessita de colaboração | Paciente com pouca colaboração | Eficiência alcançada/esperada: 7 | Bom (Nota 7) |
+
+Fig. 11.1 - Comparação mostrando que, muitas vezes, a colaboração é o fator mais importante num tratamento, que um determinado aparelho embora pareça ser menos eficaz que outro pode atingir melhores resultados por não depender tanto de colaboração, apresentando respostas mais previsíveis quanto a resultados e tempo de tratamento, fatores importantes para a relação de confiança do paciente.
+---
+Dentro dessa idéia de que a colaboração é um fator tão importante no tratamento, pensamos que todas as vezes que for possível conduzir um tratamento onde a colaboração não seja necessária, ou seja, mínima, essa será a melhor opção. Ainda seguindo esse raciocínio, acreditamos que sempre que os recursos fixos sejam mais eficientes, eles deverão ser utilizados. Sendo assim, lançaremos mão de aparelhos removíveis, principalmente aqueles utilizados em Ortopedia Funcional dos Maxilares quando julgarmos que trarão resultados mais amplos para determinados casos. Por exemplo, quando estamos diante de um paciente (em fase de crescimento) braquifacial Classe II, por deficiência mandibular com mordida profunda, selecionaremos um aparelho que promova o avanço mandibular e a desoclusão vertical. Normalmente, encontraremos as melhores opções em aparelhos de Ortopedia Funcional dos Maxilares, já chamando a atenção para o fato de que mais importante do que saber qual aparelho, será o fato de saber o que pretendemos com ele. Porém, se após seguirmos aquela que parece ser a melhor opção, não contarmos com a colaboração do paciente, teremos que ter um plano alternativo, mudando um pouco a linha de trabalho, optando por recursos fixos.
+
+Neste capítulo, faremos uma abordagem sobre os diferentes, porém mais comuns tipos de problemas que aparecem em nosso dia-a-dia de consultório. Dividiremos em 3 grandes grupos: alterações transversais, verticais e ântero-posteriores, sendo que muitas vezes temos problemas associados. Sendo assim, relacionaremos esses grupos com os pacientes braqui, meso e dolicofaciais e também com as Classes I, II e III. O objetivo é estabelecer protocolos de tratamento para cada situação.
+
+Quando um paciente jovem de dentição decídua ou mista chega ao consultório devemos:
+
+- examinar a mordida do paciente e observar a relação de largura, altura e profundidade (ântero-posterior);
+- determinar através da cefalometria e análise facial se o problema é ósseo ou dentário.
+  - ósseo: o tratamento inicia-se mais cedo.
+  - dentário: o tratamento pode iniciar mais tarde.
+
+Obs.: sempre que encontrarmos uma alteração esquelética importante, devemos tentar pesquisar um pouco mais sobre a hereditariedade, pois o fator genético tem um peso fundamental no desenvolvimento do caso.
+
+Quando o problema é ósseo, normalmente iniciaremos o tratamento mais cedo para que possamos aproveitar a fase de crescimento para tentar amenizar a situação. Já, quando o problema é dentário, muitas vezes, aguardamos para que realizemos o tratamento numa fase só, encurtando o tempo de tratamento.
+
+Quanto às alterações esqueléticas, avaliamos qual tipo e tamanho do problema que teremos que tratar. As alterações transversais são as mais importantes para serem tratadas cedo, assim que possível, pois, interferem no desenvolvimento ântero-posterior e até vertical, além de estarem diretamente relacionadas aos problemas respiratórios. É fundamental expandir a maxila para destravar a mandíbula, tanto no sentido transversal quanto no ântero-posterior. Quando citamos "assim que possível", não estamos considerando a idade e sim
+---
+a época em que o paciente permita a intervenção. Não forçaremos um tratamento, pois nessa época precoce ocorrem poucas alterações, e não são alguns meses ou até poucos anos que trarão uma diferença no resultado final. Porém, justamente nesta fase, em poucos anos, ocorre uma evolução psicológica e um amadurecimento grande por parte da criança, o que permite mais colaboração, fator já citado como muito importante para um bom tratamento.
+
+Em relação aos problemas verticais, a mordida aberta deve ser tratada cedo, também assim que possível, pois interfere na fala, deglutição, mastigação e respiração, consequentemente levando a alterações transversais. Já a mordida profunda, embora também interfira nos aspectos funcionais, levando, muitas vezes, o paciente a uma mastigação tipo "charneira" (ciclo mastigatório vertical), o que é ruim para o desenvolvimento transversal e ântero-posterior, têm como melhor momento de tratamento o início do surto de crescimento. Em termos clínicos, sugerimos iniciar o tratamento quando observarmos na radiografia panorâmica que o primeiro pré-molar inferior apresenta-se com 2/3 da raiz formada, o que normalmente ocorre + 6 meses antes do início do surto de crescimento. A ideia é preparar a boca alguns meses antes do surto para que possamos aproveitar o máximo desta fase, com a boca já numa situação melhor. Nós sabemos que a idade dentária nem sempre é compatível com a idade óssea, porém, nesta fase de troca de dentes decíduos, temos a possibilidade de aproveitar bem a fase ativa de erupção dos dentes permanentes.
+
+Quanto às alterações ântero-posteriores, tratamos a Classe III cedo, pois a maxila cessa seu crescimento ântero-posterior por volta de 9 anos de idade e a mandíbula continua seu crescimento até os 15 anos de idade em média na mulher e até os 18 anos em média, no homem. A literatura cita como a melhor época a idade entre 5 e 8 anos de idade para se realizar o tratamento. Muitas vezes, precisamos fazer o tracionamento da maxila em duas etapas, uma mais cedo, por volta de 7-8 anos e outra aos 9-10 anos. O tratamento com aparelho fixo deve ser atrasado para que possamos avaliar como está ocorrendo o crescimento.
+
+Já nos casos de Classe II, a melhor época para iniciar o tratamento também está relacionada ao surto de crescimento. Observamos da mesma maneira, na radiografia panorâmica, a raiz do primeiro pré-molar inferior com 2/3 da raiz formada. Desta maneira, prepararemos a boca para estar em melhores condições aproveitando esta importante época de crescimento.
+
+## ÉPOCA IDEAL PARA INÍCIO DO TRATAMENTO DE ACORDO COM AS DIFERENTES ALTERAÇÕES
+
+| Tipo de Alteração | Recomendação |
+|-------------------|--------------|
+| Alterações Transversais | Iniciar cedo, assim que for possível. |
+| Alterações Verticais |  |
+| - Mordida aberta | Iniciar cedo, assim que for possível. |
+| - Mordida Profunda | Iniciar 6 meses antes do início do surto de crescimento. Observar na radiografia panorâmica a raiz do primeiro pré-molar inferior com 2/3 formada. |
+| Alterações Ântero-posteriores |  |
+| - Classe III | Iniciar cedo, assim que for possível |
+| - Classe II | Iniciar 6 meses antes do início do surto de crescimento. Observar na radiografia panorâmica a raiz do primeiro pré-molar inferior com 2/3 formada. |
+---
+Uma vez que definimos de maneira bem sucinta e protocolada a época que iniciamos os tratamentos de acordo com cada alteração, abordaremos primeiro através de esquemas e depois explicando em texto, cada uma dessas alterações. É importante salientar que essa abordagem está ligada aos casos mais comuns que constituem a maioria do que tratamos em nosso dia-a-dia. É óbvio que cada paciente é avaliado para saber se este se encaixa nesses protocolos. Nunca se esquecer do lema "Radicalismo no diagnóstico, Liberdade no tratamento".
+
+Outro item importante a ser explicado é que existem centenas de aparelhos e técnicas que podem ser utilizados num tratamento. Muitos deles se parecem ou têm função parecida. Cada profissional tem suas preferências e normalmente o melhor aparelho é aquele que você domina. Não podemos ficar presos ao aparelho e sim ao que ele nos oferece. Temos que ter em mente quais nossos objetivos e se o aparelho escolhido nos atenderá para atingir essas metas. Então, nesses esquemas, que serão sugeridos qualquer aparelho pode ser substituído por outro que nos traga os mesmos resultados. A maioria dos aparelhos abordados foi mostrado no capítulo 10.
+
+Seguiremos a sequência de alterações transversais, verticais e ântero-posteriores, que é a ordem que normalmente deve ser seguida nos tratamentos.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES TRANSVERSAIS NA MAXILA]
+    B[Atresia Dentoalveolar]
+    C[Atresia Esquelética]
+    D[Expansão Rápida da Maxila]
+    E[Expansão Lenta da Maxila]
+    F[Expansão Rápida da Maxila]
+    G[Haas/Hirax/McNamara]
+    H[Aparelhos Removíveis]
+    I[Aparelhos Fixos]
+    J[Haas/Hirax/McNamara]
+    K[Ortodontia Removível]
+    L[Ortopedia Funcional]
+    M[Quadri-hélice]
+    N[Placa Expansora/Aparelhos Encapsulados]
+    O[Pistas Indiretas Planas Simples, Twin Block, Bimler]
+
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    D --> G
+    E --> H
+    E --> I
+    F --> J
+    H --> K
+    H --> L
+    I --> M
+    K --> N
+    L --> O
+```
+---
+                                       ALTERAÇÕES TRANSVERSAIS NA MANDÍBULA
+
+                             Atresia Denlonlvolar                       Atresio Esquelético
+                              (muioria das vezes)                         (raras vezes)
+
+                                Expansão Lento                              "nsãaRépido
+                                do Mandibula                             Expansão
+                                                                          du
+
+                            Aparelhos        Aparelhos                 Distração Osteogênico
+                           Removíveis          Fixos                        (cirurgia)
+
+                   Ortodontio          Ortopedia     Bi-hélice
+                   Removível           Funcionol
+
+               Placa Exponsora /    Pistas Indiretas Planas
+                  Encopsulados       Simples / Twin Block
+
+       Nosso protocolo quanto às alteraçães transversais de maxila e mandibula consiste basicamente em realizar a cx
+ pansão rápida da maxila (em problemas esqueléticos ou mesmo dentoalveolares) e utilizar aparelho expansor removível
+ inferior; que consideramos mais eficay , além de permitir a verticalização dos incisivos inferiores, muitas vezes, necessária.
+ Quando não há colaboraçãu, aí utilizamos 0 bi-hélice na arcada inferior; a fimn de tralar alresias denloalveolares.
+
+              Nóslançaremos mao do quadri-hélice quando desejarmos uma expansao mais seletiva (mnais anteriorizada ou
+mais posteriorizada). Nós também preferimos em casos de atresia dentoalveolar unilareral , porém nesses casos, 0 apa-
+ relho € confeccionado com acrílico no palaro no lado que queremos mais estabilização.
+
+               Quando temos um problema de atresia associado a outro problema como, por exemplo, uma Classc Il ou uma
+    mordida aberta, realizamos primeiro a disjunção para depois tratarmos 0 outro problema. Por exemplo, mesmo que na
+     Ortopedia Funcional dos Maxilares encontremos recursos para tratar 0s problemas assnciados, não 0 fazemos. Damos
+   lotal prioridade à resolução do problema transver sal onde acreditamus que 0 lralamenlo mais eficiente é aexpansão
+ rápida da maxila.
+---
+Nós realizamos a expansão rápida utilizando o aparelho Hirax em pacientes até 10 de idade, por facilitar a higienização, com uma ativação de 1/4 de manhã e 1/4 à noite. A partir dos 10 anos, usamos o Haas, por haver menos risco de inclinação de dentes, ativando 1/4 de manhã e 2/4 à noite. Nós avaliamos a arcada inferior; se houver atresia dentoalveolar, a arcada superior deve ser expandida até criar uma mordida de Brodie (cúspides palatinas dos dentes posteriores superiores ultrapassam as cúspides vestibulares dos dentes inferiores). Se não houver atresia, expandimos até as pontas de cúspides palatinas dos dentes posteriores superiores tocarem as pontas de cúspides vestibulares dos dentes inferiores. O disjuntor é estabilizado por 6 meses e, nesse período, é realizada a expansão inferior, quando necessária. Em respiradores bucais, deixamos por mais tempo (9 meses a 1 ano), devido à maior possibilidade de recidiva. Após a retirada do disjuntor, avaliar a necessidade de uso de uma placa expansora como contenção noturna. Isso pode ser definido observando-se mensalmente o grau de recidiva da expansão. Se for rápida, coloca-se a contenção, mas, se for lenta, podemos acompanhar sem contenção, principalmente nos casos em que estendemos o período de uso do disjuntor. A cada consulta, devemos medir com um compasso ou paquímetro a dimensão transversal que vai do sulco central do molar direito ao esquerdo. Outro detalhe importante é que se estendemos o uso do aparelho inferior, seja removível ou fixo, também ajuda na estabilização da arcada superior.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES VERTICAIS MORDIDA ABERTA]
+    A --> B[Dentária]
+    A --> C[Esquelética]
+    B --> D[Aparelhos Removíveis]
+    B --> E[Aparelhos Fixos]
+    D --> F[Ortodontia Removível]
+    D --> G[Ortopedia Funcional]
+    E --> H[Grade Lingual Fixa/Esporões]
+    F --> I[Placa Expansora Grade Lingual]
+    G --> J[SN3/Bionator Fechado]
+    C --> K[Ortopedia Mecânica]
+    K --> L[BTP afastada/ Bite Block/ AEB de Tração Alta/ Thurow com Grade/ Miniimplantes ou Miniplacas]
+    C --> M[se for severa, provável cirurgia ortognática no futuro]
+    L --> N[no futuro - dentição permanente]
+```
+---
+Nas alterações verticais de mordida aberta de origem dentária, o importante é atrapalhar a língua para que ela não se interponha entre os dentes. Para isso, utilizamos aparelhos que tenham grade lingual ou esporões. Além disso, o trabalho da Fonoaudiologia pode ajudar muito. A preferência é por grade lingual inferior (devido à inserção da língua) e fixa, para não depender da colaboração. Em casos onde não possa ocorrer a mesialização dos dentes posteriores, os esporões são bem indicados, pois com a grade lingual o paciente pode pressioná-la empurrando os molares para mesial. Quando iniciamos a etapa de aparelho fixo, a colagem compensatória dos braquetes dos incisivos (deslocados mais para cervical) também ajuda, assim como um controle com barra palatina afastada do palato.
+
+Nos casos esqueléticos, a preferência é pelo controle vertical, principalmente com o uso de barra palatina afastada ou Bite Block (normalmente por um período que varia de 6 meses a 1 ano). A grade lingual também é importante. Algumas vezes, associamos esses recursos, o que inclusive traz desconforto ao paciente devido ao excesso de parafernália. Com esse tipo de aparelho, não dependemos da colaboração. Nos dolicofaciais severos, respiradores bucais, sofremos com a falta do selamento labial e do pressionamento da língua e oclusal, o que diminui muito a eficiência do tratamento. Nesses casos, no futuro, pode-se tentar a intrusão posterior com miniimplante ou miniplaca, ou ainda cirurgia ortognática. Nos casos esqueléticos, o trabalho da Fonoaudiologia não costuma trazer muitos resultados e os tratamentos podem trazer recidivas.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES VERTICAIS MORDIDA PROFUNDA]
+    A --> B[Dentária]
+    A --> C[Esquelética]
+    B --> D[Braquifacial/Mesofacial<br>extrusão posterior]
+    B --> E[Dolicofacial<br>intrusão anterior]
+    D --> F[Aparelhos Removíveis]
+    D --> G[Aparelhos Fixos]
+    F --> H[Ortodontia Removível]
+    H --> I[Platô Anterior]
+    G --> J[Ortopedia Funcional]
+    J --> K[Equiplan/Bionator/<br>Twin Block/Pistas<br>Indiretas Planas Simples]
+    G --> L[Platô Anterior]
+    E --> M[Aparelhos Fixos]
+    M --> N[Mecânica 4x2/<br>Arco-utilidade<br>de Ricketts]
+    C --> O[Correção da Curva de Spee<br>extrusão posterior]
+    O --> P[Aparelhos Removíveis]
+    O --> Q[Aparelhos Fixos]
+    P --> R[Ortopedia Funcional]
+    R --> S[Equiplan/Bionator/<br>Twin Block/Pistas<br>Indiretas Planas Simples]
+    Q --> T[Platô Anterior]
+```
+---
+Os pacientes com mordida profunda braqui e mesofaciais são bem indicados para tratar com Ortopedia Funcional dos Maxilares, realizando-se a extrusão posterior. Se não houver atresia, a preferência é o uso do aparelho Equiplan, um dos mais rápidos na correção da mordida profunda. Porém, se o paciente for braquifacial severo, com mordida profunda grande, usamos o Bionator, por ser mais resistente. Se houver dificuldade de uso de aparelhos monoblocos, utilizamos o Twin Block, que trabalha com as partes superior e inferior separadas. Se o paciente não colabora, instalamos um platô anterior fixo, que tem como desvantagem a possibilidade de inflamação gengival na região palatina dos incisivos, devido ao pressionamento e ao acúmulo de placa bacteriana.
+
+Os pacientes com mordida profunda esquelética costumam ter os resultados mais lentos e mais recidivantes.
+
+Os dolicofaciais com mordida profunda dentária devem ser tratados com intrusão anterior, e não com extrusão posterior. Nesse caso, o uso do arco-utilidade de Ricketts é o mais indicado. O importante é avaliar a posição estética dos incisivos durante o sorriso para determinar quais dentes deverão ser intruídos. Nós também consideramos a colagem compensatória dos incisivos, nesse caso colando os braquetes mais deslocados para incisal.
+
+```mermaid
+graph TD
+    A[ALTERAÇÕES ÂNTERO-POSTERIORES CLASSE II]
+    B[Potencial e Direção de Crescimento<br>Colaboração do Paciente]
+    C[Quantidade<br>Idade]
+    D[Dentária]
+    E[Esquelética<br>se for severa cirurgia ortognática no futuro<br>Avaliar o potencial e a direção de<br>crescimento, e a posição da fossa<br>articular]
+    F[Braquifacial/Mesofacial]
+    G[Dolicofacial]
+    H[Aparelhos Removíveis]
+    I[Aparelhos Fixos]
+    J[Ortodontia Fixa<br>final da 1ª fase]
+    K[Ortopedia Funcional]
+    L[Ortopedia Mecânica]
+    M[Bionator/Twin Block/<br>Pistas Indiretas Planas<br>Compostas/Bimler]
+    N[Arco Extrabucal<br>AEB]
+    O[Splinter<br>AEB conjugado]
+    P[Pequenas<br>Distalizações/<br>Exodontias no futuro]
+    Q[Distalização/<br>Propulsores Mandibulares/<br>Extrações mesofaciais no futuro]
+    R[Braquifacial/Mesofacial]
+    S[Dolicofacial]
+    T[Tratar com os mesmos<br>recursos das Classes II<br>dentárias e nos dolicofaciais<br>associar recursos do<br>tratamento vertical,<br>porém a diferença é que<br>no caso serão tentativas/<br>exodontias serão mais<br>prováveis - ainda mais<br>nos dolicofaciais<br>compensatório]
+
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    D --> F
+    D --> G
+    F --> H
+    F --> I
+    H --> J
+    H --> K
+    H --> L
+    K --> M
+    L --> N
+    G --> H
+    G --> I
+    H --> O
+    I --> P
+    J --> Q
+    E --> R
+    E --> S
+    R --> T
+    S --> T
+```
+---
+Nos tratamentos de Classe I, devemos avaliar se há ou não presença de apinhamentos ou protrusão. Se houver, analisamos a partir da discrepância total da arcada inferior se o caso será tratado com extrações ou não, como foi abordado no capítulo 9.
+
+Os tratamentos de Classe II são aqueles que apresentam a maior variação de recursos.
+
+Na maioria das vezes, temos uma Classe II por retrusão mandibular. Se o paciente for meso ou braquifacial, a melhor indicação é o tratamento com Ortopedia Funcional dos Maxilares. Se houver protrusão da maxila (minoria das vezes, pois, muitas vezes, a maxila também está retruída), associamos recursos extrabucais.
+
+A nossa preferência é pelo uso do aparelho Bionator, por ser mais resistente e de fácil manuseio. Normalmente, já cuidamos previamente dos problemas transversais (atresia da maxila) e da vestibularização dos incisivos inferiores, comum nesses casos, pois a natureza tenta fazer uma compensação.
+
+Nos pacientes dolicofaciais com retrusão mandibular, usamos Splinter, que nada mais é do que um aparelho removível para avanço mandibular associado ao AEB de tração alta, para controle vertical da maxila. Nestes casos, não fazemos os desgastes do acrílico na região posterior e, se houver mordida profunda dentária, será corrigida com arco utilidade de Ricketts no futuro. Nós procuramos evitar o avanço mandibular em pacientes dolicofaciais severos, que não respondem bem ao tratamento. Esses casos, muitas vezes, são cirúrgicos e tentar tratá-los pode significar anos de tratamento em vão.
+
+Três itens são muito importantes de serem avaliados para o prognóstico do tratamento: o potencial e a direção de crescimento, além da posição da fossa articular. Para essa definição, utilizamos na análise de Jarabak as medidas de corpo e ramo mandibulares (potencial), ângulos goníacos superior e inferior (direção), e na análise de Ricketts, a localização do pório para ver a posição da fossa articular. Se forem favoráveis, a chance de sucesso é grande, porém se não forem, dificilmente atingiremos um bom resultado. Mesmo assim, realizamos a tentativa, informando aos pais as limitações. A quantidade do problema também é relevante e, em todas as situações, a colaboração do paciente é fundamental. A genética também tem muita relevância; devemos observar os pais.
+
+Se a Classe II não for grande, podemos tratar com distalizações onde, novamente, não são bem indicadas para dolicofaciais severos.
+
+Se a face permitir, as extrações, já numa dentição permanente (segunda fase de tratamento), podem ser uma alternativa de tratamento. Aí avaliamos se serão só superiores ou também inferiores.
+
+Já na dentição permanente, um recurso que pode ser muito útil, principalmente como tratamento compensatório, é o uso de propulsores mandibulares. Eles permitem alguma distalização dos dentes superiores, além de inclinar os incisivos inferiores para vestibular, dando espaço para a mesialização dos dentes posteriores inferiores. Algumas vezes, a mandíbula fica posturada mais à frente e pode haver algum estímulo de crescimento mandibular (o que é controverso na literatura científica).
+---
+1lo 11
+
+     Potencial eDireção de (rescimento              ALTERAÇÕES ÂNTERO-                     Quantidade
+         Colaborução do Paciente                    POSTERIORES (LASSE III                    Idade
+
+                                       Dentária                                Esquelético
+                                      (funcionol)                Ise for severa, cirurgia ortognática no futuro)
+                                                                       Avaliar 0 Potencial e @ Direção de
+                     Braquifocial / Mesofacial / Dolicofacial                        Posição da Fossa
+
+                       Aparelhos         Apgrelhos                 Braquifaciol / Mesofacial / Dollcofucial
+                       Removíveis          Fixos
+
+                      Ortopedia         Orlodontia Fixo               Máscura Facial (às vezes 2 etopas)
+                                                                            Idode Ideal (5 0 12 unos):
+                       Funcionol        ((inal da 1ª fase)             14-16 horas / die, por 8 0 10 meses;
+                                                                       500 gromas de força de cada lado
+
+                       Bimler (     Prescrição de MBI /uso de
+                                     urço linguol inferior e
+                                     elústicos de Clusse III                           Se @ cuusa da
+                                 (cuidado com 0s dolicofaciais)   Se @ cuuso do        7Il estiver no
+                                                               Classe Ill estiver na   melhor 0prognóstico
+                                                                 mandibule, pior 0    (desde que nãp muita
+                                                                   prognéstico               intenso)
+
+           Nos casos de Classe IIl postural , a Ortopedia Funcional vai muito bem, possibilitando 0 posicionamento
+    da mandíbula em RC, além de permitir mudar as inclinaçoes dos incisivus superiores e inferiores Nossa
+                                                                                                        prele
+    rência é pelo aparelho Bimlcr €.
+
+           Nos casns esqueléticos, há quase uma unanimidade na literarura científica que 0 ideal é realizar a traçao
+                                  prognóstico é melhor quando a ctiologia da Classe IlI está mais ligada à falra de
+    reversa da maxila, sendo que 0
+    crescimento ânteru-posterior da maxila do que 0 excesso mandibular:
+
+           Empacientes Classe III dolicofaciais severos, 0 grande prnblema é que se usamos a máscara tacial 0 pacicn::
+    tendc a ficar mais dolicofacial e se não usamnos, Iais Classe IIL. Normalmente, optamos  uso da máscara tacial
+                                                                                     pelo
+---
+Assim como nos casos de Classe II, avaliar o potencial e a direção de crescimento além da posição da fossa articular é muito importante. Outro item fundamental é avaliar a questão genética, observando os pais.
+
+Após o uso da tração reversa, temos optado por acompanhar o paciente sem o uso de aparelhos.
+
+No caso de dentição permanente, se a Classe III não for grande, pode-se tentar tratamentos compensatórios, onde a prescrição de braquetes preconizadas pelos professores McLaughlin, Bennett e Trevisi (MBT) é bem vinda. Normalmente, são associados elásticos de Classe III durante todo o tratamento.
+
+Extrações de dentes inferiores podem ser utilizadas em casos específicos. A questão das extrações será discutida no capítulo 16

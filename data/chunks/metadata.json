@@ -1,0 +1,27 @@
+{
+  "total_chunks": 19280,
+  "sources": [
+    "protocolo_primeira_fase",
+    "ortodontia_contemporanea_proffit",
+    "Dicas para Otimizar a Ortodontia Mardem Bastos.pdf",
+    "Estrate\u0301gias Biomecanicas e Esta\u0301ticas na Clinica Ortodontica - Ravindra Nanda.pdf",
+    "1001_dicas_ortodontia",
+    "Ortodontia Objetiva Janson.pdf",
+    "protocolo_segunda_fase_azzenha",
+    "ortodontia_clinica_biomecanica_almeida",
+    "straight_wire_azzenha",
+    "Mini Implantes - Um Guia Teo\u0301rico - Pra\u0301tico Ladeia Jr..pdf",
+    "Biomeca\u0302nica em Ortodontia Marcotte 2 Ed.pdf",
+    "ortodontia_interceptiva_gabriel",
+    "Apostila-SISTEMA-DAMON-formato-A4-V2020-compactado.pdf",
+    "Protocolos em Ortodontia Azzenha 1 Ed_.pdf",
+    "diagnostico_ortodontia_capelozza",
+    "Arco Reto - Jorge Gregoret.pdf",
+    "terapias_atuais_ortodontia",
+    "livro desordem mandibulares.pdf",
+    "Ortodontia com Excele\u0302ncia Jurandir Barbosa.pdf"
+  ],
+  "chunk_size": 1000,
+  "overlap": 200,
+  "files_processed": 19
+}

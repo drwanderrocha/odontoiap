@@ -547,6 +547,44 @@ async def delete_agendamento(agenda_id: int):
     return {"message": "Agendamento removido com sucesso"}
 
 
+# ==================== RAG ENGINE ====================
+from rag import get_rag
+
+@app.on_event("startup")
+async def load_rag():
+    """Carrega o RAG engine no startup."""
+    try:
+        rag = get_rag()
+        rag.load()
+    except Exception as e:
+        print(f"⚠️ RAG: {e}")
+
+
+@app.get("/api/rag/search")
+async def rag_search(q: str = "", top_k: int = 5):
+    """Busca conhecimento odontológico nos livros."""
+    rag = get_rag()
+    if not rag._loaded:
+        rag.load()
+    results = rag.search(q, top_k=top_k)
+    return {"query": q, "results": results, "total": len(results)}
+
+
+class RAGSearchRequest(BaseModel):
+    query: str
+    top_k: int = 5
+
+
+@app.post("/api/rag/search")
+async def rag_search_post(request: RAGSearchRequest):
+    """Busca conhecimento odontológico (POST)."""
+    rag = get_rag()
+    if not rag._loaded:
+        rag.load()
+    results = rag.search(request.query, top_k=request.top_k)
+    return {"query": request.query, "results": results, "total": len(results)}
+
+
 # ==================== MAIN ====================
 if __name__ == "__main__":
     import uvicorn
