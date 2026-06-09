@@ -24,6 +24,13 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+# ==================== DATABASE ====================
+from database import (
+    init_db,
+    listar_pacientes, obter_paciente, criar_paciente, atualizar_paciente, deletar_paciente,
+    listar_agenda, obter_agendamento, criar_agendamento, atualizar_agendamento, deletar_agendamento,
+)
+
 # ==================== CONFIG ====================
 BACKEND_DIR = Path(__file__).parent.parent
 FRONTEND_DIR = BACKEND_DIR / "frontend"
@@ -179,6 +186,13 @@ async def lifespan(app: FastAPI):
     except ImportError:
         print("⚠️ chromadb: NÃO INSTALADO (pip install chromadb)")
     
+    # Inicializar banco de dados
+    try:
+        await init_db()
+        print("✅ database: OK")
+    except Exception as e:
+        print(f"⚠️ database: {e}")
+
     yield
     print("🦷 OdontoAI Backend encerrando...")
 
@@ -384,6 +398,153 @@ async def conhecimento_odontologico(request: ProntuarioRequest):
     ]
     resposta = gerar_resposta_demo(messages)
     return {"encontrado": False, "conteudo": resposta}
+
+
+# ========== MODELOS PACIENTES ==========
+
+class PacienteCreate(BaseModel):
+    nome: str
+    cpf: Optional[str] = None
+    data_nascimento: Optional[str] = None
+    telefone: Optional[str] = None
+    email: Optional[str] = None
+    convenio: Optional[str] = None
+    alergias: Optional[str] = None
+    medicamentos: Optional[str] = None
+    observacoes: Optional[str] = None
+
+
+class PacienteUpdate(BaseModel):
+    nome: Optional[str] = None
+    cpf: Optional[str] = None
+    data_nascimento: Optional[str] = None
+    telefone: Optional[str] = None
+    email: Optional[str] = None
+    convenio: Optional[str] = None
+    alergias: Optional[str] = None
+    medicamentos: Optional[str] = None
+    observacoes: Optional[str] = None
+
+
+class AgendaCreate(BaseModel):
+    paciente_id: int
+    data_hora: str
+    tipo: str = "consulta"
+    status: str = "agendado"
+    duracao_min: int = 30
+    observacao: Optional[str] = None
+
+
+class AgendaUpdate(BaseModel):
+    paciente_id: Optional[int] = None
+    data_hora: Optional[str] = None
+    tipo: Optional[str] = None
+    status: Optional[str] = None
+    duracao_min: Optional[int] = None
+    observacao: Optional[str] = None
+    lembrete_enviado: Optional[int] = None
+
+
+# ========== ENDPOINTS PACIENTES ==========
+
+
+@app.get("/api/pacientes/busca")
+async def buscar_pacientes(q: str = ""):
+    """Busca pacientes por nome, CPF ou telefone."""
+    resultados = await listar_pacientes(busca=q)
+    return {"resultados": resultados, "total": len(resultados)}
+
+
+@app.get("/api/pacientes")
+async def get_pacientes(limit: int = 100, offset: int = 0):
+    """Lista todos os pacientes."""
+    pacientes = await listar_pacientes(limit=limit, offset=offset)
+    return {"pacientes": pacientes, "total": len(pacientes)}
+
+
+@app.get("/api/pacientes/{paciente_id}")
+async def get_paciente(paciente_id: int):
+    """Obtém um paciente por ID."""
+    paciente = await obter_paciente(paciente_id)
+    if not paciente:
+        return {"error": "Paciente não encontrado"}, 404
+    return paciente
+
+
+@app.post("/api/pacientes")
+async def post_paciente(data: PacienteCreate):
+    """Cria um novo paciente."""
+    paciente = await criar_paciente(data.model_dump())
+    return paciente
+
+
+@app.put("/api/pacientes/{paciente_id}")
+async def put_paciente(paciente_id: int, data: PacienteUpdate):
+    """Atualiza um paciente existente."""
+    paciente = await atualizar_paciente(paciente_id, data.model_dump(exclude_none=True))
+    if not paciente:
+        return {"error": "Paciente não encontrado"}, 404
+    return paciente
+
+
+@app.delete("/api/pacientes/{paciente_id}")
+async def delete_paciente(paciente_id: int):
+    """Remove um paciente."""
+    ok = await deletar_paciente(paciente_id)
+    if not ok:
+        return {"error": "Paciente não encontrado"}, 404
+    return {"message": "Paciente removido com sucesso"}
+
+
+# ========== ENDPOINTS AGENDA ==========
+
+
+@app.get("/api/agenda/dia")
+async def get_agenda_dia(date: str = ""):
+    """Lista agendamentos de um dia específico (YYYY-MM-DD)."""
+    itens = await listar_agenda(data=date)
+    return {"agenda": itens, "total": len(itens)}
+
+
+@app.get("/api/agenda")
+async def get_agenda(paciente_id: int = None, limit: int = 100, offset: int = 0):
+    """Lista agendamentos com filtros opcionais."""
+    itens = await listar_agenda(paciente_id=paciente_id, limit=limit, offset=offset)
+    return {"agenda": itens, "total": len(itens)}
+
+
+@app.get("/api/agenda/{agenda_id}")
+async def get_agendamento(agenda_id: int):
+    """Obtém um agendamento por ID."""
+    item = await obter_agendamento(agenda_id)
+    if not item:
+        return {"error": "Agendamento não encontrado"}, 404
+    return item
+
+
+@app.post("/api/agenda")
+async def post_agendamento(data: AgendaCreate):
+    """Cria um novo agendamento."""
+    item = await criar_agendamento(data.model_dump())
+    return item
+
+
+@app.put("/api/agenda/{agenda_id}")
+async def put_agendamento(agenda_id: int, data: AgendaUpdate):
+    """Atualiza um agendamento existente."""
+    item = await atualizar_agendamento(agenda_id, data.model_dump(exclude_none=True))
+    if not item:
+        return {"error": "Agendamento não encontrado"}, 404
+    return item
+
+
+@app.delete("/api/agenda/{agenda_id}")
+async def delete_agendamento(agenda_id: int):
+    """Remove um agendamento."""
+    ok = await deletar_agendamento(agenda_id)
+    if not ok:
+        return {"error": "Agendamento não encontrado"}, 404
+    return {"message": "Agendamento removido com sucesso"}
 
 
 # ==================== MAIN ====================
