@@ -39,7 +39,9 @@ AUDIO_DIR = BACKEND_DIR / "audio_cache"
 AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
 OPENROUTER_BASE = "https://openrouter.ai/api/v1"
-DEFAULT_MODEL = "google/gemini-2.0-flash-exp:free"  # Gratuito no OpenRouter
+DEFAULT_MODEL = os.environ.get("ODONTO_MODEL", "openrouter/owl-alpha")  # Modelo padrão
+# API key do OpenRouter via variável de ambiente (não commitada)
+SERVER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 # System prompt do agente odontológico
 SYSTEM_PROMPT = """Você é o OdontoAI, um assistente de IA especializado em odontologia para dentistas brasileiros.
@@ -65,9 +67,12 @@ Responda de forma natural, como um colega experiente conversando."""
 from prontuario import extrair_entidades, formatar_prontuario, gerar_resposta_demo, buscar_conhecimento
 
 async def call_llm(messages: list, api_key: str = "", model: str = DEFAULT_MODEL) -> str:
-    """Chama LLM via OpenRouter (gratuito) ou fallback demo."""
+    """Chama LLM via OpenRouter. Usa key do usuário, ou key do servidor, ou demo."""
     
-    if not api_key:
+    # Prioridade: key do usuário > key do servidor > modo demo
+    key = api_key or SERVER_API_KEY
+    
+    if not key:
         # Sem API key — modo demo com base de conhecimento local
         return gerar_resposta_demo(messages)
     
@@ -85,7 +90,7 @@ async def call_llm(messages: list, api_key: str = "", model: str = DEFAULT_MODEL
         data=payload,
         headers={
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
+            "Authorization": f"Bearer {key}",
             "HTTP-Referer": "https://odontoiap.com",
             "X-Title": "OdontoAI"
         },
@@ -93,7 +98,7 @@ async def call_llm(messages: list, api_key: str = "", model: str = DEFAULT_MODEL
     )
     
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read())
             return data["choices"][0]["message"]["content"]
     except Exception as e:
@@ -271,6 +276,9 @@ class ChatRequest(BaseModel):
 async def chat(request: ChatRequest):
     """Endpoint de chat por texto, com RAG dos livros odontológicos."""
     
+    # Garantir modelo padrão
+    modelo = request.model or DEFAULT_MODEL
+    
     # Buscar contexto relevante nos livros (RAG)
     rag = get_rag()
     if not rag._loaded:
@@ -307,7 +315,7 @@ Use o contexto acima para embasar sua resposta quando relevante. Cite a fonte qu
     ]
     
     # Chamar LLM
-    response = await call_llm(messages, request.api_key, request.model)
+    response = await call_llm(messages, request.api_key, modelo)
     
     # Gerar TTS
     audio_path = await tts_edge(response, request.tts_voice)
@@ -319,7 +327,7 @@ Use o contexto acima para embasar sua resposta quando relevante. Cite a fonte qu
     return {
         "response": response,
         "audio_url": audio_url,
-        "model": request.model if request.api_key else "demo",
+        "model": modelo if (request.api_key or SERVER_API_KEY) else "demo",
         "fontes": list(set(fontes)) if fontes else []
     }
 
