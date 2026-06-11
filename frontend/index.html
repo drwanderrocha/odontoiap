@@ -398,76 +398,10 @@ let config = {
 };
 
 // ========== STATE ==========
-let isRecording = false;
-let mediaRecorder = null;
-let audioChunks = [];
-let audioContext = null;
-let analyser = null;
-let micStream = null;
 let ttsAudio = null;
 let deferredPrompt = null;
 
-// ========== WEB SPEECH API (STT no navegador) ==========
-let speechRecognition = null;
-let browserSttResult = '';
-
-function initSpeechRecognition() {
-  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SpeechRecognition) return null;
-  
-  const recognition = new SpeechRecognition();
-  recognition.lang = 'pt-BR';
-  recognition.continuous = false;
-  recognition.interimResults = true;
-  recognition.maxAlternatives = 1;
-  
-  recognition.onresult = (event) => {
-    let interim = '';
-    let final = '';
-    for (let i = event.resultIndex; i < event.results.length; i++) {
-      const transcript = event.results[i][0].transcript;
-      if (event.results[i].isFinal) {
-        final += transcript;
-      } else {
-        interim += transcript;
-      }
-    }
-    browserSttResult = final || interim;
-    // Mostrar transcrição em tempo real no input
-    if (interim) {
-      document.getElementById('textInput').value = interim;
-      document.getElementById('textInput').placeholder = 'Ouvindo: ' + interim;
-    }
-  };
-  
-  recognition.onerror = (event) => {
-    console.error('STT Error:', event.error);
-    if (event.error === 'not-allowed') {
-      addMsg('❌ Permissão do microfone negada. Permita o acesso nas configurações do navegador.', 'bot');
-    } else if (event.error === 'no-speech') {
-      // Ignorar — só não detectou fala
-    } else {
-      addMsg('❌ Erro no reconhecimento de voz: ' + event.error, 'bot');
-    }
-    stopRecordingUI();
-  };
-  
-  recognition.onend = () => {
-    if (isRecording) {
-      // Se ainda está gravando, reiniciar (para gravação contínua)
-      try { recognition.start(); } catch(e) {}
-    } else {
-      // Enviar resultado final
-      if (browserSttResult.trim()) {
-        document.getElementById('textInput').value = browserSttResult;
-        sendText();
-      }
-      stopRecordingUI();
-    }
-  };
-  
-  return recognition;
-}
+// Voice streaming state declarado no topo da seção VOICE STREAMING abaixo
 
 // ========== PWA ==========
 if ('serviceWorker' in navigator) {
@@ -579,202 +513,206 @@ async function sendText() {
   }
 }
 
-// ========== VOICE RECORDING ==========
+// ========== VOICE STREAMING (WebSocket + VAD) ==========
+let voiceSocket = null;
+let voiceStream = null;
+let voiceAnalyser = null;
+let voiceContext = null;
+let silenceTimer = null;
+let isVoiceSession = false;
+let isWaitingResponse = false;
+const SILENCE_THRESHOLD = 20;   // 0-128, volume mínimo considerado "fala"
+const SILENCE_DURATION = 1500;  // ms de silêncio para considerar fim da fala
+
 async function toggleRecording() {
-  if (isRecording) {
-    stopRecording();
+  if (isVoiceSession) {
+    stopVoiceSession();
   } else {
-    startRecording();
+    await startVoiceSession();
   }
 }
 
-function startRecording() {
-  // STT no SERVIDOR (faster-whisper) por padrão — funciona em qualquer celular/navegador.
-  // O Web Speech API do navegador (browser) dá erro "aborted" em muitos navegadores mobile.
-  if (config.sttMode === 'browser') {
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (SpeechRecognition) {
-      startBrowserSTT();
-      return;
-    }
-  }
-  // Padrão: gravar áudio e enviar para o servidor (faster-whisper)
-  startAudioRecording();
-}
-
-function startBrowserSTT() {
-  speechRecognition = initSpeechRecognition();
-  if (!speechRecognition) {
-    addMsg('❌ Seu navegador não suporta reconhecimento de voz. Use Chrome ou Edge.', 'bot');
-    return;
-  }
-  
-  browserSttResult = '';
-  isRecording = true;
-  
-  const btn = document.getElementById('btnVoice');
-  btn.classList.add('recording');
-  btn.innerHTML = '⏹';
-  
-  // Mostrar waveform visual
-  showListeningWaveform();
-  
-  document.getElementById('textInput').placeholder = '🎤 Ouvindo... Fale agora!';
-  document.getElementById('textInput').value = '';
-  
+async function startVoiceSession() {
   try {
-    speechRecognition.start();
-  } catch (e) {
-    console.error('STT start error:', e);
-    stopRecordingUI();
+    // Pedir permissão do microfone
+    voiceStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    
+    // Conectar WebSocket
+    const wsUrl = config.apiUrl.replace(/^http/, 'ws') + '/api/voice/stream';
+    voiceSocket = new WebSocket(wsUrl);
+    
+    voiceSocket.onopen = () => {
+      isVoiceSession = true;
+      isWaitingResponse = false;
+      const btn = document.getElementById('btnVoice');
+      btn.classList.add('recording');
+      btn.innerHTML = '⏹';
+      document.getElementById('textInput').placeholder = '🎤 Ouvindo... Fale agora!';
+      document.getElementById('textInput').value = '';
+      
+      // Configurar VAD
+      setupVoiceVAD(voiceStream);
+      
+      // Enviar config inicial
+      voiceSocket.send(JSON.stringify({
+        type: 'config',
+        tts_voice: config.ttsVoice,
+        model: 'openrouter/owl-alpha'
+      }));
+    };
+    
+    voiceSocket.onmessage = (event) => {
+      const msg = JSON.parse(event.data);
+      
+      switch (msg.type) {
+        case 'ready':
+          console.log('Voice stream pronto');
+          break;
+          
+        case 'typing':
+          showTyping();
+          break;
+          
+        case 'transcription':
+          addMsg('🎤 ' + msg.text, 'user', 'Transcrito');
+          break;
+          
+        case 'response':
+          hideTyping();
+          addMsg(msg.text, 'bot', '🔊');
+          break;
+          
+        case 'audio':
+          // Reproduzir áudio de resposta
+          playBase64Audio(msg.data);
+          // Voltar a ouvir automaticamente (conversa contínua)
+          isWaitingResponse = false;
+          document.getElementById('textInput').placeholder = '🎤 Ouvindo... Fale agora!';
+          break;
+          
+        case 'error':
+          hideTyping();
+          addMsg('❌ ' + msg.message, 'bot');
+          isWaitingResponse = false;
+          break;
+      }
+    };
+    
+    voiceSocket.onerror = (err) => {
+      console.error('Voice WebSocket error:', err);
+      addMsg('❌ Erro na conexão de voz.', 'bot');
+      stopVoiceSession();
+    };
+    
+    voiceSocket.onclose = () => {
+      console.log('Voice WebSocket fechado');
+      stopVoiceSession();
+    };
+    
+  } catch (err) {
+    console.error('Erro ao iniciar voice session:', err);
+    addMsg('❌ Sem acesso ao microfone. Permita o uso nas configurações.', 'bot');
   }
 }
 
-function stopRecording() {
-  isRecording = false;
-  if (speechRecognition) {
-    try { speechRecognition.stop(); } catch(e) {}
-    speechRecognition = null;
+function setupVoiceVAD(stream) {
+  voiceContext = new AudioContext();
+  voiceAnalyser = voiceContext.createAnalyser();
+  voiceAnalyser.fftSize = 256;
+  voiceAnalyser.smoothingTimeConstant = 0.3;
+  
+  const source = voiceContext.createMediaStreamSource(stream);
+  source.connect(voiceAnalyser);
+  
+  const dataArray = new Uint8Array(voiceAnalyser.frequencyBinCount);
+  
+  // MediaRecorder para capturar chunks
+  const mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+  let audioChunks = [];
+  
+  mediaRecorder.ondataavailable = (e) => {
+    if (e.data.size > 0 && voiceSocket && voiceSocket.readyState === WebSocket.OPEN) {
+      // Converter para base64 e enviar
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64 = reader.result.split(',')[1];
+        voiceSocket.send(JSON.stringify({ type: 'audio', data: base64 }));
+      };
+      reader.readAsDataURL(e.data);
+    }
+  };
+  
+  // Iniciar gravação em chunks de 100ms
+  mediaRecorder.start(100);
+  
+  // Loop de VAD
+  let lastVoiceTime = Date.now();
+  let hasSpoken = false;
+  
+  function checkVolume() {
+    if (!isVoiceSession) return;
+    
+    voiceAnalyser.getByteFrequencyData(dataArray);
+    // Calcular volume médio
+    const avg = dataArray.reduce((a, b) => a + b, 0) / dataArray.length;
+    
+    if (avg > SILENCE_THRESHOLD) {
+      lastVoiceTime = Date.now();
+      hasSpoken = true;
+    }
+    
+    // Se falou e ficou em silêncio por SILENCE_DURATION, enviar stop
+    if (hasSpoken && !isWaitingResponse && (Date.now() - lastVoiceTime > SILENCE_DURATION)) {
+      hasSpoken = false;
+      isWaitingResponse = true;
+      document.getElementById('textInput').placeholder = '⏳ Processando...';
+      if (voiceSocket && voiceSocket.readyState === WebSocket.OPEN) {
+        voiceSocket.send(JSON.stringify({ type: 'stop' }));
+      }
+    }
+    
+    requestAnimationFrame(checkVolume);
   }
-  if (mediaRecorder && mediaRecorder.state !== 'inactive') {
-    mediaRecorder.stop();
-  }
-  stopRecordingUI();
+  
+  checkVolume();
 }
 
-function stopRecordingUI() {
-  isRecording = false;
+function playBase64Audio(base64Data) {
+  const audio = new Audio('data:audio/mp3;base64,' + base64Data);
+  audio.play().catch(e => console.error('Erro ao reproduzir áudio:', e));
+}
+
+function stopVoiceSession() {
+  isVoiceSession = false;
+  isWaitingResponse = false;
+  
+  if (voiceSocket) {
+    voiceSocket.close();
+    voiceSocket = null;
+  }
+  
+  if (voiceStream) {
+    voiceStream.getTracks().forEach(t => t.stop());
+    voiceStream = null;
+  }
+  
+  if (voiceContext) {
+    voiceContext.close();
+    voiceContext = null;
+  }
+  
   const btn = document.getElementById('btnVoice');
   btn.classList.remove('recording');
   btn.innerHTML = '🎤';
-  document.getElementById('waveform').style.display = 'none';
   document.getElementById('textInput').placeholder = 'Digite ou fale...';
-  if (audioContext) {
-    audioContext.close();
-    audioContext = null;
-  }
+  document.getElementById('waveform').style.display = 'none';
+  hideTyping();
 }
 
-function showListeningWaveform() {
-  const container = document.getElementById('waveform');
-  container.style.display = 'flex';
-  container.innerHTML = '';
-  const barCount = 32;
-  for (let i = 0; i < barCount; i++) {
-    const bar = document.createElement('div');
-    bar.className = 'bar';
-    bar.style.height = '4px';
-    container.appendChild(bar);
-  }
-  
-  // Animação simulada (sem acesso ao mic via Web Speech API)
-  const bars = container.querySelectorAll('.bar');
-  let frame = 0;
-  function animate() {
-    if (!isRecording) return;
-    frame++;
-    for (let i = 0; i < barCount; i++) {
-      const h = 4 + Math.abs(Math.sin((frame + i * 3) * 0.15)) * 30 + Math.random() * 8;
-      bars[i].style.height = h + 'px';
-    }
-    requestAnimationFrame(animate);
-  }
-  animate();
-}
-
-async function startAudioRecording() {
-  try {
-    micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    mediaRecorder = new MediaRecorder(micStream);
-    audioChunks = [];
-    
-    mediaRecorder.ondataavailable = e => {
-      if (e.data.size > 0) audioChunks.push(e.data);
-    };
-    
-    mediaRecorder.onstop = async () => {
-      const blob = new Blob(audioChunks, { type: 'audio/webm' });
-      await sendAudio(blob);
-      micStream.getTracks().forEach(t => t.stop());
-    };
-    
-    mediaRecorder.start();
-    isRecording = true;
-    
-    const btn = document.getElementById('btnVoice');
-    btn.classList.add('recording');
-    btn.innerHTML = '⏹';
-    
-    setupWaveform(micStream);
-    
-  } catch (err) {
-    addMsg('❌ Sem acesso ao microfone. Permita o uso nas configurações do navegador.', 'bot');
-  }
-}
-
-function setupWaveform(stream) {
-  audioContext = new AudioContext();
-  analyser = audioContext.createAnalyser();
-  analyser.fftSize = 64;
-  const source = audioContext.createMediaStreamSource(stream);
-  source.connect(analyser);
-  
-  const container = document.getElementById('waveform');
-  container.style.display = 'flex';
-  container.innerHTML = '';
-  const barCount = 32;
-  for (let i = 0; i < barCount; i++) {
-    const bar = document.createElement('div');
-    bar.className = 'bar';
-    bar.style.height = '4px';
-    container.appendChild(bar);
-  }
-  
-  const bars = container.querySelectorAll('.bar');
-  const dataArray = new Uint8Array(analyser.frequencyBinCount);
-  
-  function animate() {
-    if (!isRecording) return;
-    analyser.getByteFrequencyData(dataArray);
-    for (let i = 0; i < barCount; i++) {
-      const val = dataArray[i] || 0;
-      bars[i].style.height = Math.max(4, val / 4) + 'px';
-    }
-    requestAnimationFrame(animate);
-  }
-  animate();
-}
-
-async function sendAudio(blob) {
-  addMsg('🎤 Enviando áudio...', 'user');
-  showTyping();
-  
-  const formData = new FormData();
-  formData.append('audio', blob, 'recording.webm');
-  formData.append('api_key', config.apiKey);
-  formData.append('tts_voice', config.ttsVoice);
-  formData.append('stt_mode', config.sttMode);
-  formData.append('model', 'openrouter/owl-alpha');
-  
-  try {
-    const res = await fetch(`${config.apiUrl}/api/voice`, {
-      method: 'POST',
-      body: formData
-    });
-    const data = await res.json();
-    hideTyping();
-    
-    if (data.transcription) {
-      addMsg('🎤 ' + data.transcription, 'user', 'Transcrito');
-    }
-    addMsg(data.response, 'bot', data.audio_url ? '🔊' : '');
-    if (data.audio_url) playAudio(config.apiUrl + data.audio_url);
-    
-  } catch (err) {
-    hideTyping();
-    addMsg('❌ Erro ao processar áudio.', 'bot');
-  }
-}
+// ========== LEGACY: gravação única (fallback) ==========
+// Mantido para compatibilidade, mas o padrão agora é o WebSocket acima.
+// As funções startAudioRecording, sendAudio, etc. foram removidas
+// pois o WebSocket cuida de tudo.
 
 // ========== TTS PLAYBACK ==========
 function playAudio(url) {

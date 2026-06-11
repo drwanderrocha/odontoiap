@@ -18,7 +18,7 @@ from pathlib import Path
 from typing import Optional
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, UploadFile, File, Form
+from fastapi import FastAPI, UploadFile, File, Form, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -396,6 +396,118 @@ async def voice(
         "model": modelo if (api_key or SERVER_API_KEY) else "demo",
         "fontes": fontes
     }
+
+
+# ========== WEBSOCKET VOICE STREAMING ==========
+
+@app.websocket("/api/voice/stream")
+async def voice_stream(websocket: WebSocket):
+    """
+    WebSocket para streaming de voz contínuo (conversa ao vivo).
+    
+    Protocolo (JSON frames):
+      Client -> Server:
+        {"type": "audio", "data": "<base64 webm chunk>"}
+        {"type": "config", "stt_mode": "server", "tts_voice": "pt-BR-FranciscaNeural"}
+        {"type": "stop"}  # encerra a gravação do turno atual
+      
+      Server -> Client:
+        {"type": "transcription", "text": "..."}
+        {"type": "response", "text": "...", "fontes": [...]}
+        {"type": "audio", "data": "<base64 mp3>"}
+        {"type": "error", "message": "..."}
+        {"type": "typing"}  # indica que está processando
+    """
+    await websocket.accept()
+    print("🔌 WebSocket voice stream conectado")
+    
+    # Buffer de áudio do turno atual
+    audio_buffer = bytearray()
+    tts_voice = "pt-BR-FranciscaNeural"
+    modelo = DEFAULT_MODEL
+    
+    try:
+        while True:
+            # Receber mensagem do cliente
+            msg = await websocket.receive_json()
+            msg_type = msg.get("type", "")
+            
+            if msg_type == "config":
+                tts_voice = msg.get("tts_voice", tts_voice)
+                modelo = msg.get("model", modelo)
+                await websocket.send_json({"type": "ready", "message": "Configurado"})
+            
+            elif msg_type == "audio":
+                # Acumular chunk de áudio
+                import base64
+                chunk = base64.b64decode(msg.get("data", ""))
+                audio_buffer.extend(chunk)
+            
+            elif msg_type == "stop":
+                # Processar o turno completo
+                if len(audio_buffer) < 1000:
+                    await websocket.send_json({"type": "error", "message": "Áudio muito curto"})
+                    audio_buffer.clear()
+                    continue
+                
+                await websocket.send_json({"type": "typing"})
+                
+                # Salvar buffer como arquivo temporário
+                import base64
+                tmp = tempfile.NamedTemporaryFile(suffix=".webm", delete=False)
+                tmp.write(bytes(audio_buffer))
+                tmp_path = tmp.name
+                tmp.close()
+                audio_buffer.clear()
+                
+                try:
+                    # STT
+                    transcription = await stt_whisper(tmp_path)
+                    
+                    if not transcription:
+                        await websocket.send_json({
+                            "type": "error",
+                            "message": "Não foi possível transcrever o áudio"
+                        })
+                        continue
+                    
+                    await websocket.send_json({
+                        "type": "transcription",
+                        "text": transcription
+                    })
+                    
+                    # LLM com RAG
+                    response, fontes = await responder_com_rag(
+                        transcription, SERVER_API_KEY, modelo
+                    )
+                    
+                    await websocket.send_json({
+                        "type": "response",
+                        "text": response,
+                        "fontes": fontes
+                    })
+                    
+                    # TTS
+                    audio_path = await tts_edge(response, tts_voice)
+                    if audio_path:
+                        with open(audio_path, "rb") as f:
+                            audio_b64 = base64.b64encode(f.read()).decode()
+                        await websocket.send_json({
+                            "type": "audio",
+                            "data": audio_b64
+                        })
+                
+                finally:
+                    os.unlink(tmp_path)
+    
+    except WebSocketDisconnect:
+        print("🔌 WebSocket voice stream desconectado")
+    except Exception as e:
+        print(f"❌ Erro no voice stream: {e}")
+        try:
+            await websocket.send_json({"type": "error", "message": str(e)})
+        except:
+            pass
 
 
 @app.get("/audio/{filename}")
