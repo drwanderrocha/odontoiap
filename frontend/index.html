@@ -394,7 +394,7 @@ let config = {
   apiUrl: localStorage.getItem('odonto_api') || DEFAULT_API,
   apiKey: localStorage.getItem('odonto_key') || '',
   ttsVoice: localStorage.getItem('odonto_voice') || 'pt-BR-FranciscaNeural',
-  sttMode: localStorage.getItem('odonto_stt') || 'browser'
+  sttMode: localStorage.getItem('odonto_stt') || 'server'
 };
 
 // ========== STATE ==========
@@ -589,15 +589,16 @@ async function toggleRecording() {
 }
 
 function startRecording() {
-  // Tentar Web Speech API primeiro (funciona no Chrome/Edge)
-  if (config.sttMode === 'browser' || config.sttMode === undefined) {
+  // STT no SERVIDOR (faster-whisper) por padrão — funciona em qualquer celular/navegador.
+  // O Web Speech API do navegador (browser) dá erro "aborted" em muitos navegadores mobile.
+  if (config.sttMode === 'browser') {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (SpeechRecognition) {
       startBrowserSTT();
       return;
     }
   }
-  // Fallback: gravar áudio e enviar para o servidor
+  // Padrão: gravar áudio e enviar para o servidor (faster-whisper)
   startAudioRecording();
 }
 
@@ -753,6 +754,7 @@ async function sendAudio(blob) {
   formData.append('api_key', config.apiKey);
   formData.append('tts_voice', config.ttsVoice);
   formData.append('stt_mode', config.sttMode);
+  formData.append('model', 'openrouter/owl-alpha');
   
   try {
     const res = await fetch(`${config.apiUrl}/api/voice`, {
