@@ -137,7 +137,7 @@ async def obter_paciente(paciente_id: int) -> Optional[dict]:
 async def criar_paciente(data: dict) -> dict:
     async with get_db() as db:
         now = datetime.now().isoformat()
-        cursor = await db.execute_insert(
+        cursor = await db.execute(
             """INSERT INTO pacientes (nome, cpf, data_nascimento, telefone, email, convenio, alergias, medicamentos, observacoes, created_at, updated_at)
                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
@@ -155,7 +155,7 @@ async def criar_paciente(data: dict) -> dict:
             )
         )
         await db.commit()
-        return await obter_paciente(cursor[0])
+        return await obter_paciente(cursor.lastrowid)
 
 
 async def atualizar_paciente(paciente_id: int, data: dict) -> Optional[dict]:
@@ -174,7 +174,7 @@ async def atualizar_paciente(paciente_id: int, data: dict) -> Optional[dict]:
         updates["updated_at"] = datetime.now().isoformat()
         set_clause = ", ".join(f"{k} = ?" for k in updates)
         values = list(updates.values()) + [paciente_id]
-        await db.execute_update(
+        await db.execute(
             f"UPDATE pacientes SET {set_clause} WHERE id = ?", values
         )
         await db.commit()
@@ -183,11 +183,11 @@ async def atualizar_paciente(paciente_id: int, data: dict) -> Optional[dict]:
 
 async def deletar_paciente(paciente_id: int) -> bool:
     async with get_db() as db:
-        cursor = await db.execute_update(
+        cursor = await db.execute(
             "DELETE FROM pacientes WHERE id = ?", (paciente_id,)
         )
         await db.commit()
-        return cursor > 0
+        return cursor.rowcount > 0
 
 
 # ==================== AGENDA CRUD ====================
@@ -226,7 +226,7 @@ async def obter_agendamento(agenda_id: int) -> Optional[dict]:
 async def criar_agendamento(data: dict) -> dict:
     async with get_db() as db:
         now = datetime.now().isoformat()
-        cursor = await db.execute_insert(
+        cursor = await db.execute(
             """INSERT INTO agenda (paciente_id, data_hora, tipo, status, duracao_min, observacao, lembrete_enviado, created_at)
                VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
             (
@@ -241,7 +241,7 @@ async def criar_agendamento(data: dict) -> dict:
             )
         )
         await db.commit()
-        return await obter_agendamento(cursor[0])
+        return await obter_agendamento(cursor.lastrowid)
 
 
 async def atualizar_agendamento(agenda_id: int, data: dict) -> Optional[dict]:
@@ -259,7 +259,7 @@ async def atualizar_agendamento(agenda_id: int, data: dict) -> Optional[dict]:
 
         set_clause = ", ".join(f"{k} = ?" for k in updates)
         values = list(updates.values()) + [agenda_id]
-        await db.execute_update(
+        await db.execute(
             f"UPDATE agenda SET {set_clause} WHERE id = ?", values
         )
         await db.commit()
@@ -268,8 +268,8 @@ async def atualizar_agendamento(agenda_id: int, data: dict) -> Optional[dict]:
 
 async def deletar_agendamento(agenda_id: int) -> bool:
     async with get_db() as db:
-        cursor = await db.execute_update(
+        cursor = await db.execute(
             "DELETE FROM agenda WHERE id = ?", (agenda_id,)
         )
         await db.commit()
-        return cursor > 0
+        return cursor.rowcount > 0

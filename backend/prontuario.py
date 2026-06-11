@@ -180,8 +180,9 @@ def extrair_entidades(texto: str) -> EntidadeProntuario:
             entidade.material = valor
             break
     
-    # Classificação de Angle
-    for chave, valor in CLASSIFICACAO_ANGLE.items():
+    # Classificação de Angle — ordenar por tamanho da chave (mais longa primeiro)
+    # para evitar "classe i" bater antes de "classe ii"
+    for chave, valor in sorted(CLASSIFICACAO_ANGLE.items(), key=lambda x: -len(x[0])):
         if chave in texto_lower:
             entidade.classificacao_angle = valor
             break
@@ -414,13 +415,18 @@ Exemplos:
 def buscar_conhecimento(query: str) -> str:
     """Busca conhecimento odontológico por palavras-chave."""
     query_lower = query.lower()
-    
-    # Buscar por palavras-chave
+    stopwords = {"de", "da", "do", "dos", "das", "em", "um", "uma", "no", "na",
+                 "nos", "nas", "por", "para", "com", "sem", "sobre", "ate",
+                 "que", "se", "ao", "aos", "ou", "mais", "mas", "como", "sao",
+                 "foi", "ser", "ter", "esta", "tem", "seu", "sua", "seus", "suas",
+                 "este", "esta", "esse", "essa", "aquele", "aquela"}
+
+    # Buscar por palavras-chave (ignorando stopwords)
     for chave, info in CONHECIMENTO_ODONTO.items():
-        palavras = chave.split()
-        if any(p in query_lower for p in palavras):
+        palavras = [p for p in chave.split() if p not in stopwords and len(p) > 2]
+        if palavras and any(p in query_lower for p in palavras):
             return f"**{info['titulo']}**\n\n{info['conteudo']}"
-    
+
     return ""
 
 
