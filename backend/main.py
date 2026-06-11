@@ -269,11 +269,40 @@ class ChatRequest(BaseModel):
 
 @app.post("/api/chat")
 async def chat(request: ChatRequest):
-    """Endpoint de chat por texto."""
+    """Endpoint de chat por texto, com RAG dos livros odontológicos."""
     
-    # Montar mensagens
+    # Buscar contexto relevante nos livros (RAG)
+    rag = get_rag()
+    if not rag._loaded:
+        rag.load()
+    
+    contexto_livros = ""
+    fontes = []
+    try:
+        resultados = rag.search(request.message, top_k=3)
+        if resultados:
+            trechos = []
+            for r in resultados:
+                if r["score"] > 0.1:  # Só usar trechos relevantes
+                    trechos.append(f"[Fonte: {r['source']}]\n{r['text']}")
+                    fontes.append(r["source"])
+            if trechos:
+                contexto_livros = "\n\n".join(trechos)
+    except Exception as e:
+        print(f"RAG search error: {e}")
+    
+    # Montar mensagens com contexto RAG
+    system_content = SYSTEM_PROMPT
+    if contexto_livros:
+        system_content += f"""
+
+CONTEXTO DA LITERATURA ODONTOLÓGICA (use para fundamentar sua resposta):
+{contexto_livros}
+
+Use o contexto acima para embasar sua resposta quando relevante. Cite a fonte quando usar uma informação específica. Se o contexto não for relevante para a pergunta, responda com seu conhecimento geral."""
+    
     messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "system", "content": system_content},
         {"role": "user", "content": request.message}
     ]
     
@@ -290,7 +319,8 @@ async def chat(request: ChatRequest):
     return {
         "response": response,
         "audio_url": audio_url,
-        "model": request.model if request.api_key else "demo"
+        "model": request.model if request.api_key else "demo",
+        "fontes": list(set(fontes)) if fontes else []
     }
 
 
