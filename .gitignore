@@ -43,3 +43,8 @@ node_modules/
 tmp/
 temp/
 *.tmp
+
+# Banco de dados (dados runtime, nao versionar)
+db/*.db
+*.sqlite
+*.sqlite3

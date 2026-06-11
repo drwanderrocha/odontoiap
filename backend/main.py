@@ -135,33 +135,44 @@ async def tts_edge(text: str, voice: str = "pt-BR-FranciscaNeural") -> str:
 # ==================== STT (Speech-to-Text) ====================
 _whisper_model = None
 
+WHISPER_MODEL_SIZE = os.environ.get("ODONTO_WHISPER_MODEL", "base")
+
 def load_whisper():
-    """Carrega modelo Whisper sob demanda."""
+    """Carrega modelo faster-whisper sob demanda (CPU, int8)."""
     global _whisper_model
     if _whisper_model is None:
         try:
-            import whisper
-            print("Carregando Whisper (modelo base)...")
-            _whisper_model = whisper.load_model("base")
-            print("Whisper carregado!")
+            from faster_whisper import WhisperModel
+            print(f"Carregando faster-whisper (modelo {WHISPER_MODEL_SIZE}, CPU int8)...")
+            _whisper_model = WhisperModel(
+                WHISPER_MODEL_SIZE,
+                device="cpu",
+                compute_type="int8",
+            )
+            print("faster-whisper carregado!")
         except ImportError:
-            print("Whisper não instalado. Use: pip install openai-whisper")
+            print("faster-whisper não instalado. Use: pip install faster-whisper")
             return None
     return _whisper_model
 
 
 async def stt_whisper(audio_path: str) -> str:
-    """Transcreve áudio usando Whisper."""
+    """Transcreve áudio usando faster-whisper."""
     model = load_whisper()
     if model is None:
         return ""
-    
+
+    def _transcribe():
+        segments, _info = model.transcribe(
+            audio_path,
+            language="pt",
+            beam_size=5,
+            vad_filter=True,
+        )
+        return "".join(seg.text for seg in segments).strip()
+
     loop = asyncio.get_event_loop()
-    result = await loop.run_in_executor(
-        None, 
-        lambda: model.transcribe(audio_path, language="pt")
-    )
-    return result.get("text", "").strip()
+    return await loop.run_in_executor(None, _transcribe)
 
 
 # ==================== FASTAPI APP ====================
@@ -180,10 +191,10 @@ async def lifespan(app: FastAPI):
         print("⚠️ edge-tts: NÃO INSTALADO (pip install edge-tts)")
     
     try:
-        import whisper
-        print("✅ whisper: OK")
+        import faster_whisper
+        print("✅ whisper: OK (faster-whisper)")
     except ImportError:
-        print("⚠️ whisper: NÃO INSTALADO (pip install openai-whisper)")
+        print("⚠️ whisper: NÃO INSTALADO (pip install faster-whisper)")
     
     try:
         import chromadb
@@ -251,7 +262,7 @@ async def health():
     import edge_tts
     deps = {"edge_tts": True}
     try:
-        import whisper
+        import faster_whisper
         deps["whisper"] = True
     except ImportError:
         deps["whisper"] = False
@@ -272,22 +283,16 @@ class ChatRequest(BaseModel):
     model: str = DEFAULT_MODEL
 
 
-@app.post("/api/chat")
-async def chat(request: ChatRequest):
-    """Endpoint de chat por texto, com RAG dos livros odontológicos."""
-    
-    # Garantir modelo padrão
-    modelo = request.model or DEFAULT_MODEL
-    
-    # Buscar contexto relevante nos livros (RAG)
+async def responder_com_rag(mensagem: str, api_key: str, modelo: str):
+    """Busca contexto RAG nos livros e chama o LLM. Retorna (response, fontes)."""
     rag = get_rag()
     if not rag._loaded:
         rag.load()
-    
+
     contexto_livros = ""
     fontes = []
     try:
-        resultados = rag.search(request.message, top_k=3)
+        resultados = rag.search(mensagem, top_k=3)
         if resultados:
             trechos = []
             for r in resultados:
@@ -298,8 +303,7 @@ async def chat(request: ChatRequest):
                 contexto_livros = "\n\n".join(trechos)
     except Exception as e:
         print(f"RAG search error: {e}")
-    
-    # Montar mensagens com contexto RAG
+
     system_content = SYSTEM_PROMPT
     if contexto_livros:
         system_content += f"""
@@ -308,27 +312,34 @@ CONTEXTO DA LITERATURA ODONTOLÓGICA (use para fundamentar sua resposta):
 {contexto_livros}
 
 Use o contexto acima para embasar sua resposta quando relevante. Cite a fonte quando usar uma informação específica. Se o contexto não for relevante para a pergunta, responda com seu conhecimento geral."""
-    
+
     messages = [
         {"role": "system", "content": system_content},
-        {"role": "user", "content": request.message}
+        {"role": "user", "content": mensagem}
     ]
-    
-    # Chamar LLM
-    response = await call_llm(messages, request.api_key, modelo)
-    
+    response = await call_llm(messages, api_key, modelo)
+    return response, list(set(fontes)) if fontes else []
+
+
+@app.post("/api/chat")
+async def chat(request: ChatRequest):
+    """Endpoint de chat por texto, com RAG dos livros odontológicos."""
+
+    modelo = request.model or DEFAULT_MODEL
+    response, fontes = await responder_com_rag(request.message, request.api_key, modelo)
+
     # Gerar TTS
     audio_path = await tts_edge(response, request.tts_voice)
     audio_url = ""
     if audio_path:
         audio_hash = Path(audio_path).stem
         audio_url = f"/audio/{audio_hash}.mp3"
-    
+
     return {
         "response": response,
         "audio_url": audio_url,
         "model": modelo if (request.api_key or SERVER_API_KEY) else "demo",
-        "fontes": list(set(fontes)) if fontes else []
+        "fontes": fontes
     }
 
 
@@ -359,32 +370,31 @@ async def voice(
     # Limpar arquivo temporário
     os.unlink(tmp_path)
     
+    modelo = model or DEFAULT_MODEL
+    fontes = []
     if not transcription:
         transcription = "Não foi possível transcrever o áudio. Tente novamente."
         response = "Desculpe, não consegui entender o que você disse. Pode repetir?"
     else:
-        # Chamar LLM
-        messages = [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": transcription}
-        ]
-        response = await call_llm(messages, api_key, model)
-    
+        # Responder com RAG (igual ao /api/chat)
+        response, fontes = await responder_com_rag(transcription, api_key, modelo)
+
     # Gerar TTS
     audio_path = await tts_edge(response, tts_voice)
     audio_url = ""
     if audio_path:
         audio_hash = Path(audio_path).stem
         audio_url = f"/audio/{audio_hash}.mp3"
-    
+
     elapsed = round(time.time() - start_time, 2)
-    
+
     return {
         "transcription": transcription,
         "response": response,
         "audio_url": audio_url,
         "processing_time": elapsed,
-        "model": model if api_key else "demo"
+        "model": modelo if (api_key or SERVER_API_KEY) else "demo",
+        "fontes": fontes
     }
 
 

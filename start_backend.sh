@@ -12,8 +12,11 @@ fi
 # Modelo padrão: owl-alpha
 export ODONTO_MODEL="openrouter/owl-alpha"
 
-# Matar instância anterior
-lsof -ti:8080 2>/dev/null | xargs kill -9 2>/dev/null
+# Modelo Whisper (STT). Opções: base, small, medium. small = bom equilíbrio.
+export ODONTO_WHISPER_MODEL="small"
+
+# Matar instância anterior (fuser; lsof não existe no container)
+fuser -k 8080/tcp 2>/dev/null
 sleep 2
 
 echo "🦷 Iniciando OdontoAI backend..."
