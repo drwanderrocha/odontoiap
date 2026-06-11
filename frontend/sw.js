@@ -1,4 +1,4 @@
-const CACHE_NAME = 'odontov1';
+const CACHE_NAME = 'odontov2';
 const ASSETS = [
   './',
   './index.html',
@@ -27,6 +27,7 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   event.respondWith(
     caches.match(event.request).then(cached => {
+      // Sempre buscar versão nova em background (stale-while-revalidate)
       const fetched = fetch(event.request).then(response => {
         if (response && response.status === 200) {
           const clone = response.clone();
@@ -34,6 +35,7 @@ self.addEventListener('fetch', event => {
         }
         return response;
       }).catch(() => cached);
+      // Retorna o cache primeiro (rápido), mas atualiza para próxima vez
       return cached || fetched;
     })
   );
