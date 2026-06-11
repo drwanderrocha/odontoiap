@@ -752,4 +752,8 @@ if __name__ == "__main__":
     print(f"\n🦷 OdontoAI rodando em http://0.0.0.0:{port}")
     print(f"   Frontend: http://0.0.0.0:{port}/")
     print(f"   Health:   http://0.0.0.0:{port}/api/health\n")
-    uvicorn.run(app, host="0.0.0.0", port=port, log_level="info")
+    uvicorn.run(
+        app, host="0.0.0.0", port=port, log_level="info",
+        ws_ping_interval=30, ws_ping_timeout=120,
+        timeout_keep_alive=120,
+    )
