@@ -164,18 +164,19 @@ async def stt_whisper(audio_path: str) -> str:
 
     def _transcribe():
         # Converter para WAV primeiro (compatibilidade com WebM do navegador)
-        import subprocess, os, tempfile
+        import subprocess, os
         wav_path = audio_path + ".wav"
         try:
-            subprocess.run([
+            result = subprocess.run([
                 "ffmpeg", "-y", "-i", audio_path,
                 "-ar", "16000", "-ac", "1", "-f", "wav", wav_path
             ], capture_output=True, timeout=30)
-            if os.path.exists(wav_path) and os.path.getsize(wav_path) > 100:
+            if result.returncode == 0 and os.path.exists(wav_path) and os.path.getsize(wav_path) > 100:
                 audio_path_final = wav_path
             else:
                 audio_path_final = audio_path
-        except Exception:
+        except Exception as e:
+            print(f"FFmpeg conversion error: {e}")
             audio_path_final = audio_path
 
         try:
@@ -186,6 +187,9 @@ async def stt_whisper(audio_path: str) -> str:
                 vad_filter=True,
             )
             return "".join(seg.text for seg in segments).strip()
+        except Exception as e:
+            print(f"Whisper transcription error: {e}")
+            return ""
         finally:
             # Limpar WAV temporário
             if audio_path_final != audio_path and os.path.exists(audio_path_final):
@@ -479,6 +483,8 @@ async def voice_stream(websocket: WebSocket):
                 tmp_path = tmp.name
                 tmp.close()
                 audio_buffer.clear()
+                
+                print(f"📁 Arquivo WebM salvo: {tmp_path} ({os.path.getsize(tmp_path)} bytes)")
                 
                 try:
                     # STT
