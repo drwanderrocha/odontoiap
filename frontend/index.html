@@ -525,6 +525,7 @@ const SILENCE_THRESHOLD = 20;   // 0-128, volume mínimo considerado "fala"
 const SILENCE_DURATION = 1500;  // ms de silêncio para considerar fim da fala
 
 async function toggleRecording() {
+  console.log('🎤 toggleRecording called, isVoiceSession:', isVoiceSession);
   if (isVoiceSession) {
     stopVoiceSession();
   } else {

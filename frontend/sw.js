@@ -1,4 +1,4 @@
-const CACHE_NAME = 'odontov3';
+const CACHE_NAME = 'odontov4';
 const ASSETS = [
   './',
   './index.html',
