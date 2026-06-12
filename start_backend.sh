@@ -12,8 +12,8 @@ fi
 # Modelo padrão: owl-alpha
 export ODONTO_MODEL="openrouter/owl-alpha"
 
-# Modelo Whisper (STT). Opções: base, small, medium. small = bom equilíbrio.
-export ODONTO_WHISPER_MODEL="small"
+# Modelo Whisper (STT). Opções: base, small, medium, large-v3. medium = melhor precisão para PT-BR.
+export ODONTO_WHISPER_MODEL="medium"
 
 # Matar instância anterior (fuser; lsof não existe no container)
 fuser -k 8080/tcp 2>/dev/null
