@@ -163,13 +163,33 @@ async def stt_whisper(audio_path: str) -> str:
         return ""
 
     def _transcribe():
-        segments, _info = model.transcribe(
-            audio_path,
-            language="pt",
-            beam_size=5,
-            vad_filter=True,
-        )
-        return "".join(seg.text for seg in segments).strip()
+        # Converter para WAV primeiro (compatibilidade com WebM do navegador)
+        import subprocess, os, tempfile
+        wav_path = audio_path + ".wav"
+        try:
+            subprocess.run([
+                "ffmpeg", "-y", "-i", audio_path,
+                "-ar", "16000", "-ac", "1", "-f", "wav", wav_path
+            ], capture_output=True, timeout=30)
+            if os.path.exists(wav_path) and os.path.getsize(wav_path) > 100:
+                audio_path_final = wav_path
+            else:
+                audio_path_final = audio_path
+        except Exception:
+            audio_path_final = audio_path
+
+        try:
+            segments, _info = model.transcribe(
+                audio_path_final,
+                language="pt",
+                beam_size=5,
+                vad_filter=True,
+            )
+            return "".join(seg.text for seg in segments).strip()
+        finally:
+            # Limpar WAV temporário
+            if audio_path_final != audio_path and os.path.exists(audio_path_final):
+                os.unlink(audio_path_final)
 
     loop = asyncio.get_event_loop()
     return await loop.run_in_executor(None, _transcribe)
