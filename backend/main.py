@@ -943,6 +943,10 @@ async def post_alerta_retorno(data: AlertaRetornoCreate):
     return item
 
 
+# ==================== LIVEKIT INTEGRATION ====================
+from livekit_integration import router as livekit_router
+app.include_router(livekit_router)
+
 # ==================== RAG ENGINE ====================
 from rag import get_rag
 
