@@ -4,16 +4,21 @@
 
 cd /opt/data/home/dentista-agente-prototipo/backend
 
-# Carregar OPENROUTER_API_KEY do .env do Hermes
+# Carregar todas as variáveis do .env
 if [ -f /opt/data/.env ]; then
-  export $(grep OPENROUTER_API_KEY /opt/data/.env | xargs)
+  set -a
+  source /opt/data/.env
+  set +a
 fi
 
 # Modelo padrão: owl-alpha
-export ODONTO_MODEL="openrouter/owl-alpha"
+export ODONTO_MODEL="${ODONTO_MODEL:-openrouter/owl-alpha}"
 
-# Modelo Whisper (STT). Opções: base, small, medium, large-v3. medium = melhor precisão para PT-BR.
-export ODONTO_WHISPER_MODEL="medium"
+# Modelo Whisper (STT)
+export ODONTO_WHISPER_MODEL="${ODONTO_WHISPER_MODEL:-medium}"
+
+# LiveKit
+export LIVEKIT_WS_URL="${LIVEKIT_WS_URL:-ws://localhost:7880}"
 
 # Matar instância anterior (fuser; lsof não existe no container)
 fuser -k 8080/tcp 2>/dev/null

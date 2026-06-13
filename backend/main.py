@@ -996,4 +996,5 @@ if __name__ == "__main__":
         app, host="0.0.0.0", port=port, log_level="info",
         ws_ping_interval=30, ws_ping_timeout=120,
         timeout_keep_alive=120,
+        reload=False,
     )
