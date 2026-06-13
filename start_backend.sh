@@ -20,9 +20,12 @@ export ODONTO_WHISPER_MODEL="${ODONTO_WHISPER_MODEL:-medium}"
 # LiveKit
 export LIVEKIT_WS_URL="${LIVEKIT_WS_URL:-ws://localhost:7880}"
 
-# Matar instância anterior (fuser; lsof não existe no container)
-fuser -k 8080/tcp 2>/dev/null
-sleep 2
+# Matar instância anterior
+OLD_PID=$(fuser 8080/tcp 2>/dev/null | tr -d ' ')
+if [ -n "$OLD_PID" ]; then
+  kill -9 $OLD_PID 2>/dev/null
+  sleep 3
+fi
 
 echo "🦷 Iniciando OdontoAI backend..."
 echo "   Modelo: $ODONTO_MODEL"
