@@ -29,6 +29,13 @@ from database import (
     init_db,
     listar_pacientes, obter_paciente, criar_paciente, atualizar_paciente, deletar_paciente,
     listar_agenda, obter_agendamento, criar_agendamento, atualizar_agendamento, deletar_agendamento,
+    listar_prontuarios, obter_prontuario, criar_prontuario, atualizar_prontuario,
+    listar_anamneses, obter_anamnese, criar_anamnese,
+    obter_odontograma, criar_odontograma, atualizar_odontograma,
+    listar_orcamentos, obter_orcamento, criar_orcamento,
+    listar_financeiro, criar_financeiro,
+    listar_alertas_pendentes, criar_alerta_retorno,
+    salvar_conversa, listar_conversas,
 )
 
 # ==================== CONFIG ====================
@@ -731,6 +738,209 @@ async def delete_agendamento(agenda_id: int):
     if not ok:
         return {"error": "Agendamento não encontrado"}, 404
     return {"message": "Agendamento removido com sucesso"}
+
+
+# ==================== PRONTUÁRIO ENDPOINTS ====================
+
+# --- Prontuários ---
+
+@app.get("/api/pacientes/{paciente_id}/prontuarios")
+async def get_prontuarios_paciente(paciente_id: int):
+    """Lista todos os prontuários de um paciente."""
+    prontuarios = await listar_prontuarios(paciente_id)
+    return {"prontuarios": prontuarios, "total": len(prontuarios)}
+
+
+@app.get("/api/prontuarios/{prontuario_id}")
+async def get_prontuario(prontuario_id: int):
+    """Obtém um prontuário completo por ID."""
+    item = await obter_prontuario(prontuario_id)
+    if not item:
+        return {"error": "Prontuário não encontrado"}, 404
+    return item
+
+
+class ProntuarioCreate(BaseModel):
+    paciente_id: int
+    profissional_id: int
+    data_consulta: str
+    motivo_consulta: str = ""
+    diagnostico: str = ""
+    cid: str = ""
+    plano_tratamento: str = ""
+    procedimentos: list = []
+    evolucao: str = ""
+    prescricoes: list = []
+    atestado: str = ""
+    retorno_data: str = ""
+    retorno_motivo: str = ""
+    observacoes: str = ""
+
+
+@app.post("/api/prontuarios")
+async def post_prontuario(data: ProntuarioCreate):
+    """Cria um novo prontuário (ficha clínica)."""
+    item = await criar_prontuario(data.model_dump())
+    return item
+
+
+class ProntuarioUpdate(BaseModel):
+    motivo_consulta: str = None
+    diagnostico: str = None
+    cid: str = None
+    plano_tratamento: str = None
+    procedimentos: list = None
+    evolucao: str = None
+    prescricoes: list = None
+    atestado: str = None
+    retorno_data: str = None
+    retorno_motivo: str = None
+    observacoes: str = None
+
+
+@app.put("/api/prontuarios/{prontuario_id}")
+async def put_prontuario(prontuario_id: int, data: ProntuarioUpdate):
+    """Atualiza um prontuário existente."""
+    item = await atualizar_prontuario(prontuario_id, data.model_dump(exclude_none=True))
+    if not item:
+        return {"error": "Prontuário não encontrado"}, 404
+    return item
+
+
+# --- Anamneses ---
+
+@app.get("/api/pacientes/{paciente_id}/anamneses")
+async def get_anamneses_paciente(paciente_id: int):
+    """Lista todas as anamneses de um paciente."""
+    anamneses = await listar_anamneses(paciente_id)
+    return {"anamneses": anamneses, "total": len(anamneses)}
+
+
+@app.get("/api/anamneses/{anamnese_id}")
+async def get_anamnese(anamnese_id: int):
+    """Obtém uma anamnese por ID."""
+    item = await obter_anamnese(anamnese_id)
+    if not item:
+        return {"error": "Anamnese não encontrada"}, 404
+    return item
+
+
+class AnamneseCreate(BaseModel):
+    paciente_id: int
+    profissional_id: int
+    modo: str = "profissional"
+    respostas: dict = {}
+    alertas: list = []
+    assinatura_paciente: str = ""
+    observacoes: str = ""
+
+
+@app.post("/api/anamneses")
+async def post_anamnese(data: AnamneseCreate):
+    """Cria uma nova anamnese."""
+    item = await criar_anamnese(data.model_dump())
+    return item
+
+
+# --- Odontogramas ---
+
+@app.get("/api/pacientes/{paciente_id}/odontograma")
+async def get_odontograma_paciente(paciente_id: int):
+    """Obtém o odontograma mais recente de um paciente."""
+    item = await obter_odontograma(paciente_id)
+    if not item:
+        return {"error": "Odontograma não encontrado"}, 404
+    return item
+
+
+class OdontogramaCreate(BaseModel):
+    paciente_id: int
+    prontuario_id: int = None
+    tipo_denticao: str = "permanente"
+    dentes: dict = {}
+
+
+@app.post("/api/odontogramas")
+async def post_odontograma(data: OdontogramaCreate):
+    """Cria um novo odontograma."""
+    item = await criar_odontograma(data.model_dump())
+    return item
+
+
+class OdontogramaUpdate(BaseModel):
+    dentes: dict
+
+
+@app.put("/api/odontogramas/{odontograma_id}")
+async def put_odontograma(odontograma_id: int, data: OdontogramaUpdate):
+    """Atualiza um odontograma (marca procedimentos nos dentes)."""
+    ok = await atualizar_odontograma(odontograma_id, data.dentes)
+    if not ok:
+        return {"error": "Odontograma não encontrado"}, 404
+    return {"message": "Odontograma atualizado"}
+
+
+# --- Orçamentos ---
+
+@app.get("/api/pacientes/{paciente_id}/orcamentos")
+async def get_orcamentos_paciente(paciente_id: int):
+    """Lista orçamentos de um paciente."""
+    orcamentos = await listar_orcamentos(paciente_id=paciente_id)
+    return {"orcamentos": orcamentos, "total": len(orcamentos)}
+
+
+@app.get("/api/orcamentos/{orcamento_id}")
+async def get_orcamento(orcamento_id: int):
+    """Obtém um orçamento por ID."""
+    item = await obter_orcamento(orcamento_id)
+    if not item:
+        return {"error": "Orçamento não encontrado"}, 404
+    return item
+
+
+class OrcamentoCreate(BaseModel):
+    paciente_id: int
+    profissional_id: int = None
+    itens: list = []
+    valor_total: float = 0
+    desconto: float = 0
+    desconto_tipo: str = None
+    valor_final: float = 0
+    forma_pagamento: str = None
+    parcelas: int = 1
+    validade: str = None
+    observacoes: str = ""
+
+
+@app.post("/api/orcamentos")
+async def post_orcamento(data: OrcamentoCreate):
+    """Cria um novo orçamento."""
+    item = await criar_orcamento(data.model_dump())
+    return item
+
+
+# --- Alertas de Retorno ---
+
+@app.get("/api/alertas/retorno")
+async def get_alertas_retorno():
+    """Lista alertas de retorno pendentes."""
+    alertas = await listar_alertas_pendentes()
+    return {"alertas": alertas, "total": len(alertas)}
+
+
+class AlertaRetornoCreate(BaseModel):
+    paciente_id: int
+    prontuario_id: int = None
+    data_sugerida: str
+    periodo: str = ""
+    motivo: str = ""
+
+
+@app.post("/api/alertas/retorno")
+async def post_alerta_retorno(data: AlertaRetornoCreate):
+    """Cria um alerta de retorno."""
+    item = await criar_alerta_retorno(data.model_dump())
+    return item
 
 
 # ==================== RAG ENGINE ====================
